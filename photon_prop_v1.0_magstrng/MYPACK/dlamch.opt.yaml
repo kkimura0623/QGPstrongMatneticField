@@ -1,0 +1,1109 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t57p.t58p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t57p.t58p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t57p.t58p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t57p.t58p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t138p.t139p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t138p.t139p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t138p.t139p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t138p.t139p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t129p.t130p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t129p.t130p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t129p.t130p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t129p.t130p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t120p.t121p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t120p.t121p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t120p.t121p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t120p.t121p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t111p.t112p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t111p.t112p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t111p.t112p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t111p.t112p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t102p.t103p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t102p.t103p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t102p.t103p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t102p.t103p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t93p.t94p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t93p.t94p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t93p.t94p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t93p.t94p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t84p.t85p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t84p.t85p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t84p.t85p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t84p.t85p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t75p.t76p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t75p.t76p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t75p.t76p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t75p.t76p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t66p.t67p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t66p.t67p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        lsame_.t66p.t67p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t66p.t67p.t3v.t3v
+    DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 109, Column: 11 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t57p.t58p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '45'
+  - String:          ':'
+  - Column:          '11'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 136, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t138p.t139p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '72'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 134, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t129p.t130p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '70'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 132, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t120p.t121p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '68'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 130, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t111p.t112p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '66'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 128, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t102p.t103p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '64'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 126, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t93p.t94p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '62'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 124, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t84p.t85p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '60'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 122, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t75p.t76p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '58'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: dlamch.f, Line: 111, Column: 16 }
+Function:        dlamch_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t66p.t67p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          dlamch_
+  - String:          ':'
+  - Line:            '47'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_
+    DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: dlamch.f, Line: 64, Column: 1 }
+Function:        dlamch_
+Args:
+  - NumVRCopies:     '13'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.371872e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+Function:        dlamch_
+Args:
+  - NumStackBytes:   '24'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list13_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list31_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list38_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list45_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list52_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list59_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list66_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list73_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list73_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb14_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new19_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new22_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new30_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new37_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new44_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list45_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new58_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list59_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 0, Column: 0 }
+Function:        dlamch_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new72_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: dlamch.f, Line: 64, Column: 0 }
+Function:        dlamch_
+Args:
+  - NumInstructions: '122'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: dlamch.f, Line: 172, Column: 0 }
+Function:        dlamc3_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlamch.f, Line: 172, Column: 41 }
+Function:        dlamc3_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: dlamch.f, Line: 172, Column: 0 }
+Function:        dlamc3_
+Args:
+  - NumInstructions: '3'
+  - String:          ' instructions in function'
+...

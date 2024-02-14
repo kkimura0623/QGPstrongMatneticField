@@ -1,0 +1,613 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 31, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 33, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 31, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 33, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 49, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          atanh
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 49, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          atanh
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 61, Column: 9 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - String:          ''''
+  - Callee:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '75'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          photon_pol_zero_b_class_mp_n1_zero_b_
+  - String:          ':'
+  - Line:            '5'
+  - String:          ':'
+  - Column:          '9'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 63, Column: 9 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - String:          ''''
+  - Callee:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '95'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          photon_pol_zero_b_class_mp_n1_zero_b_
+  - String:          ':'
+  - Line:            '7'
+  - String:          ':'
+  - Column:          '9'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 31, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 33, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 31, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 33, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_below_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 49, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          atanh
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 49, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - Callee:          atanh
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_above_th_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 31, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 33, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 49, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          atanh
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 31, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 33, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 49, Column: 63 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - Callee:          atanh
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_zero_b_class_mp_n1_zero_b_
+    DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+Function:        photon_pol_zero_b_class._
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        photon_pol_zero_b_class._
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+Function:        photon_pol_zero_b_class._
+Args:
+  - NumInstructions: '1'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 17, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_set_param_zero_b_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 17, Column: 29 }
+Function:        photon_pol_zero_b_class_mp_set_param_zero_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 17, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_set_param_zero_b_
+Args:
+  - NumInstructions: '4'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 1 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - NumSpills:       '4'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.000000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.000000e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '3'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.000000e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '5'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 31 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '38'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 24, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_below_th_
+Args:
+  - NumInstructions: '38'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 1 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - NumSpills:       '4'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.000000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.000000e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '3'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.000000e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 31 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_3
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '44'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 40, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_above_th_
+Args:
+  - NumInstructions: '44'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 1 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - NumSpills:       '7'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.000000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.000000e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '7'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.500000e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 29 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_4
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list25_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '25'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list31_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '29'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb5_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: photon_pol_zero_b_class.F90, Line: 56, Column: 0 }
+Function:        photon_pol_zero_b_class_mp_n1_zero_b_
+Args:
+  - NumInstructions: '73'
+  - String:          ' instructions in function'
+...

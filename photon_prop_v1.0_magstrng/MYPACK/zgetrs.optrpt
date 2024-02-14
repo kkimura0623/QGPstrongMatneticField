@@ -1,0 +1,44 @@
+Global optimization report for : zgetrs_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: lsame_.t107p.t108p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t116p.t117p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t97p.t98p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t132p.t133p.t3v
+
+DEAD STATIC FUNC: zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p
+
+DEAD STATIC FUNC: zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p
+
+DEAD STATIC FUNC: ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v
+
+DEAD STATIC FUNC: ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v
+
+DEAD STATIC FUNC: ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v
+
+DEAD STATIC FUNC: ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v
+
+COMPILE FUNC: zgetrs_
+   -> INLINE: lsame_.t97p.t98p.t3v.t3v zgetrs.f (162,16)
+   -> INLINE: lsame_.t107p.t108p.t3v.t3v zgetrs.f (163,34)
+   -> INLINE: lsame_.t116p.t117p.t3v.t3v zgetrs.f (164,11)
+   -> llvm.smax.i32 zgetrs.f (170,23)
+   -> INLINE: xerbla_.t132p.t133p.t3v zgetrs.f (176,15)
+   -> INLINE: zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p zgetrs.f (191,15)
+   -> INLINE: ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v zgetrs.f (195,15)
+   -> INLINE: ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v zgetrs.f (200,15)
+   -> INLINE: ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v zgetrs.f (208,15)
+   -> INLINE: ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v zgetrs.f (213,15)
+   -> INLINE: zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p zgetrs.f (218,15)
+
+---- End Inlining Report ------

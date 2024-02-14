@@ -1,0 +1,39 @@
+Global optimization report for : zhesv_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t106p.t107p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t115p.t116p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t166p.t167p.t3v
+
+DEAD STATIC FUNC: zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v
+
+DEAD STATIC FUNC: zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v
+
+DEAD STATIC FUNC: zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v
+
+COMPILE FUNC: zhesv_
+   -> INLINE: lsame_.t106p.t107p.t3v.t3v zhesv.f (211,16)
+   -> INLINE: lsame_.t115p.t116p.t3v.t3v zhesv.f (211,46)
+   -> llvm.smax.i32 zhesv.f (217,23)
+   -> INLINE: ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v zhesv.f (229,18)
+   -> llvm.experimental.constrained.sitofp.f64.i32 zhesv.f (232,22)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhesv.f (232,22)
+   -> INLINE: zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v zhesv.f (244,12)
+   -> INLINE: xerbla_.t166p.t167p.t3v zhesv.f (236,15)
+   -> INLINE: zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v zhesv.f (253,18)
+   -> INLINE: zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v zhesv.f (259,18)
+   -> llvm.experimental.constrained.sitofp.f64.i32 zhesv.f (265,19)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhesv.f (265,19)
+
+---- End Inlining Report ------

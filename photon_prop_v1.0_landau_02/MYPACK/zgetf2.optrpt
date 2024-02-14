@@ -1,0 +1,129 @@
+Global optimization report for : zgetf2_
+
+LOOP BEGIN at zgetf2.f (172, 10)
+
+    LOOP BEGIN at zgetf2.f (191, 22)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgetf2.f (191, 22)
+    <Remainder loop>
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: dlamch_.t87p.t3v
+
+DEAD STATIC FUNC: izamax_.t98p.t99p.t100p
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+DEAD STATIC FUNC: xerbla_.t78p.t79p.t3v
+
+DEAD STATIC FUNC: zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p
+
+DEAD STATIC FUNC: zscal_.t160p.t161p.t162p.t163p
+
+DEAD STATIC FUNC: zswap_.t121p.t122p.t123p.t124p.t125p
+
+COMPILE FUNC: zgetf2_
+   -> llvm.smax.i32 zgetf2.f (155,23)
+   -> INLINE: xerbla_.t78p.t79p.t3v zgetf2.f (159,15)
+   -> INLINE: dlamch_.t87p.t3v zgetf2.f (170,15)
+   -> llvm.smin.i32 zgetf2.f (172,20)
+   -> INLINE: izamax_.t98p.t99p.t100p zgetf2.f (176,23)
+   -> llvm.experimental.constrained.fcmp.f64 zgetf2.f (178,24)
+   -> llvm.experimental.constrained.fcmp.f64 zgetf2.f (178,24)
+   -> INLINE: zswap_.t121p.t122p.t123p.t124p.t125p zgetf2.f (183,16)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fsub.f64 zgetf2.f (189,40)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (189,40)
+   -> INLINE: zscal_.t160p.t161p.t162p.t163p zgetf2.f (189,24)
+   -> llvm.experimental.constrained.fcmp.f64 zgetf2.f (188,35)
+   -> llvm.smin.i32 zgetf2.f (202,19)
+   -> INLINE: zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p zgetf2.f (206,18)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fsub.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fsub.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fsub.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fsub.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fadd.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fmul.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fsub.f64 zgetf2.f (192,48)
+   -> llvm.experimental.constrained.fdiv.f64 zgetf2.f (192,48)
+   -> DELETE: llvm.ssa.copy.i64 zgetf2.f (191,22)
+
+---- End Inlining Report ------

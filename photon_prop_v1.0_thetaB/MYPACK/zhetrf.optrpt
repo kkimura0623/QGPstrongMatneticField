@@ -1,0 +1,66 @@
+Global optimization report for : zhetrf_
+
+LOOP BEGIN at zhetrf.f (274, 15)
+LOOP END
+
+LOOP BEGIN at zhetrf.f (314, 15)
+
+    LOOP BEGIN at zhetrf.f (336, 13)
+        remark #15300: LOOP WAS VECTORIZED
+        remark #15305: vectorization support: vector length 4
+    LOOP END
+
+    LOOP BEGIN at zhetrf.f (336, 13)
+    <Remainder loop for vectorization>
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: ilaenv_.t133p.t134p.t135p.t136p.t137p.t138p.t139p.t3v.t3v
+
+DEAD STATIC FUNC: ilaenv_.t178p.t179p.t180p.t181p.t182p.t183p.t184p.t3v.t3v
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+DEAD STATIC FUNC: lsame_.t108p.t109p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t97p.t98p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t155p.t156p.t3v
+
+DEAD STATIC FUNC: zhetf2_.t233p.t234p.t235p.t236p.t237p.t238p.t3v
+
+DEAD STATIC FUNC: zhetf2_.t290p.t291p.t292p.t293p.t294p.t295p.t3v
+
+DEAD STATIC FUNC: zlahef_.t209p.t210p.t211p.t212p.t213p.t214p.t215p.t216p.t217p.t218p.t3v
+
+DEAD STATIC FUNC: zlahef_.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t272p.t273p.t274p.t3v
+
+COMPILE FUNC: zhetrf_
+   -> INLINE: lsame_.t97p.t98p.t3v.t3v zhetrf.f (216,15)
+   -> INLINE: lsame_.t108p.t109p.t3v.t3v zhetrf.f (218,33)
+   -> llvm.smax.i32 zhetrf.f (222,23)
+   -> INLINE: ilaenv_.t133p.t134p.t135p.t136p.t137p.t138p.t139p.t3v.t3v zhetrf.f (232,15)
+   -> llvm.experimental.constrained.sitofp.f64.i32 zhetrf.f (234,22)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetrf.f (234,22)
+   -> INLINE: xerbla_.t155p.t156p.t3v zhetrf.f (238,15)
+   -> llvm.smax.i32 zhetrf.f (249,18)
+   -> INLINE: ilaenv_.t178p.t179p.t180p.t181p.t182p.t183p.t184p.t3v.t3v zhetrf.f (250,29)
+   -> llvm.smax.i32 zhetrf.f (250,21)
+   -> INLINE: zlahef_.t209p.t210p.t211p.t212p.t213p.t214p.t215p.t216p.t217p.t218p.t3v zhetrf.f (279,18)
+   -> INLINE: zhetf2_.t233p.t234p.t235p.t236p.t237p.t238p.t3v zhetrf.f (284,18)
+   -> INLINE: zlahef_.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t272p.t273p.t274p.t3v zhetrf.f (319,18)
+   -> INLINE: zhetf2_.t290p.t291p.t292p.t293p.t294p.t295p.t3v zhetrf.f (325,18)
+   -> llvm.experimental.constrained.sitofp.f64.i32 zhetrf.f (352,19)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetrf.f (352,19)
+   -> DELETE: llvm.ssa.copy.i64 zhetrf.f (336,13)
+   -> llvm.smax.i32 zhetrf.f (336,13)
+
+---- End Inlining Report ------

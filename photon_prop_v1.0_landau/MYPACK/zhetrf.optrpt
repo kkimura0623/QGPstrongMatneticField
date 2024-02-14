@@ -1,0 +1,82 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: ZHETRF
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (ZHETRF) [1] zhetrf.f(178,18)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at zhetrf.f(336,13)
+<Peeled loop for vectorization>
+LOOP END
+
+LOOP BEGIN at zhetrf.f(336,13)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at zhetrf.f(336,13)
+<Remainder loop for vectorization>
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at zhetrf.f(295,10)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at zhetrf.f(346,10)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+zhetrf.f(178,18):remark #34051: REGISTER ALLOCATION : [_zhetrf_] zhetrf.f:178
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   23[ rax rdx rcx rbx rsi rdi r8-r15 mm0 zmm0-zmm7]
+        
+    Routine temporaries
+        Total         :     204
+            Global    :      62
+            Local     :     142
+        Regenerable   :      66
+        Spilled       :      13
+        
+    Routine stack
+        Variables     :      44 bytes*
+            Reads     :      15 [4.55e+00 ~ 2.5%]
+            Writes    :      17 [4.66e+00 ~ 2.5%]
+        Spills        :      64 bytes*
+            Reads     :      16 [4.42e+00 ~ 2.4%]
+            Writes    :       8 [4.70e+00 ~ 2.5%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

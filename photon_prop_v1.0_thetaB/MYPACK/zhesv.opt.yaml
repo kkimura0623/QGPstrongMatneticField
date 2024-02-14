@@ -1,0 +1,1120 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        lsame_.t106p.t107p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t106p.t107p.t3v.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        lsame_.t106p.t107p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t106p.t107p.t3v.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        lsame_.t115p.t116p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t115p.t116p.t3v.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        lsame_.t115p.t116p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t115p.t116p.t3v.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v
+Args:
+  - Callee:          ilaenv_
+  - String:          ' will not be inlined into '
+  - Caller:          ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v
+Args:
+  - Callee:          ilaenv_
+  - String:          ' will not be inlined into '
+  - Caller:          ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v
+Args:
+  - Callee:          zhetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v
+Args:
+  - Callee:          zhetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t166p.t167p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t166p.t167p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t166p.t167p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t166p.t167p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v
+Args:
+  - Callee:          zhetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v
+Args:
+  - Callee:          zhetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v
+Args:
+  - Callee:          zhetrs2_
+  - String:          ' will not be inlined into '
+  - Caller:          zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v
+Args:
+  - Callee:          zhetrs2_
+  - String:          ' will not be inlined into '
+  - Caller:          zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 211, Column: 16 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t106p.t107p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '40'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 211, Column: 46 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t115p.t116p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '40'
+  - String:          ':'
+  - Column:          '46'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 229, Column: 18 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          ilaenv_.t144p.t145p.t146p.t147p.t148p.t149p.t150p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '58'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 244, Column: 12 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          zhetrf_.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '73'
+  - String:          ':'
+  - Column:          '12'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 236, Column: 15 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t166p.t167p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '65'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 253, Column: 18 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          zhetrs_.t217p.t218p.t219p.t220p.t221p.t222p.t223p.t224p.t225p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '82'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zhesv.f, Line: 259, Column: 18 }
+Function:        zhesv_
+Args:
+  - String:          ''''
+  - Callee:          zhetrs2_.t248p.t249p.t250p.t251p.t252p.t253p.t254p.t255p.t256p.t257p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zhesv_
+  - String:          ':'
+  - Line:            '88'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          ilaenv_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          zhetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          zhetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          zhetrs2_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          ilaenv_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          zhetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          zhetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - Callee:          zhetrs2_
+  - String:          ' will not be inlined into '
+  - Caller:          zhesv_
+    DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zhesv.f, Line: 221, Column: 7 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  load
+    DebugLoc:        { File: zhesv.f, Line: 210, Column: 7 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zhesv.f, Line: 225, Column: 7 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  ''
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 230, Column: 13 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 213, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zhesv.f, Line: 235, Column: 7 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  ''
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 245, Column: 7 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zhesv.f, Line: 209, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 249, Column: 10 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 210, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 249, Column: 10 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 213, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 230, Column: 13 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 213, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 245, Column: 7 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zhesv.f, Line: 209, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 249, Column: 10 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 210, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 249, Column: 10 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 213, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 230, Column: 13 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 213, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 245, Column: 7 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zhesv.f, Line: 209, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 249, Column: 10 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 210, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zhesv.f, Line: 249, Column: 10 }
+Function:        zhesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zhesv.f, Line: 213, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zhesv.f, Line: 171, Column: 1 }
+Function:        zhesv_
+Args:
+  - NumSpills:       '5'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.030043e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '8'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.737482e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '19'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.317239e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+Function:        zhesv_
+Args:
+  - NumStackBytes:   '104'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 171, Column: 25 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '33'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new20_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new20_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list43_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new32_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list34_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new32_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new49_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb11_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new58_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list59_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list65_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zhesv.f, Line: 0, Column: 0 }
+Function:        zhesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb16_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zhesv.f, Line: 171, Column: 0 }
+Function:        zhesv_
+Args:
+  - NumInstructions: '169'
+  - String:          ' instructions in function'
+...

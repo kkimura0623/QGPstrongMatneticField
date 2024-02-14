@@ -1,0 +1,32 @@
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: dcabs1.f, Line: 40, Column: 0 }
+Function:        dcabs1_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dcabs1.f, Line: 40, Column: 40 }
+Function:        dcabs1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: dcabs1.f, Line: 40, Column: 0 }
+Function:        dcabs1_
+Args:
+  - NumInstructions: '7'
+  - String:          ' instructions in function'
+...

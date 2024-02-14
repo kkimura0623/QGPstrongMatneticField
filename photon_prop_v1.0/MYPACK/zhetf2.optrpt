@@ -1,0 +1,269 @@
+Global optimization report for : zhetf2_
+
+LOOP BEGIN at zhetf2.f (278, 15)
+
+    LOOP BEGIN at zhetf2.f (340, 19)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between a (342:19) and a (342:40) 
+        remark #15346: vector dependence: assumed FLOW dependence between a (342:19) and a (342:40) 
+        remark #15346: vector dependence: assumed FLOW dependence between a (343:19) and a (341:31) 
+        remark #15346: vector dependence: assumed OUTPUT dependence between a (343:19) and a (342:19) 
+        remark #15346: vector dependence: assumed FLOW dependence between a (343:19) and a (341:31) 
+        remark #15346: vector dependence: assumed OUTPUT dependence between a (343:19) and a (342:19) 
+    LOOP END
+
+    LOOP BEGIN at zhetf2.f (405, 22)
+        remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+        LOOP BEGIN at zhetf2.f (409, 25)
+            remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+        LOOP END
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zhetf2.f (461, 15)
+
+    LOOP BEGIN at zhetf2.f (524, 19)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between a (526:19) and a (526:40) 
+        remark #15346: vector dependence: assumed FLOW dependence between a (526:19) and a (526:40) 
+        remark #15346: vector dependence: assumed FLOW dependence between a (527:19) and a (525:31) 
+        remark #15346: vector dependence: assumed OUTPUT dependence between a (527:19) and a (526:19) 
+        remark #15346: vector dependence: assumed FLOW dependence between a (527:19) and a (525:31) 
+        remark #15346: vector dependence: assumed OUTPUT dependence between a (527:19) and a (526:19) 
+    LOOP END
+
+    LOOP BEGIN at zhetf2.f (591, 22)
+
+        LOOP BEGIN at zhetf2.f (595, 25)
+            remark #15521: Loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+        LOOP END
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: disnan_.t171p
+
+DEAD STATIC FUNC: disnan_.t702p
+
+DEAD STATIC FUNC: dlapy2_.t1002p.t1003p
+
+DEAD STATIC FUNC: dlapy2_.t464p.t465p
+
+DEAD STATIC FUNC: izamax_.t144p.t145p.t146p
+
+DEAD STATIC FUNC: izamax_.t192p.t193p.t194p
+
+DEAD STATIC FUNC: izamax_.t224p.t225p.t226p
+
+DEAD STATIC FUNC: izamax_.t675p.t676p.t677p
+
+DEAD STATIC FUNC: izamax_.t723p.t724p.t725p
+
+DEAD STATIC FUNC: izamax_.t756p.t757p.t758p
+
+DEAD STATIC FUNC: lsame_.t102p.t103p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t112p.t113p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t125p.t126p.t3v
+
+DEAD STATIC FUNC: zdscal_.t442p.t443p.t444p.t445p
+
+DEAD STATIC FUNC: zdscal_.t979p.t980p.t981p.t982p
+
+DEAD STATIC FUNC: zher_.t426p.t427p.t428p.t429p.t430p.t431p.t432p.t3v
+
+DEAD STATIC FUNC: zher_.t962p.t963p.t964p.t965p.t966p.t967p.t968p.t3v
+
+DEAD STATIC FUNC: zswap_.t266p.t267p.t268p.t269p.t270p
+
+DEAD STATIC FUNC: zswap_.t800p.t801p.t802p.t803p.t804p
+
+COMPILE FUNC: zhetf2_
+   -> INLINE: lsame_.t102p.t103p.t3v.t3v zhetf2.f (237,15)
+   -> INLINE: lsame_.t112p.t113p.t3v.t3v zhetf2.f (238,33)
+   -> llvm.smax.i32 zhetf2.f (242,23)
+   -> INLINE: xerbla_.t125p.t126p.t3v zhetf2.f (246,15)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (252,20)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (252,38)
+   -> llvm.fabs.f64 zhetf2.f (273,19)
+   -> INLINE: izamax_.t144p.t145p.t146p zhetf2.f (279,20)
+   -> llvm.fabs.f64 zhetf2.f (280,13)
+   -> llvm.fabs.f64 zhetf2.f (280,13)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (280,13)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (285,15)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (285,36)
+   -> INLINE: disnan_.t171p zhetf2.f (285,51)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (292,25)
+   -> INLINE: izamax_.t224p.t225p.t226p zhetf2.f (307,26)
+   -> llvm.fabs.f64 zhetf2.f (308,19)
+   -> llvm.fabs.f64 zhetf2.f (308,19)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (308,19)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (308,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (311,35)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (311,52)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (311,42)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (311,26)
+   -> llvm.fabs.f64 zhetf2.f (316,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (316,64)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (316,55)
+   -> INLINE: izamax_.t192p.t193p.t194p zhetf2.f (304,30)
+   -> llvm.fabs.f64 zhetf2.f (305,16)
+   -> llvm.fabs.f64 zhetf2.f (305,16)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (305,16)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (347,30)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (348,30)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (350,31)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (358,35)
+   -> INLINE: zswap_.t266p.t267p.t268p.t269p.t270p zhetf2.f (339,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (356,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,62)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,62)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (406,62)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,62)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,62)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (406,62)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (406,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (406,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (406,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (408,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,48)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (408,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (408,44)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (408,44)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (408,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (410,58)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (410,58)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (410,58)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (410,58)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (410,58)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (410,58)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (410,47)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (410,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (411,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (411,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (411,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (411,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (411,48)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (411,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (410,72)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (410,72)
+   -> INLINE: dlapy2_.t464p.t465p zhetf2.f (397,23)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (399,47)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (400,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (401,35)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (401,39)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (401,28)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (402,37)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (402,37)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (403,26)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (375,25)
+   -> INLINE: zher_.t426p.t427p.t428p.t429p.t430p.t431p.t432p.t3v zhetf2.f (376,21)
+   -> INLINE: zdscal_.t442p.t443p.t444p.t445p zhetf2.f (380,21)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (294,32)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (294,23)
+   -> llvm.fabs.f64 zhetf2.f (456,19)
+   -> INLINE: izamax_.t675p.t676p.t677p zhetf2.f (462,24)
+   -> llvm.fabs.f64 zhetf2.f (463,13)
+   -> llvm.fabs.f64 zhetf2.f (463,13)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (463,13)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (468,15)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (468,36)
+   -> INLINE: disnan_.t702p zhetf2.f (468,51)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (475,25)
+   -> INLINE: izamax_.t756p.t757p.t758p zhetf2.f (490,33)
+   -> llvm.fabs.f64 zhetf2.f (491,19)
+   -> llvm.fabs.f64 zhetf2.f (491,19)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (491,19)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (491,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (494,35)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (494,52)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (494,42)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (494,26)
+   -> llvm.fabs.f64 zhetf2.f (499,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (499,64)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (499,55)
+   -> INLINE: izamax_.t723p.t724p.t725p zhetf2.f (487,31)
+   -> llvm.fabs.f64 zhetf2.f (488,16)
+   -> llvm.fabs.f64 zhetf2.f (488,16)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (488,16)
+   -> INLINE: zswap_.t800p.t801p.t802p.t803p.t804p zhetf2.f (523,19)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (531,30)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (532,30)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (534,31)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (542,35)
+   -> llvm.experimental.constrained.fpext.f64.f32 zhetf2.f (540,28)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (561,28)
+   -> INLINE: zher_.t962p.t963p.t964p.t965p.t966p.t967p.t968p.t3v zhetf2.f (562,24)
+   -> INLINE: zdscal_.t979p.t980p.t981p.t982p zhetf2.f (567,24)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (592,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,48)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (592,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (592,44)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (592,44)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (592,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,62)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,62)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (593,62)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,62)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,62)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (593,62)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (593,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (593,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (593,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (596,58)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (596,58)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (596,58)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (596,58)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (596,58)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (596,58)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (596,47)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (596,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (597,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (597,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (597,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (597,48)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (597,48)
+   -> llvm.experimental.constrained.fadd.f64 zhetf2.f (597,48)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (596,72)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (596,72)
+   -> INLINE: dlapy2_.t1002p.t1003p zhetf2.f (583,23)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (585,47)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (586,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (587,35)
+   -> llvm.experimental.constrained.fsub.f64 zhetf2.f (587,39)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (587,28)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (588,37)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (588,37)
+   -> llvm.experimental.constrained.fdiv.f64 zhetf2.f (589,26)
+   -> llvm.experimental.constrained.fmul.f64 zhetf2.f (477,32)
+   -> llvm.experimental.constrained.fcmp.f64 zhetf2.f (477,23)
+   -> llvm.smax.i32 zhetf2.f (524,19)
+
+---- End Inlining Report ------

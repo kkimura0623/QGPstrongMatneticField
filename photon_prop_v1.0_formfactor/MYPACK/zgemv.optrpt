@@ -1,0 +1,154 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: ZGEMV
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (ZGEMV) [1] zgemv.f(159,18)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at zgemv.f(257,22)
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at zgemv.f(257,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at zgemv.f(261,22)
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at zgemv.f(261,22)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at zgemv.f(268,22)
+<Multiversioned v2>
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+LOOP END
+
+LOOP BEGIN at zgemv.f(273,22)
+<Multiversioned v1>
+   remark #25235: Loop multiversioned to eliminate assumed dependencies
+   remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemv.f(274,23) ]
+LOOP END
+
+LOOP BEGIN at zgemv.f(273,22)
+<Multiversioned v2>
+   remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+LOOP END
+
+LOOP BEGIN at zgemv.f(287,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemv.f(290,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 4  
+   LOOP END
+
+   LOOP BEGIN at zgemv.f(290,26)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f(297,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemv.f(301,26)
+   <Multiversioned v1>
+      remark #25235: Loop multiversioned to eliminate assumed dependencies
+      remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemv.f(302,27) ]
+      remark #25439: unrolled with remainder by 4  
+   LOOP END
+
+   LOOP BEGIN at zgemv.f(301,26)
+   <Remainder, Multiversioned v1>
+   LOOP END
+
+   LOOP BEGIN at zgemv.f(301,26)
+   <Multiversioned v2>
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f(315,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemv.f(318,26)
+      remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemv.f(319,27) ]
+      remark #25439: unrolled with remainder by 4  
+   LOOP END
+
+   LOOP BEGIN at zgemv.f(318,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemv.f(322,26)
+      remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemv.f(323,27) ]
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f(330,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemv.f(334,26)
+      remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemv.f(335,27) ]
+   LOOP END
+
+   LOOP BEGIN at zgemv.f(339,26)
+      remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemv.f(340,27) ]
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+zgemv.f(159,18):remark #34051: REGISTER ALLOCATION : [_zgemv_] zgemv.f:159
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   30[ rax rdx rcx rbx rsi rdi r8-r15 zmm0-zmm15]
+        
+    Routine temporaries
+        Total         :     486
+            Global    :     156
+            Local     :     330
+        Regenerable   :      49
+        Spilled       :      16
+        
+    Routine stack
+        Variables     :       4 bytes*
+            Reads     :       1 [6.91e-02 ~ 0.1%]
+            Writes    :       7 [1.93e+00 ~ 2.1%]
+        Spills        :      88 bytes*
+            Reads     :      28 [1.04e+00 ~ 1.1%]
+            Writes    :      14 [4.06e+00 ~ 4.3%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

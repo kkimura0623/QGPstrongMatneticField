@@ -1,0 +1,1514 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 111, Column: 21 }
+Function:        digama_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          digama_
+    DebugLoc:        { File: asa103.f90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 111, Column: 21 }
+Function:        digama_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          digama_
+    DebugLoc:        { File: asa103.f90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_date_and_time
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 58 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_date_and_time
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 58 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 111, Column: 21 }
+Function:        digama_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          digama_
+    DebugLoc:        { File: asa103.f90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 111, Column: 21 }
+Function:        digama_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          digama_
+    DebugLoc:        { File: asa103.f90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: asa103.f90, Line: 223, Column: 5 }
+Function:        psi_values_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  phi
+    DebugLoc:        { File: asa103.f90, Line: 223, Column: 5 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_date_and_time
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 58 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_date_and_time
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 8 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 298, Column: 58 }
+Function:        timestamp_
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: asa103.f90, Line: 297, Column: 3 }
+Function:        timestamp_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          timestamp_
+    DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 268, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 269, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 270, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 271, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 272, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 273, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 274, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 268, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 269, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 270, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 271, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 272, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 273, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: asa103.f90, Line: 274, Column: 3 }
+Function:        timestamp_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: asa103.f90, Line: 266, Column: 8 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: asa103.f90, Line: 103, Column: 3 }
+Function:        digama_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: asa103.f90, Line: 1, Column: 1 }
+Function:        digama_
+Args:
+  - NumSpills:       '2'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.972973e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.486487e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '2.486487e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '10'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.747748e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: asa103.f90, Line: 1, Column: 0 }
+Function:        digama_
+Args:
+  - NumStackBytes:   '24'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 1, Column: 19 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new3_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      region.17
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '44'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb8.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.77
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.85
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.93
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.101
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.109
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.117
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.125
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        digama_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '34'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: asa103.f90, Line: 1, Column: 0 }
+Function:        digama_
+Args:
+  - NumInstructions: '143'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: asa103.f90, Line: 123, Column: 0 }
+Function:        psi_values_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 123, Column: 25 }
+Function:        psi_values_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        psi_values_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb11_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        psi_values_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new30_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        psi_values_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb11_endif.thread
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        psi_values_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new33_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: asa103.f90, Line: 123, Column: 0 }
+Function:        psi_values_
+Args:
+  - NumInstructions: '20'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: asa103.f90, Line: 228, Column: 1 }
+Function:        timestamp_
+Args:
+  - NumSpills:       '2'
+  - String:          ' spills '
+  - TotalSpillsCost: '2.000000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.000000e+00'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '16'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.380938e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+Function:        timestamp_
+Args:
+  - NumStackBytes:   '376'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '30'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      initcall49_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new51_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new52_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      initcall56_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new58_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      initcall60_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new62_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new63_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      initcall67_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb20_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      initcall54_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      initcall65_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb20_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb20_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: asa103.f90, Line: 0, Column: 0 }
+Function:        timestamp_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb20_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '102'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: asa103.f90, Line: 228, Column: 0 }
+Function:        timestamp_
+Args:
+  - NumInstructions: '164'
+  - String:          ' instructions in function'
+...

@@ -1,0 +1,236 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 39 }
+Function:        xerbla_
+Args:
+  - Callee:          for_len_trim
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 82, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 39 }
+Function:        xerbla_
+Args:
+  - Callee:          for_len_trim
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 82, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 39 }
+Function:        xerbla_
+Args:
+  - Callee:          for_len_trim
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 82, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 39 }
+Function:        xerbla_
+Args:
+  - Callee:          for_len_trim
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 80, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_write_seq_fmt_xmit
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: xerbla.f, Line: 82, Column: 7 }
+Function:        xerbla_
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_
+    DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: xerbla.f, Line: 61, Column: 1 }
+Function:        xerbla_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+Function:        xerbla_
+Args:
+  - NumStackBytes:   '136'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: xerbla.f, Line: 0, Column: 0 }
+Function:        xerbla_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '49'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: xerbla.f, Line: 61, Column: 0 }
+Function:        xerbla_
+Args:
+  - NumInstructions: '49'
+  - String:          ' instructions in function'
+...

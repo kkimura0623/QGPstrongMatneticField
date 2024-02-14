@@ -1,0 +1,42 @@
+Global optimization report for : ieeeck_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+COMPILE FUNC: ieeeck_
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (104,20)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (105,17)
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (110,21)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (111,17)
+   -> llvm.experimental.constrained.fadd.f32 ieeeck.f (116,30)
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (116,20)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (117,17)
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (122,20)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (123,17)
+   -> llvm.experimental.constrained.fadd.f32 ieeeck.f (128,23)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (129,17)
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (134,20)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (135,17)
+   -> llvm.experimental.constrained.fmul.f32 ieeeck.f (140,22)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (141,17)
+   -> llvm.experimental.constrained.fmul.f32 ieeeck.f (146,22)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (147,17)
+   -> llvm.experimental.constrained.fadd.f32 ieeeck.f (160,21)
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (162,21)
+   -> llvm.experimental.constrained.fdiv.f32 ieeeck.f (164,21)
+   -> llvm.experimental.constrained.fmul.f32 ieeeck.f (166,20)
+   -> llvm.experimental.constrained.fmul.f32 ieeeck.f (168,20)
+   -> llvm.experimental.constrained.fmul.f32 ieeeck.f (170,18)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (172,15)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (177,15)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (182,15)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (187,15)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (192,15)
+   -> llvm.experimental.constrained.fcmp.f32 ieeeck.f (197,15)
+
+---- End Inlining Report ------

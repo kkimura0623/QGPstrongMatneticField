@@ -1,0 +1,16 @@
+Global optimization report for : dcabs1_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+COMPILE FUNC: dcabs1_
+   -> llvm.fabs.f64 dcabs1.f (56,16)
+   -> llvm.fabs.f64 dcabs1.f (56,31)
+   -> llvm.experimental.constrained.fadd.f64 dcabs1.f (56,29)
+
+---- End Inlining Report ------

@@ -1,0 +1,530 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: _photon_prop_class._
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (_photon_prop_class._) [1] photon_prop_class.F90(4,8)
+
+
+    Report from: Code generation optimizations [cg]
+
+photon_prop_class.F90(4,8):remark #34051: REGISTER ALLOCATION : [_photon_prop_class._] photon_prop_class.F90:4
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :    0[ reg_null]
+        
+    Routine temporaries
+        Total         :       6
+            Global    :       0
+            Local     :       6
+        Regenerable   :       0
+        Spilled       :       0
+        
+    Routine stack
+        Variables     :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+        Spills        :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: PHOTON_PROP_CLASS::PARTICLE_NAME
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (PHOTON_PROP_CLASS::PARTICLE_NAME) [2] photon_prop_class.F90(53,29)
+
+
+    Report from: Code generation optimizations [cg]
+
+photon_prop_class.F90(53,29):remark #34051: REGISTER ALLOCATION : [_photon_prop_class_mp_particle_name_] photon_prop_class.F90:53
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :    7[ rax rdx rcx rsi rdi r8 r14]
+        
+    Routine temporaries
+        Total         :      31
+            Global    :       8
+            Local     :      23
+        Regenerable   :      15
+        Spilled       :       1
+        
+    Routine stack
+        Variables     :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+        Spills        :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: PHOTON_PROP_CLASS::PHOTON_PROPAGATOR
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (PHOTON_PROP_CLASS::PHOTON_PROPAGATOR) [3] photon_prop_class.F90(66,12)
+  -> (139,10) PHOTON_PROP_CLASS::PHOTON_VACCUM_POLARIZATION_TENSOR
+  -> (154,10) PHOTON_PROP_CLASS::PHOTON_VACCUM_POLARIZATION_TENSOR
+  -> (168,10) PHOTON_PROP_CLASS::PHOTON_VACCUM_POLARIZATION_TENSOR
+  -> (187,10) PHOTON_PROP_CLASS::PHOTON_VACCUM_POLARIZATION_TENSOR
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at photon_prop_class.F90(118,3)
+   remark #25420: Collapsed with loop at line 118 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(118,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(119,3)
+   remark #25420: Collapsed with loop at line 119 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(119,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(142,5)
+   remark #25420: Collapsed with loop at line 142 
+   remark #25399: memcopy generated
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at photon_prop_class.F90(142,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(157,5)
+   remark #25420: Collapsed with loop at line 157 
+   remark #25399: memcopy generated
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at photon_prop_class.F90(157,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(170,5)
+   remark #25420: Collapsed with loop at line 170 
+   remark #25399: memcopy generated
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at photon_prop_class.F90(170,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(189,5)
+   remark #25420: Collapsed with loop at line 189 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(189,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(210,3)
+   remark #25420: Collapsed with loop at line 210 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(210,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(228,3)
+   remark #25420: Collapsed with loop at line 228 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(228,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(229,3)
+   remark #25420: Collapsed with loop at line 229 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(229,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(230,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+   remark #25436: completely unrolled by 4  
+
+   LOOP BEGIN at photon_prop_class.F90(232,5)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at photon_prop_class.F90(232,5)
+   LOOP END
+
+   LOOP BEGIN at photon_prop_class.F90(232,5)
+   LOOP END
+
+   LOOP BEGIN at photon_prop_class.F90(232,5)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(245,3)
+   remark #25420: Collapsed with loop at line 246 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(246,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+photon_prop_class.F90(157,5):remark #34000: call to memcpy implemented inline with loads and stores with proven source (alignment, offset): (16, 0), and destination (alignment, offset): (1, 0)
+photon_prop_class.F90(170,5):remark #34000: call to memcpy implemented inline with loads and stores with proven source (alignment, offset): (16, 0), and destination (alignment, offset): (1, 0)
+photon_prop_class.F90(142,5):remark #34000: call to memcpy implemented inline with loads and stores with proven source (alignment, offset): (16, 0), and destination (alignment, offset): (1, 0)
+photon_prop_class.F90(66,12):remark #34051: REGISTER ALLOCATION : [_photon_prop_class_mp_photon_propagator_] photon_prop_class.F90:66
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   34[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm3 zmm0-zmm15]
+        
+    Routine temporaries
+        Total         :     435
+            Global    :      31
+            Local     :     404
+        Regenerable   :      81
+        Spilled       :       8
+        
+    Routine stack
+        Variables     :     668 bytes*
+            Reads     :     102 [5.71e+01 ~ 10.8%]
+            Writes    :     107 [6.01e+01 ~ 11.3%]
+        Spills        :      40 bytes*
+            Reads     :       7 [3.05e+00 ~ 0.6%]
+            Writes    :       7 [3.05e+00 ~ 0.6%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: PHOTON_PROP_CLASS::PHOTON_VACCUM_POLARIZATION_TENSOR
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (PHOTON_PROP_CLASS::PHOTON_VACCUM_POLARIZATION_TENSOR) [4] photon_prop_class.F90(254,12)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at photon_prop_class.F90(327,3)
+   remark #25420: Collapsed with loop at line 327 
+   remark #25420: Collapsed with loop at line 327 
+   remark #25408: memset generated
+   remark #15398: loop was not vectorized: loop was transformed to memset or memcpy
+
+   LOOP BEGIN at photon_prop_class.F90(327,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+
+      LOOP BEGIN at photon_prop_class.F90(327,3)
+         remark #25421: Loop eliminated in Collapsing 
+
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(335,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+   remark #25436: completely unrolled by 4  
+
+   LOOP BEGIN at photon_prop_class.F90(336,3)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at photon_prop_class.F90(336,3)
+   LOOP END
+
+   LOOP BEGIN at photon_prop_class.F90(336,3)
+   LOOP END
+
+   LOOP BEGIN at photon_prop_class.F90(336,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(366,3)
+   remark #25420: Collapsed with loop at line 366 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(366,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(379,5)
+   remark #25420: Collapsed with loop at line 379 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(379,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(381,5)
+   remark #25420: Collapsed with loop at line 381 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(381,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(406,7)
+   remark #25420: Collapsed with loop at line 406 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(406,7)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(416,7)
+   remark #25420: Collapsed with loop at line 416 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(416,7)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(427,7)
+   remark #25420: Collapsed with loop at line 427 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(427,7)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(440,7)
+   remark #25420: Collapsed with loop at line 440 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(440,7)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(462,5)
+   remark #25420: Collapsed with loop at line 462 
+   remark #15300: LOOP WAS VECTORIZED
+
+   LOOP BEGIN at photon_prop_class.F90(462,5)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+LOOP BEGIN at photon_prop_class.F90(475,3)
+   remark #25420: Collapsed with loop at line 475 
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25436: completely unrolled by 16  
+
+   LOOP BEGIN at photon_prop_class.F90(475,3)
+      remark #25421: Loop eliminated in Collapsing 
+
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+photon_prop_class.F90(327,3):remark #34000: call to memset implemented inline with stores with proven (alignment, offset): (16, 0)
+photon_prop_class.F90(254,12):remark #34051: REGISTER ALLOCATION : [_photon_prop_class_mp_photon_vaccum_polarization_tensor_] photon_prop_class.F90:254
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   36[ rax rdx rcx rbx rsi rdi r8-r9 r12-r15 mm0-mm7 zmm0-zmm15]
+        
+    Routine temporaries
+        Total         :     587
+            Global    :      42
+            Local     :     545
+        Regenerable   :      54
+        Spilled       :      11
+        
+    Routine stack
+        Variables     :     672 bytes*
+            Reads     :     168 [7.52e+01 ~ 16.6%]
+            Writes    :      88 [3.85e+01 ~ 8.5%]
+        Spills        :      80 bytes*
+            Reads     :       7 [1.38e+00 ~ 0.3%]
+            Writes    :       6 [1.28e+00 ~ 0.3%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: PHOTON_PROP_CLASS::FORMFACTOR00
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (PHOTON_PROP_CLASS::FORMFACTOR00) [5] photon_prop_class.F90(480,12)
+
+
+    Report from: Code generation optimizations [cg]
+
+photon_prop_class.F90(480,12):remark #34051: REGISTER ALLOCATION : [_photon_prop_class_mp_formfactor00_] photon_prop_class.F90:480
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   13[ rax rdx rcx rsi rdi r8-r9 r13-r15 mm0-mm1 zmm0]
+        
+    Routine temporaries
+        Total         :     103
+            Global    :      22
+            Local     :      81
+        Regenerable   :      53
+        Spilled       :       3
+        
+    Routine stack
+        Variables     :     152 bytes*
+            Reads     :       9 [7.65e-01 ~ 1.4%]
+            Writes    :       1 [5.00e-02 ~ 0.1%]
+        Spills        :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: PHOTON_PROP_CLASS::FORMFACTOR01
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (PHOTON_PROP_CLASS::FORMFACTOR01) [6] photon_prop_class.F90(566,12)
+  -> INLINE: (585,8) PHOTON_PROP_CLASS::FORMFACTOR00
+  -> INLINE: (594,8) PHOTON_PROP_CLASS::FORMFACTOR00
+  -> INLINE: (603,8) PHOTON_PROP_CLASS::FORMFACTOR00
+  -> INLINE: (617,8) PHOTON_PROP_CLASS::FORMFACTOR00
+
+
+    Report from: Code generation optimizations [cg]
+
+photon_prop_class.F90(566,12):remark #34051: REGISTER ALLOCATION : [_photon_prop_class_mp_formfactor01_] photon_prop_class.F90:566
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   22[ rax rdx rcx rbx rsi rdi r8-r9 r12-r15 mm0-mm6 zmm0-zmm2]
+        
+    Routine temporaries
+        Total         :     385
+            Global    :      89
+            Local     :     296
+        Regenerable   :     258
+        Spilled       :      19
+        
+    Routine stack
+        Variables     :     624 bytes*
+            Reads     :      69 [4.14e+00 ~ 4.4%]
+            Writes    :      16 [1.48e+00 ~ 1.6%]
+        Spills        :     224 bytes*
+            Reads     :      20 [5.00e+00 ~ 5.3%]
+            Writes    :      82 [2.94e+00 ~ 3.1%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

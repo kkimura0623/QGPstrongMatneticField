@@ -1,0 +1,723 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t60p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t60p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t60p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t60p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t65p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t65p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t65p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t65p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t76p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t76p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t76p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t76p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t81p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t81p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t81p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t81p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t55p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t55p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t55p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t55p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t70p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t70p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        dcabs1_.t70p
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          dcabs1_.t70p
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: izamax.f, Line: 86, Column: 17 }
+Function:        izamax_
+Args:
+  - String:          ''''
+  - Callee:          dcabs1_.t60p
+  - String:          ''' inlined into '''
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          izamax_
+  - String:          ':'
+  - Line:            '34'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: izamax.f, Line: 88, Column: 23 }
+Function:        izamax_
+Args:
+  - String:          ''''
+  - Callee:          dcabs1_.t65p
+  - String:          ''' inlined into '''
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          izamax_
+  - String:          ':'
+  - Line:            '36'
+  - String:          ':'
+  - Column:          '23'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: izamax.f, Line: 99, Column: 17 }
+Function:        izamax_
+Args:
+  - String:          ''''
+  - Callee:          dcabs1_.t76p
+  - String:          ''' inlined into '''
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          izamax_
+  - String:          ':'
+  - Line:            '47'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: izamax.f, Line: 101, Column: 23 }
+Function:        izamax_
+Args:
+  - String:          ''''
+  - Callee:          dcabs1_.t81p
+  - String:          ''' inlined into '''
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          izamax_
+  - String:          ':'
+  - Line:            '49'
+  - String:          ':'
+  - Column:          '23'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: izamax.f, Line: 84, Column: 17 }
+Function:        izamax_
+Args:
+  - String:          ''''
+  - Callee:          dcabs1_.t55p
+  - String:          ''' inlined into '''
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          izamax_
+  - String:          ':'
+  - Line:            '32'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: izamax.f, Line: 96, Column: 17 }
+Function:        izamax_
+Args:
+  - String:          ''''
+  - Callee:          dcabs1_.t70p
+  - String:          ''' inlined into '''
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          izamax_
+  - String:          ':'
+  - Line:            '44'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - Callee:          dcabs1_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_
+    DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: izamax.f, Line: 98, Column: 10 }
+Function:        izamax_
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: izamax.f, Line: 85, Column: 10 }
+Function:        izamax_
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: izamax.f, Line: 85, Column: 10 }
+Function:        izamax_
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '1.984375e+00'
+  - String:          ' total spills cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.984375e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.953125e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: izamax.f, Line: 98, Column: 10 }
+Function:        izamax_
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '1.984375e+00'
+  - String:          ' total spills cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.984375e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.953125e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: izamax.f, Line: 52, Column: 1 }
+Function:        izamax_
+Args:
+  - NumSpills:       '3'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.218750e+00'
+  - String:          ' total spills cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.968750e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '9'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.815625e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+Function:        izamax_
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 52, Column: 31 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb4_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body16.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body16
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body41.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb9_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body41
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: izamax.f, Line: 0, Column: 0 }
+Function:        izamax_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new51_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: izamax.f, Line: 52, Column: 0 }
+Function:        izamax_
+Args:
+  - NumInstructions: '75'
+  - String:          ' instructions in function'
+...

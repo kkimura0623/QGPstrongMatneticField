@@ -1,0 +1,167 @@
+Global optimization report for : zgeru_
+
+LOOP BEGIN at zgeru.f (210, 14)
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgeru.f (214, 22)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+        remark #25439: Loop unrolled with remainder by 2
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zgeru.f (195, 14)
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgeru.f (198, 22)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgeru.f (198, 22)
+    <Remainder loop>
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+DEAD STATIC FUNC: xerbla_.t94p.t95p.t3v
+
+COMPILE FUNC: zgeru_
+   -> llvm.smax.i32 zgeru.f (174,23)
+   -> INLINE: xerbla_.t94p.t95p.t3v zgeru.f (178,16)
+   -> llvm.experimental.constrained.fcmp.f64 zgeru.f (184,45)
+   -> llvm.experimental.constrained.fcmp.f64 zgeru.f (184,45)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgeru.f (196,24)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgeru.f (196,24)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgeru.f (199,45)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (199,45)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgeru.f (197,31)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (197,31)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgeru.f (211,24)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgeru.f (211,24)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgeru.f (215,46)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (215,46)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgeru.f (212,31)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fcmp.f64 zgeru.f (211,24)
+   -> llvm.experimental.constrained.fcmp.f64 zgeru.f (211,24)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (212,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,46)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (215,39)
+   -> llvm.experimental.constrained.fcmp.f64 zgeru.f (196,24)
+   -> llvm.experimental.constrained.fcmp.f64 zgeru.f (196,24)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (197,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (197,31)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (197,31)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fsub.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fmul.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,45)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> llvm.experimental.constrained.fadd.f64 zgeru.f (199,39)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (198,22)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (195,14)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (202,23)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (214,22)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (216,31)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (210,14)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (210,14)
+   -> DELETE: llvm.ssa.copy.i64 zgeru.f (219,23)
+   -> llvm.umax.i1 zgeru.f (211,24)
+   -> llvm.umax.i1 zgeru.f (196,24)
+
+---- End Inlining Report ------

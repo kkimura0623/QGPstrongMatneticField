@@ -1,0 +1,110 @@
+Global optimization report for : zscal_
+
+LOOP BEGIN at zscal.f (86, 10)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between zx (87:13) and zx (87:24) 
+    remark #15346: vector dependence: assumed FLOW dependence between zx (87:13) and zx (87:24) 
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at zscal.f (86, 10)
+<Remainder loop>
+LOOP END
+
+LOOP BEGIN at zscal.f (78, 10)
+    remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at zscal.f (78, 10)
+<Remainder loop>
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+COMPILE FUNC: zscal_
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zscal.f (79,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zscal.f (79,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zscal.f (87,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (87,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fsub.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fmul.f64 zscal.f (79,23)
+   -> llvm.experimental.constrained.fadd.f64 zscal.f (79,23)
+   -> DELETE: llvm.ssa.copy.i64 zscal.f (80,10)
+   -> DELETE: llvm.ssa.copy.i64 zscal.f (88,10)
+   -> DELETE: llvm.ssa.copy.i64 zscal.f (88,10)
+
+---- End Inlining Report ------

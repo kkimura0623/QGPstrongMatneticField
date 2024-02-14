@@ -1,0 +1,498 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: _intde2_mod._
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (_intde2_mod._) [1] intde2_mod.f90(1,8)
+
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(1,8):remark #34051: REGISTER ALLOCATION : [_intde2_mod._] intde2_mod.f90:1
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :    0[ reg_null]
+        
+    Routine temporaries
+        Total         :       6
+            Global    :       0
+            Local     :       6
+        Regenerable   :       0
+        Spilled       :       0
+        
+    Routine stack
+        Variables     :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+        Spills        :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: INTDE2_MOD::INTDEINI
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (INTDE2_MOD::INTDEINI) [2] intde2_mod.f90(203,12)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at intde2_mod.f90(246,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at intde2_mod.f90(231,7)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at intde2_mod.f90(236,11)
+         remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(203,12):remark #34051: REGISTER ALLOCATION : [_intde2_mod_mp_intdeini_] intde2_mod.f90:203
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   19[ rax rdx rcx rbx rsi rdi r12-r15 mm0-mm7 zmm0]
+        
+    Routine temporaries
+        Total         :     106
+            Global    :      34
+            Local     :      72
+        Regenerable   :       7
+        Spilled       :      16
+        
+    Routine stack
+        Variables     :      16 bytes*
+            Reads     :      24 [7.17e+02 ~ 11.7%]
+            Writes    :      23 [7.16e+02 ~ 11.7%]
+        Spills        :     152 bytes*
+            Reads     :      16 [6.81e+02 ~ 11.1%]
+            Writes    :      13 [2.39e+02 ~ 3.9%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: INTDE2_MOD::INTDE
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (INTDE2_MOD::INTDE) [3] intde2_mod.f90(264,12)
+  -> INDIRECT-: (282,7)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (291,12)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (292,12)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (305,12)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (314,12)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (331,20)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (332,20)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (340,20)  _intde2_mod_mp_intde_$F_V$87.0.3
+  -> INDIRECT-: (348,20)  _intde2_mod_mp_intde_$F_V$87.0.3
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at intde2_mod.f90(298,23)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(303,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(312,3)
+   remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(324,3)
+   remark #15532: loop was not vectorized: compile time constraints prevent loop optimization. Consider using -O3.
+
+   LOOP BEGIN at intde2_mod.f90(353,13)
+      remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+
+      LOOP BEGIN at intde2_mod.f90(335,11)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(344,33)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(352,33)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(264,12):remark #34051: REGISTER ALLOCATION : [_intde2_mod_mp_intde_] intde2_mod.f90:264
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   24[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm1]
+        
+    Routine temporaries
+        Total         :     250
+            Global    :      69
+            Local     :     181
+        Regenerable   :      21
+        Spilled       :      34
+        
+    Routine stack
+        Variables     :      88 bytes*
+            Reads     :      35 [4.79e+02 ~ 7.6%]
+            Writes    :      44 [6.73e+02 ~ 10.6%]
+        Spills        :     344 bytes*
+            Reads     :     116 [1.08e+03 ~ 17.0%]
+            Writes    :      56 [4.39e+02 ~ 6.9%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: INTDE2_MOD::INTDEIINI
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (INTDE2_MOD::INTDEIINI) [4] intde2_mod.f90(370,12)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at intde2_mod.f90(419,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at intde2_mod.f90(399,7)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at intde2_mod.f90(404,11)
+         remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(370,12):remark #34051: REGISTER ALLOCATION : [_intde2_mod_mp_intdeiini_] intde2_mod.f90:370
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   19[ rax rdx rcx rbx rsi rdi r12-r15 mm0-mm7 zmm0]
+        
+    Routine temporaries
+        Total         :     110
+            Global    :      34
+            Local     :      76
+        Regenerable   :       8
+        Spilled       :      17
+        
+    Routine stack
+        Variables     :      16 bytes*
+            Reads     :      23 [6.27e+02 ~ 8.5%]
+            Writes    :      22 [6.26e+02 ~ 8.5%]
+        Spills        :     160 bytes*
+            Reads     :      18 [8.61e+02 ~ 11.7%]
+            Writes    :      15 [4.18e+02 ~ 5.7%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: INTDE2_MOD::INTDEI
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (INTDE2_MOD::INTDEI) [5] intde2_mod.f90(436,12)
+  -> INDIRECT-: (453,7)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (461,12)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (462,12)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (475,12)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (484,12)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (500,20)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (501,20)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (509,20)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+  -> INDIRECT-: (517,20)  _intde2_mod_mp_intdei_$F_V$e7.0.5
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at intde2_mod.f90(468,23)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(473,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(482,3)
+   remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(494,3)
+   remark #15532: loop was not vectorized: compile time constraints prevent loop optimization. Consider using -O3.
+
+   LOOP BEGIN at intde2_mod.f90(522,13)
+      remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+
+      LOOP BEGIN at intde2_mod.f90(504,11)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(513,33)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(521,33)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(436,12):remark #34051: REGISTER ALLOCATION : [_intde2_mod_mp_intdei_] intde2_mod.f90:436
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   23[ rax rdx rcx rbx rsi rdi r8-r10 r12-r15 mm0-mm7 zmm0-zmm1]
+        
+    Routine temporaries
+        Total         :     241
+            Global    :      65
+            Local     :     176
+        Regenerable   :      20
+        Spilled       :      31
+        
+    Routine stack
+        Variables     :      88 bytes*
+            Reads     :      32 [4.17e+02 ~ 7.0%]
+            Writes    :      41 [6.11e+02 ~ 10.3%]
+        Spills        :     296 bytes*
+            Reads     :     102 [8.13e+02 ~ 13.7%]
+            Writes    :      53 [3.88e+02 ~ 6.6%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: INTDE2_MOD::INTDEOINI
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (INTDE2_MOD::INTDEOINI) [6] intde2_mod.f90(539,12)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at intde2_mod.f90(574,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between wg (575:7) and wg (575:7)
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(574,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(581,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at intde2_mod.f90(582,7)
+      remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+      remark #25436: completely unrolled by 2  
+   LOOP END
+LOOP END
+
+LOOP BEGIN at intde2_mod.f90(612,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at intde2_mod.f90(593,7)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at intde2_mod.f90(599,11)
+         remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(539,12):remark #34051: REGISTER ALLOCATION : [_intde2_mod_mp_intdeoini_] intde2_mod.f90:539
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   24[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm1]
+        
+    Routine temporaries
+        Total         :     200
+            Global    :      54
+            Local     :     146
+        Regenerable   :      11
+        Spilled       :      21
+        
+    Routine stack
+        Variables     :      16 bytes*
+            Reads     :      51 [8.53e+02 ~ 10.7%]
+            Writes    :      51 [8.53e+02 ~ 10.7%]
+        Spills        :     224 bytes*
+            Reads     :      28 [1.17e+03 ~ 14.6%]
+            Writes    :      21 [4.00e+02 ~ 5.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: INTDE2_MOD::INTDEO
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (INTDE2_MOD::INTDEO) [7] intde2_mod.f90(629,12)
+  -> INDIRECT-: (653,7)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (672,24)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (673,24)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (688,24)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (689,24)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (701,20)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (706,16)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+  -> INDIRECT-: (718,28)  _intde2_mod_mp_intdeo_$F_V$14e.0.7
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at intde2_mod.f90(739,22)
+   remark #15532: loop was not vectorized: compile time constraints prevent loop optimization. Consider using -O3.
+
+   LOOP BEGIN at intde2_mod.f90(731,13)
+      remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+
+      LOOP BEGIN at intde2_mod.f90(680,34)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(695,15)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(699,11)
+         remark #15523: loop was not vectorized: loop control variable j was found, but loop iteration count cannot be computed before executing the loop
+      LOOP END
+
+      LOOP BEGIN at intde2_mod.f90(724,19)
+         remark #15532: loop was not vectorized: compile time constraints prevent loop optimization. Consider using -O3.
+
+         LOOP BEGIN at intde2_mod.f90(722,19)
+            remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+intde2_mod.f90(629,12):remark #34051: REGISTER ALLOCATION : [_intde2_mod_mp_intdeo_] intde2_mod.f90:629
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   26[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm3]
+        
+    Routine temporaries
+        Total         :     259
+            Global    :      73
+            Local     :     186
+        Regenerable   :      20
+        Spilled       :      39
+        
+    Routine stack
+        Variables     :      80 bytes*
+            Reads     :      41 [1.44e+03 ~ 8.7%]
+            Writes    :      49 [1.77e+03 ~ 10.7%]
+        Spills        :     416 bytes*
+            Reads     :      96 [2.54e+03 ~ 15.4%]
+            Writes    :      59 [1.27e+03 ~ 7.7%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

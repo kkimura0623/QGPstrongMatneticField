@@ -1,0 +1,45 @@
+Global optimization report for : ilaenv_
+
+LOOP BEGIN at ilaenv.f (213, 16)
+    remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    remark #25436: Loop completely unrolled by 5
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: ieeeck_.t150p.t151p.t152p
+
+DEAD STATIC FUNC: ieeeck_.t161p.t162p.t163p
+
+DEAD STATIC FUNC: iparmq_.t180p.t181p.t182p.t183p.t184p.t185p.t186p.t3v.t3v
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+COMPILE FUNC: ilaenv_
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (246,19)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (242,13)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (232,51)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (227,13)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (216,19)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (212,13)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (251,7)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (256,7)
+   -> DELETE: llvm.memcpy.p0.p0.i64 ilaenv.f (258,7)
+   -> llvm.smin.i32 ilaenv.f (567,27)
+   -> llvm.experimental.constrained.sitofp.f32.i32 ilaenv.f (567,21)
+   -> llvm.experimental.constrained.fmul.f32 ilaenv.f (567,42)
+   -> llvm.experimental.constrained.fptosi.i32.f32 ilaenv.f (567,16)
+   -> llvm.for.cpystr.i64.i64.i64 ilaenv.f (204,7)
+   -> llvm.memcpy.p0.p0.i64 ilaenv.f (257,7)
+   -> INLINE: ieeeck_.t150p.t151p.t152p ilaenv.f (600,19)
+   -> INLINE: ieeeck_.t161p.t162p.t163p ilaenv.f (611,19)
+   -> INLINE: iparmq_.t180p.t181p.t182p.t183p.t184p.t185p.t186p.t3v.t3v ilaenv.f (619,16)
+   -> DELETE: llvm.ssa.copy.i64 ilaenv.f (213,16)
+
+---- End Inlining Report ------

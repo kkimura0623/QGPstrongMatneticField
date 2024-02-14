@@ -1,0 +1,442 @@
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+Function:        zcopy_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zcopy.f, Line: 88, Column: 22 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zcopy.f, Line: 51, Column: 1 }
+Function:        zcopy_
+Args:
+  - NumSpills:       '4'
+  - String:          ' spills '
+  - TotalSpillsCost: '1.254902e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '5'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.098039e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.137255e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '12'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.745098e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zcopy.f, Line: 51, Column: 0 }
+Function:        zcopy_
+Args:
+  - NumStackBytes:   '48'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 51, Column: 24 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body7.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.69
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.68
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.69
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.69
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.69
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.80
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.83
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.87
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '27'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.56
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.55
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '24'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.56
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.57
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.48
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zcopy.f, Line: 0, Column: 0 }
+Function:        zcopy_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zcopy.f, Line: 51, Column: 0 }
+Function:        zcopy_
+Args:
+  - NumInstructions: '166'
+  - String:          ' instructions in function'
+...

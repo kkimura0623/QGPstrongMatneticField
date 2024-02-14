@@ -1,0 +1,32 @@
+     ff(0) = Theta
+     ff(1) = -4.0_QP - 2.0_QP*Theta + 2.0_QP*Theta*w
+     ff(2) = 12.0_QP + 4.0_QP*Theta + w*(-12.0_QP - 12.0_QP*Theta + 6.0_QP*Theta*w)
+
+     ff(3) = -29.333333333333333333_QP - 8.0_QP*Theta  &
+ &    + w*( 80.0_QP + 48.0_QP*Theta                 &
+ &    + w*(-40.0_QP - 60.0_QP*Theta + 20.0_QP*Theta*w))
+
+     ff(4) = 66.66666666666666666_QP + 16.0_QP*Theta  &
+ &   + w*(-346.6666666666666666_QP - 160.0_QP*Theta   &
+ &   + w*(420.0_QP  + 360.0_QP*Theta               &
+ &   + w*(-140.0_QP - 280.0_QP*Theta + 70.0_QP*Theta*w)))
+
+     ff(5) = -146.13333333333333333_QP - 32.0_QP*Theta   &
+ &   + w*(1232.0_QP + 480.0_QP*Theta  + w*(-2632.0_QP - 1680.0_QP*Theta   &
+     + w*(2016.0_QP + 2240.0_QP*Theta + w*(-504.0_QP - 1260.0_QP*Theta + 252.0_QP*Theta*w))))
+
+     ff(6) = 313.6_QP + 64.0_QP*Theta  &
+ &   + w*(-3897.6_QP - 1344.0_QP*Theta + w*(12768.0_QP + 6720.0_QP*Theta  &
+ &   + w*(-16576.0_QP - 13440.0_QP*Theta + w*(9240.0_QP + 12600.0_QP*Theta  &
+ &   + w*(-1848.0_QP - 5544.0_QP*Theta + 924.0_QP*Theta*w)))))
+
+     ff(7) = -663.7714285714286_QP - 128.0_QP*Theta  &
+ &   + w*(11417.6_QP + 3584.0_QP*Theta + w*(-52876.8_QP - 24192.0_QP*Theta  &
+ &   + w*(102080.0_QP + 67200.0_QP*Theta + w*(-94160.0_QP - 92400.0_QP*Theta  &
+ &   + w*(41184.0_QP + 66528.0_QP*Theta + w*(-6864.0_QP - 24024.0_QP*Theta + 3432.0_QP*Theta*w))))))
+
+     ff(8) = 1391.5428571428572_QP + 256.0_QP*Theta  &
+ &   + w*(-31663.542857142857_QP - 9216.0_QP*Theta + w*(196416.0_QP + 80640.0_QP*Theta &
+ &   + w*(-523072.0_QP - 295680.0_QP*Theta + w*(703560.0_QP + 554400.0_QP*Theta  &
+ &   + w*(-501072.0_QP - 576576.0_QP*Theta + w*(180180.0_QP + 336336.0_QP*Theta  &
+ &   + w*(-25740.0_QP - 102960.0_QP*Theta + 12870.0_QP*Theta*w))))))) 

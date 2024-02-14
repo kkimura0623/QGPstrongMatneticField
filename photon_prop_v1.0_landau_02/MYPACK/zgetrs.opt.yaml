@@ -1,0 +1,1034 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        lsame_.t97p.t98p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t97p.t98p.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        lsame_.t97p.t98p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t97p.t98p.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        lsame_.t107p.t108p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t107p.t108p.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        lsame_.t107p.t108p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t107p.t108p.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        lsame_.t116p.t117p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t116p.t117p.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        lsame_.t116p.t117p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t116p.t117p.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        xerbla_.t132p.t133p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t132p.t133p.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        xerbla_.t132p.t133p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t132p.t133p.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p
+    DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 162, Column: 16 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t97p.t98p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '40'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 163, Column: 34 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t107p.t108p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '41'
+  - String:          ':'
+  - Column:          '34'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 164, Column: 11 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t116p.t117p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '42'
+  - String:          ':'
+  - Column:          '11'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 176, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t132p.t133p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '54'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 191, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          zlaswp_.t151p.t152p.t153p.t154p.t155p.t156p.t157p
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '69'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 195, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          ztrsm_.t185p.t186p.t187p.t188p.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t3v.t3v.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '73'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 200, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          ztrsm_.t223p.t224p.t225p.t226p.t227p.t228p.t229p.t230p.t231p.t232p.t233p.t3v.t3v.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '78'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 208, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          ztrsm_.t261p.t262p.t263p.t264p.t265p.t266p.t267p.t268p.t269p.t270p.t271p.t3v.t3v.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '86'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 213, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          ztrsm_.t299p.t300p.t301p.t302p.t303p.t304p.t305p.t306p.t307p.t308p.t309p.t3v.t3v.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '91'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetrs.f, Line: 218, Column: 15 }
+Function:        zgetrs_
+Args:
+  - String:          ''''
+  - Callee:          zlaswp_.t325p.t326p.t327p.t328p.t329p.t330p.t331p
+  - String:          ''' inlined into '''
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetrs_
+  - String:          ':'
+  - Line:            '96'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          ztrsm_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - Callee:          zlaswp_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_
+    DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zgetrs.f, Line: 122, Column: 1 }
+Function:        zgetrs_
+Args:
+  - NumSpills:       '3'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.000000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '4'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.021374e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.221374e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '35'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.283970e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+Function:        zgetrs_
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 122, Column: 26 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '39'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new30_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new30_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new32_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new32_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list35_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 182, Column: 12 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb9_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list63_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '51'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetrs.f, Line: 0, Column: 0 }
+Function:        zgetrs_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list45_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '48'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zgetrs.f, Line: 122, Column: 0 }
+Function:        zgetrs_
+Args:
+  - NumInstructions: '195'
+  - String:          ' instructions in function'
+...

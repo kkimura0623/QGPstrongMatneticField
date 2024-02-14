@@ -1,0 +1,23 @@
+Global optimization report for : zgesv_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: xerbla_.t86p.t87p.t3v
+
+DEAD STATIC FUNC: zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p
+
+DEAD STATIC FUNC: zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v
+
+COMPILE FUNC: zgesv_
+   -> llvm.smax.i32 zgesv.f (155,23)
+   -> INLINE: xerbla_.t86p.t87p.t3v zgesv.f (161,15)
+   -> INLINE: zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p zgesv.f (167,12)
+   -> INLINE: zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v zgesv.f (172,15)
+
+---- End Inlining Report ------

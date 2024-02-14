@@ -1,0 +1,120 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: lsame.f, Line: 76, Column: 18 }
+Function:        lsame_
+Args:
+  - Callee:          for_cpstr
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_
+    DebugLoc:        { File: lsame.f, Line: 54, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: lsame.f, Line: 76, Column: 18 }
+Function:        lsame_
+Args:
+  - Callee:          for_cpstr
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_
+    DebugLoc:        { File: lsame.f, Line: 54, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: lsame.f, Line: 76, Column: 18 }
+Function:        lsame_
+Args:
+  - Callee:          for_cpstr
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_
+    DebugLoc:        { File: lsame.f, Line: 54, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: lsame.f, Line: 76, Column: 18 }
+Function:        lsame_
+Args:
+  - Callee:          for_cpstr
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_
+    DebugLoc:        { File: lsame.f, Line: 54, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: lsame.f, Line: 54, Column: 1 }
+Function:        lsame_
+Args:
+  - NumVRCopies:     '5'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: lsame.f, Line: 54, Column: 0 }
+Function:        lsame_
+Args:
+  - NumStackBytes:   '24'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: lsame.f, Line: 0, Column: 0 }
+Function:        lsame_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: lsame.f, Line: 0, Column: 0 }
+Function:        lsame_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new12_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: lsame.f, Line: 0, Column: 0 }
+Function:        lsame_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: lsame.f, Line: 54, Column: 0 }
+Function:        lsame_
+Args:
+  - NumInstructions: '33'
+  - String:          ' instructions in function'
+...

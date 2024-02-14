@@ -1,0 +1,59 @@
+Global optimization report for : dlamch_
+=================================================================
+
+Global optimization report for : dlamc3_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: lsame_.t102p.t103p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t111p.t112p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t120p.t121p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t129p.t130p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t138p.t139p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t57p.t58p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t66p.t67p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t75p.t76p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t84p.t85p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t93p.t94p.t3v.t3v
+
+COMPILE FUNC: dlamch_
+   -> INLINE: lsame_.t57p.t58p.t3v.t3v dlamch.f (109,11)
+   -> llvm.experimental.constrained.fadd.f64 dlamch.f (119,32)
+   -> llvm.experimental.constrained.fmul.f64 dlamch.f (119,26)
+   -> llvm.experimental.constrained.sitofp.f64.i32 dlamch.f (135,18)
+   -> INLINE: lsame_.t138p.t139p.t3v.t3v dlamch.f (136,16)
+   -> INLINE: lsame_.t129p.t130p.t3v.t3v dlamch.f (134,16)
+   -> llvm.experimental.constrained.sitofp.f64.i32 dlamch.f (131,18)
+   -> INLINE: lsame_.t120p.t121p.t3v.t3v dlamch.f (132,16)
+   -> INLINE: lsame_.t111p.t112p.t3v.t3v dlamch.f (130,16)
+   -> llvm.experimental.constrained.sitofp.f64.i32 dlamch.f (127,18)
+   -> INLINE: lsame_.t102p.t103p.t3v.t3v dlamch.f (128,16)
+   -> llvm.experimental.constrained.sitofp.f64.i32 dlamch.f (125,24)
+   -> llvm.experimental.constrained.fmul.f64 dlamch.f (125,22)
+   -> INLINE: lsame_.t93p.t94p.t3v.t3v dlamch.f (126,16)
+   -> llvm.experimental.constrained.sitofp.f64.i32 dlamch.f (123,18)
+   -> INLINE: lsame_.t84p.t85p.t3v.t3v dlamch.f (124,16)
+   -> llvm.experimental.constrained.fdiv.f64 dlamch.f (113,22)
+   -> llvm.experimental.constrained.fcmp.f64 dlamch.f (114,19)
+   -> INLINE: lsame_.t75p.t76p.t3v.t3v dlamch.f (122,16)
+   -> INLINE: lsame_.t66p.t67p.t3v.t3v dlamch.f (111,16)
+
+COMPILE FUNC: dlamc3_
+   -> llvm.experimental.constrained.fadd.f64 dlamch.f (185,18)
+
+---- End Inlining Report ------

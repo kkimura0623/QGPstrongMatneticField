@@ -1,0 +1,184 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlapy2.f, Line: 98, Column: 21 }
+Function:        dlapy2_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          dlapy2_
+    DebugLoc:        { File: dlapy2.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlapy2.f, Line: 98, Column: 21 }
+Function:        dlapy2_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          dlapy2_
+    DebugLoc:        { File: dlapy2.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlapy2.f, Line: 98, Column: 21 }
+Function:        dlapy2_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          dlapy2_
+    DebugLoc:        { File: dlapy2.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: dlapy2.f, Line: 98, Column: 21 }
+Function:        dlapy2_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          dlapy2_
+    DebugLoc:        { File: dlapy2.f, Line: 64, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: dlapy2.f, Line: 64, Column: 1 }
+Function:        dlapy2_
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '5.000000e-01'
+  - String:          ' total spills cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '5.000000e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.500000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: dlapy2.f, Line: 64, Column: 0 }
+Function:        dlapy2_
+Args:
+  - NumStackBytes:   '24'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 64, Column: 41 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 0, Column: 0 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 0, Column: 0 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 0, Column: 0 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 0, Column: 0 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 0, Column: 0 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: dlapy2.f, Line: 0, Column: 0 }
+Function:        dlapy2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: dlapy2.f, Line: 64, Column: 0 }
+Function:        dlapy2_
+Args:
+  - NumInstructions: '32'
+  - String:          ' instructions in function'
+...

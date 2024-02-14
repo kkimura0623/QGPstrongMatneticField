@@ -1,0 +1,83 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: ZGETF2
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (ZGETF2) [1] zgetf2.f(109,18)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at zgetf2.f(191,22)
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   remark #25439: unrolled with remainder by 2  
+LOOP END
+
+LOOP BEGIN at zgetf2.f(191,22)
+<Remainder>
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at zgetf2.f(172,10)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+zgetf2.f(192,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zgetf2.f(192,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zgetf2.f(192,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zgetf2.f(192,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zgetf2.f(192,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zgetf2.f(192,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zgetf2.f(189,40):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zgetf2.f(189,40):remark #34048: consider using complex-limited-range option to boost run time performance.
+zgetf2.f(109,18):remark #34051: REGISTER ALLOCATION : [_zgetf2_] zgetf2.f:109
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   25[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm2]
+        
+    Routine temporaries
+        Total         :     190
+            Global    :      49
+            Local     :     141
+        Regenerable   :      34
+        Spilled       :      17
+        
+    Routine stack
+        Variables     :      52 bytes*
+            Reads     :       8 [5.92e-01 ~ 0.7%]
+            Writes    :      15 [1.88e+00 ~ 2.3%]
+        Spills        :      96 bytes*
+            Reads     :      26 [3.39e+00 ~ 4.2%]
+            Writes    :      14 [1.00e+00 ~ 1.3%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

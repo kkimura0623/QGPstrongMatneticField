@@ -1,0 +1,268 @@
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: ieeeck.f, Line: 83, Column: 1 }
+Function:        ieeeck_
+Args:
+  - NumVRCopies:     '9'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.976053e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: ieeeck.f, Line: 83, Column: 0 }
+Function:        ieeeck_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 83, Column: 41 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb4_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb6_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb8_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb10_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb14_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb16_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb18_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb20_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: ieeeck.f, Line: 0, Column: 0 }
+Function:        ieeeck_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb16_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: ieeeck.f, Line: 83, Column: 0 }
+Function:        ieeeck_
+Args:
+  - NumInstructions: '85'
+  - String:          ' instructions in function'
+...

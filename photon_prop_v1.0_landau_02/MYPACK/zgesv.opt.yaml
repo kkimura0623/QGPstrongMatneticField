@@ -1,0 +1,477 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t86p.t87p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t86p.t87p.t3v
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t86p.t87p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t86p.t87p.t3v
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p
+Args:
+  - Callee:          zgetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p
+Args:
+  - Callee:          zgetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v
+Args:
+  - Callee:          zgetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v
+Args:
+  - Callee:          zgetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgesv.f, Line: 161, Column: 15 }
+Function:        zgesv_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t86p.t87p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgesv_
+  - String:          ':'
+  - Line:            '38'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgesv.f, Line: 167, Column: 12 }
+Function:        zgesv_
+Args:
+  - String:          ''''
+  - Callee:          zgetrf_.t101p.t102p.t103p.t104p.t105p.t106p
+  - String:          ''' inlined into '''
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgesv_
+  - String:          ':'
+  - Line:            '44'
+  - String:          ':'
+  - Column:          '12'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgesv.f, Line: 172, Column: 15 }
+Function:        zgesv_
+Args:
+  - String:          ''''
+  - Callee:          zgetrs_.t128p.t129p.t130p.t131p.t132p.t133p.t134p.t135p.t136p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgesv_
+  - String:          ':'
+  - Line:            '49'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - Callee:          zgetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - Callee:          zgetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - Callee:          zgetrf_
+  - String:          ' will not be inlined into '
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - Callee:          zgetrs_
+  - String:          ' will not be inlined into '
+  - Caller:          zgesv_
+    DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgesv.f, Line: 168, Column: 7 }
+Function:        zgesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgesv.f, Line: 150, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgesv.f, Line: 168, Column: 7 }
+Function:        zgesv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgesv.f, Line: 150, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zgesv.f, Line: 123, Column: 1 }
+Function:        zgesv_
+Args:
+  - NumSpills:       '2'
+  - String:          ' spills '
+  - TotalSpillsCost: '1.926605e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.669725e-02'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.669725e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '13'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.628440e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+Function:        zgesv_
+Args:
+  - NumStackBytes:   '72'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 123, Column: 25 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new8_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new10_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new10_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new8_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list15_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb6_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgesv.f, Line: 0, Column: 0 }
+Function:        zgesv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list28_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zgesv.f, Line: 123, Column: 0 }
+Function:        zgesv_
+Args:
+  - NumInstructions: '78'
+  - String:          ' instructions in function'
+...

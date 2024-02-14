@@ -1,0 +1,271 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: ZGEMM
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (ZGEMM) [1] zgemm.f(188,18)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at zgemm.f(287,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(288,22)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(288,22)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(293,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(294,22)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(294,22)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(309,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(311,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(311,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(315,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(315,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(319,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(322,30)
+         remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+         remark #25439: unrolled with remainder by 4  
+      LOOP END
+
+      LOOP BEGIN at zgemm.f(322,30)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(332,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(333,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(335,26)
+         remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemm.f(336,27) ]
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(349,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(350,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(352,26)
+         remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemm.f(353,27) ]
+         remark #25439: unrolled with remainder by 4  
+      LOOP END
+
+      LOOP BEGIN at zgemm.f(352,26)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(368,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(370,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(370,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(374,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(374,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(378,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(381,30)
+         remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+         remark #25439: unrolled with remainder by 4  
+      LOOP END
+
+      LOOP BEGIN at zgemm.f(381,30)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(391,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(393,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(393,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(397,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 2  
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(397,26)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at zgemm.f(401,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(404,30)
+         remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+         remark #25439: unrolled with remainder by 4  
+      LOOP END
+
+      LOOP BEGIN at zgemm.f(404,30)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(416,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(417,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(419,26)
+         remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemm.f(420,27) ]
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(433,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(434,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(436,26)
+         remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemm.f(437,27) ]
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(452,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(453,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(455,26)
+         remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemm.f(456,27) ]
+      LOOP END
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zgemm.f(469,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zgemm.f(470,22)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+      LOOP BEGIN at zgemm.f(472,26)
+         remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ zgemm.f(473,27) ]
+         remark #25439: unrolled with remainder by 4  
+      LOOP END
+
+      LOOP BEGIN at zgemm.f(472,26)
+      <Remainder>
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+zgemm.f(188,18):remark #34051: REGISTER ALLOCATION : [_zgemm_] zgemm.f:188
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   30[ rax rdx rcx rbx rsi rdi r8-r15 zmm0-zmm15]
+        
+    Routine temporaries
+        Total         :     862
+            Global    :     280
+            Local     :     582
+        Regenerable   :      59
+        Spilled       :      66
+        
+    Routine stack
+        Variables     :       4 bytes*
+            Reads     :       1 [4.05e-02 ~ 0.0%]
+            Writes    :       9 [1.96e+00 ~ 0.6%]
+        Spills        :     488 bytes*
+            Reads     :     159 [1.45e+01 ~ 4.1%]
+            Writes    :      83 [1.38e+01 ~ 3.9%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

@@ -1,0 +1,2504 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t98p.t99p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t98p.t99p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t98p.t99p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t98p.t99p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t108p.t109p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t108p.t109p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t108p.t109p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t108p.t109p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t118p.t119p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t118p.t119p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t118p.t119p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t118p.t119p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t127p.t128p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t127p.t128p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        lsame_.t127p.t128p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t127p.t128p.t3v.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t140p.t141p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t140p.t141p.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t140p.t141p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t140p.t141p.t3v
+    DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zsyconv.f, Line: 149, Column: 15 }
+Function:        zsyconv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t98p.t99p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zsyconv_
+  - String:          ':'
+  - Line:            '36'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zsyconv.f, Line: 150, Column: 17 }
+Function:        zsyconv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t108p.t109p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zsyconv_
+  - String:          ':'
+  - Line:            '37'
+  - String:          ':'
+  - Column:          '17'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zsyconv.f, Line: 151, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t118p.t119p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zsyconv_
+  - String:          ':'
+  - Line:            '38'
+  - String:          ':'
+  - Column:          '33'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zsyconv.f, Line: 153, Column: 40 }
+Function:        zsyconv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t127p.t128p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zsyconv_
+  - String:          ':'
+  - Line:            '40'
+  - String:          ':'
+  - Column:          '40'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zsyconv.f, Line: 162, Column: 15 }
+Function:        zsyconv_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t140p.t141p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zsyconv_
+  - String:          ':'
+  - Line:            '49'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zsyconv_
+    DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 211, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zsyconv.f, Line: 211, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 212, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 212, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 243, Column: 24 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zsyconv.f, Line: 243, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 304, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zsyconv.f, Line: 304, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 305, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zsyconv.f, Line: 305, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 337, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zsyconv.f, Line: 337, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 304, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 304, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 295, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 295, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 296, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 296, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 336, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 336, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 337, Column: 34 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 337, Column: 34 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 326, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 326, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 327, Column: 32 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 327, Column: 32 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 304, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 305, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 304, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 305, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 306, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 295, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 296, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 295, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 296, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 296, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 296, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 297, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 336, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 337, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 336, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 337, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 337, Column: 34 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 337, Column: 34 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 338, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 326, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 327, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 326, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 327, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 327, Column: 32 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zsyconv.f, Line: 327, Column: 32 }
+Function:        zsyconv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zsyconv.f, Line: 328, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 211, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 211, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 212, Column: 25 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 212, Column: 25 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 202, Column: 24 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 202, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 243, Column: 24 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 243, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 233, Column: 21 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 233, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 304, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 304, Column: 30 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 305, Column: 33 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 305, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 295, Column: 30 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 295, Column: 30 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 337, Column: 34 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 337, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zsyconv.f, Line: 327, Column: 32 }
+Function:        zsyconv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zsyconv.f, Line: 327, Column: 32 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 349, Column: 28 }
+Function:        zsyconv_
+Args:
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.328244e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '1'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.328244e-02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 322, Column: 28 }
+Function:        zsyconv_
+Args:
+  - NumReloads:      '6'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.862595e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '9.541985e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.725191e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 291, Column: 28 }
+Function:        zsyconv_
+Args:
+  - NumReloads:      '4'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.954198e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '9.770992e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '14'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.793894e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 277, Column: 27 }
+Function:        zsyconv_
+Args:
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.946565e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.801527e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 255, Column: 13 }
+Function:        zsyconv_
+Args:
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.328244e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.374046e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 229, Column: 28 }
+Function:        zsyconv_
+Args:
+  - NumReloads:      '3'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.312977e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.832061e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 198, Column: 28 }
+Function:        zsyconv_
+Args:
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.213740e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.251909e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.241221e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 183, Column: 13 }
+Function:        zsyconv_
+Args:
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.251909e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '5'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.557252e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zsyconv.f, Line: 113, Column: 1 }
+Function:        zsyconv_
+Args:
+  - NumSpills:       '4'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.012214e+00'
+  - String:          ' total spills cost '
+  - NumFoldedSpills: '1'
+  - String:          ' folded spills '
+  - TotalFoldedSpillsCost: '1.221374e-02'
+  - String:          ' total folded spills cost '
+  - NumReloads:      '19'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.198473e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '9'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '6.793892e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '60'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.321450e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+Function:        zsyconv_
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 113, Column: 27 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '38'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new25_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new25_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new33_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new35_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new35_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new33_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list38_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 168, Column: 12 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb10_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new111_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb52.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb59_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb52
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new147_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new149_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.295
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.294
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new157_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new160_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.279
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.278
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.279
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.279
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.280
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new47_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb26.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new84_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb33_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb26
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new84_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new86_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body87
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb33_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new94_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new94_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body98.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body98
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new94_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb40.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new119_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb43_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb40
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb40
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new116_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb62.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb60.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb64_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb60
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new171_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new48_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new48_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new56_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb17_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb14
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new52_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb36.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb38_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb34
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new108_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb44.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new133_else.bb50_endif_crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb51_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb51_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb44
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new123_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new125_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.263
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.262
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.263
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.264
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.263
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new133_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new135_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.246
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.245
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.246
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.247
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.246
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb18.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new70_else.bb24_endif_crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb25_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb18
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new60_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new62_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body63
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new70_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new72_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zsyconv.f, Line: 0, Column: 0 }
+Function:        zsyconv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body73
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zsyconv.f, Line: 113, Column: 0 }
+Function:        zsyconv_
+Args:
+  - NumInstructions: '505'
+  - String:          ' instructions in function'
+...

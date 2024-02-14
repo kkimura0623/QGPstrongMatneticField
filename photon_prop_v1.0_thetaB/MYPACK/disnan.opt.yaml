@@ -1,0 +1,118 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: disnan.f, Line: 0, Column: 0 }
+Function:        dlaisnan_.t38p.t39p
+Args:
+  - Callee:          dlaisnan_
+  - String:          ' will not be inlined into '
+  - Caller:          dlaisnan_.t38p.t39p
+    DebugLoc:        { File: disnan.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: disnan.f, Line: 0, Column: 0 }
+Function:        dlaisnan_.t38p.t39p
+Args:
+  - Callee:          dlaisnan_
+  - String:          ' will not be inlined into '
+  - Caller:          dlaisnan_.t38p.t39p
+    DebugLoc:        { File: disnan.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: disnan.f, Line: 78, Column: 16 }
+Function:        disnan_
+Args:
+  - String:          ''''
+  - Callee:          dlaisnan_.t38p.t39p
+  - String:          ''' inlined into '''
+  - Caller:          disnan_
+    DebugLoc:        { File: disnan.f, Line: 60, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          disnan_
+  - String:          ':'
+  - Line:            '18'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: disnan.f, Line: 0, Column: 0 }
+Function:        disnan_
+Args:
+  - Callee:          dlaisnan_
+  - String:          ' will not be inlined into '
+  - Caller:          disnan_
+    DebugLoc:        { File: disnan.f, Line: 60, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: disnan.f, Line: 0, Column: 0 }
+Function:        disnan_
+Args:
+  - Callee:          dlaisnan_
+  - String:          ' will not be inlined into '
+  - Caller:          disnan_
+    DebugLoc:        { File: disnan.f, Line: 60, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: disnan.f, Line: 60, Column: 1 }
+Function:        disnan_
+Args:
+  - NumVRCopies:     '1'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: disnan.f, Line: 60, Column: 0 }
+Function:        disnan_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: disnan.f, Line: 60, Column: 32 }
+Function:        disnan_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: disnan.f, Line: 60, Column: 0 }
+Function:        disnan_
+Args:
+  - NumInstructions: '3'
+  - String:          ' instructions in function'
+...

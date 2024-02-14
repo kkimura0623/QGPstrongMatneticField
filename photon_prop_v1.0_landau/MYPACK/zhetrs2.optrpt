@@ -1,0 +1,118 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: ZHETRS2
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (ZHETRS2) [1] zhetrs2.f(127,18)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at zhetrs2.f(236,22)
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+LOOP END
+
+LOOP BEGIN at zhetrs2.f(313,22)
+   remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at zhetrs2.f(201,9)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at zhetrs2.f(226,10)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+LOOP BEGIN at zhetrs2.f(255,9)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at zhetrs2.f(279,9)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at zhetrs2.f(304,10)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+LOOP BEGIN at zhetrs2.f(331,9)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+zhetrs2.f(310,19):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(310,19):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(311,19):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(311,19):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(314,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(314,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(315,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(315,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(316,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(316,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(317,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(317,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(233,19):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(233,19):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(234,19):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(234,19):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(237,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(237,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(238,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(238,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(239,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(239,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(240,22):remark #34046: complex divide implemented using x87 instructions to maintain precision.
+zhetrs2.f(240,22):remark #34048: consider using complex-limited-range option to boost run time performance.
+zhetrs2.f(127,18):remark #34051: REGISTER ALLOCATION : [_zhetrs2_] zhetrs2.f:127
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   38[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        
+    Routine temporaries
+        Total         :     552
+            Global    :     100
+            Local     :     452
+        Regenerable   :     100
+        Spilled       :      16
+        
+    Routine stack
+        Variables     :      24 bytes*
+            Reads     :      46 [3.17e+00 ~ 2.6%]
+            Writes    :      49 [3.91e+00 ~ 3.2%]
+        Spills        :      88 bytes*
+            Reads     :      56 [2.11e+00 ~ 1.7%]
+            Writes    :      26 [5.54e+00 ~ 4.5%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

@@ -1,0 +1,388 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 38 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 58 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 32 }
+Function:        iparmq_
+Args:
+  - Callee:          f_lanint_val
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 38 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 58 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 32 }
+Function:        iparmq_
+Args:
+  - Callee:          f_lanint_val
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 38 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 58 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 32 }
+Function:        iparmq_
+Args:
+  - Callee:          f_lanint_val
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 38 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 58 }
+Function:        iparmq_
+Args:
+  - Callee:          logf
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: iparmq.f, Line: 256, Column: 32 }
+Function:        iparmq_
+Args:
+  - Callee:          f_lanint_val
+  - String:          ' will not be inlined into '
+  - Caller:          iparmq_
+    DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: iparmq.f, Line: 215, Column: 1 }
+Function:        iparmq_
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.750000e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.750000e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+Function:        iparmq_
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 215, Column: 32 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new5_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '26'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb13_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb15_endif
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .split101
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .split101
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb25_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new37_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb25_endif.fold.split
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new33_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new35_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb25_endif.fold.split99
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: iparmq.f, Line: 0, Column: 0 }
+Function:        iparmq_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      .split
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: iparmq.f, Line: 215, Column: 0 }
+Function:        iparmq_
+Args:
+  - NumInstructions: '85'
+  - String:          ' instructions in function'
+...

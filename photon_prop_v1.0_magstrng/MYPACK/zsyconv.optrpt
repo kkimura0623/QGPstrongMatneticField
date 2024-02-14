@@ -1,0 +1,101 @@
+Global optimization report for : zsyconv_
+
+LOOP BEGIN at zsyconv.f (184, 28)
+LOOP END
+
+LOOP BEGIN at zsyconv.f (198, 28)
+
+    LOOP BEGIN at zsyconv.f (210, 25)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    LOOP END
+
+    LOOP BEGIN at zsyconv.f (201, 25)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zsyconv.f (229, 28)
+
+    LOOP BEGIN at zsyconv.f (242, 21)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    LOOP END
+
+    LOOP BEGIN at zsyconv.f (232, 19)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zsyconv.f (256, 28)
+LOOP END
+
+LOOP BEGIN at zsyconv.f (277, 27)
+LOOP END
+
+LOOP BEGIN at zsyconv.f (291, 28)
+
+    LOOP BEGIN at zsyconv.f (303, 25)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+        remark #25439: Loop unrolled with remainder by 2
+    LOOP END
+
+    LOOP BEGIN at zsyconv.f (294, 25)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+        remark #25439: Loop unrolled with remainder by 2
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zsyconv.f (322, 28)
+
+    LOOP BEGIN at zsyconv.f (335, 22)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+        remark #25439: Loop unrolled with remainder by 2
+    LOOP END
+
+    LOOP BEGIN at zsyconv.f (325, 22)
+        remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+        remark #25439: Loop unrolled with remainder by 2
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zsyconv.f (349, 28)
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+DEAD STATIC FUNC: lsame_.t108p.t109p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t118p.t119p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t127p.t128p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t98p.t99p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t140p.t141p.t3v
+
+COMPILE FUNC: zsyconv_
+   -> INLINE: lsame_.t98p.t99p.t3v.t3v zsyconv.f (149,15)
+   -> INLINE: lsame_.t108p.t109p.t3v.t3v zsyconv.f (150,17)
+   -> INLINE: lsame_.t118p.t119p.t3v.t3v zsyconv.f (151,33)
+   -> llvm.smax.i32 zsyconv.f (157,23)
+   -> INLINE: lsame_.t127p.t128p.t3v.t3v zsyconv.f (153,40)
+   -> INLINE: xerbla_.t140p.t141p.t3v zsyconv.f (162,15)
+   -> DELETE: llvm.ssa.copy.i64 zsyconv.f (294,25)
+   -> DELETE: llvm.ssa.copy.i64 zsyconv.f (303,25)
+   -> DELETE: llvm.ssa.copy.i64 zsyconv.f (329,22)
+   -> DELETE: llvm.ssa.copy.i64 zsyconv.f (339,22)
+   -> llvm.memset.p0.i64 zsyconv.f
+   -> llvm.memset.p0.i64 zsyconv.f (182,13)
+   -> llvm.memset.p0.i64 zsyconv.f
+   -> llvm.smax.i32 zsyconv.f
+   -> llvm.smax.i32 zsyconv.f
+   -> llvm.memset.p0.i64 zsyconv.f (275,13)
+
+---- End Inlining Report ------

@@ -1,0 +1,169 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: EPEM_PAIR_PROD_TEST
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (EPEM_PAIR_PROD_TEST) [1] epem_pair_prod_test_theta.F90(1,9)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at epem_pair_prod_test_theta.F90(144,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at epem_pair_prod_test_theta.F90(168,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between at (169:7) and at (169:7)
+   remark #25436: completely unrolled by 4  
+LOOP END
+
+LOOP BEGIN at epem_pair_prod_test_theta.F90(174,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between at (175:7) and at (175:7)
+   remark #25436: completely unrolled by 4  
+LOOP END
+
+LOOP BEGIN at epem_pair_prod_test_theta.F90(180,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between at (181:7) and at (181:7)
+   remark #25436: completely unrolled by 4  
+LOOP END
+
+LOOP BEGIN at epem_pair_prod_test_theta.F90(186,5)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at epem_pair_prod_test_theta.F90(187,5)
+      remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+      remark #25436: completely unrolled by 4  
+
+      LOOP BEGIN at epem_pair_prod_test_theta.F90(188,5)
+         remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+         remark #25436: completely unrolled by 4  
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+            remark #15331: loop was not vectorized: precise FP model implied by the command line or a directive prevents vectorization. Consider using fast FP model   [ epem_pair_prod_test_theta.F90(190,7) ]
+            remark #25436: completely unrolled by 4  
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at epem_pair_prod_test_theta.F90(188,5)
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at epem_pair_prod_test_theta.F90(188,5)
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+      LOOP END
+
+      LOOP BEGIN at epem_pair_prod_test_theta.F90(188,5)
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+
+         LOOP BEGIN at epem_pair_prod_test_theta.F90(189,5)
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at epem_pair_prod_test_theta.F90(205,3)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+
+   LOOP BEGIN at epem_pair_prod_test_theta.F90(204,3)
+      remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+
+      LOOP BEGIN at epem_pair_prod_test_theta.F90(200,3)
+         remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+      LOOP END
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+epem_pair_prod_test_theta.F90(1,9):remark #34051: REGISTER ALLOCATION : [_MAIN__] epem_pair_prod_test_theta.F90:1
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   38[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        
+    Routine temporaries
+        Total         :    1307
+            Global    :     177
+            Local     :    1130
+        Regenerable   :     531
+        Spilled       :      66
+        
+    Routine stack
+        Variables     :   10056 bytes*
+            Reads     :     189 [6.14e+06 ~ 13.7%]
+            Writes    :     191 [3.13e+06 ~ 7.0%]
+        Spills        :     936 bytes*
+            Reads     :      96 [4.19e+06 ~ 9.4%]
+            Writes    :      62 [7.42e+05 ~ 1.7%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

@@ -1,0 +1,22 @@
+{
+	TGraph *xy0 = new TGraph("epem_xy_0.dat");
+
+	TGraph *xy30 = new TGraph("epem_xy_30.dat");
+
+	TGraph *xy45 = new TGraph("epem_xy_45.dat");
+
+	TGraph *xy60 = new TGraph("epem_xy_60.dat");
+
+	TGraph *xy90 = new TGraph("epem_xy_90.dat");
+
+	TGraph *yz0 = new TGraph("epem_yz_0.dat");
+
+	TGraph *yz30 = new TGraph("epem_yz_30.dat");
+
+	TGraph *yz45 = new TGraph("epem_yz_45.dat");
+
+	TGraph *yz60 = new TGraph("epem_yz_60.dat");
+
+	TGraph *yz90 = new TGraph("epem_yz_90.dat");
+}
+

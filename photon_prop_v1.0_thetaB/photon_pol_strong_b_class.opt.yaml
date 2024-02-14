@@ -1,0 +1,505 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 28, Column: 14 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 46, Column: 16 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 23 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          asin
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 43 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 55, Column: 15 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 57, Column: 24 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 28, Column: 14 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 46, Column: 16 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 23 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          asin
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 43 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 55, Column: 15 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 57, Column: 24 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 28, Column: 14 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 46, Column: 16 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 23 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          asin
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 43 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 55, Column: 15 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 57, Column: 24 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 28, Column: 14 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 46, Column: 16 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          exp
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 47, Column: 12 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 23 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          asin
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 51, Column: 43 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 55, Column: 15 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 57, Column: 24 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          photon_pol_strong_b_class_mp_n1_strong_b_
+    DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+Function:        photon_pol_strong_b_class._
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        photon_pol_strong_b_class._
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+Function:        photon_pol_strong_b_class._
+Args:
+  - NumInstructions: '1'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 1 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - NumSpills:       '7'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.500000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '9'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.750000e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '6'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '2.500000e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - NumStackBytes:   '40'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 37 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new3_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '37'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '17'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new15_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '17'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new20_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '35'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 0, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: photon_pol_strong_b_class.F90, Line: 9, Column: 0 }
+Function:        photon_pol_strong_b_class_mp_n1_strong_b_
+Args:
+  - NumInstructions: '122'
+  - String:          ' instructions in function'
+...

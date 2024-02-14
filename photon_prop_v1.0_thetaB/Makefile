@@ -1,0 +1,121 @@
+SVNREVISION = -D_REVISION_='"$(shell cat ./.svnrevision)"'
+
+#AR=ar
+#FC=gfortran
+#FFLAGS=-O0 -g -fbacktrace $(SVNREVISION) --fpe-trap=overflow -fbounds-check -fopenmp
+#FFLAGS=-O2 -g -fbacktrace $(SVNREVISION) --fpe-trap=overflow -fopenmp
+
+AR=xiar
+FC=ifx
+##FFLAGS=-O0 -g -traceback $(SVNREVISION) -fpe0 -fltconsistency -qopenmp -qopenmp-report=1
+FFLAGS=-O2 -fpe0 -g -traceback $(SVNREVISION) -fltconsistency -qopenmp -qopt-report=2
+
+INCLUDES=-I.
+LIBS=
+
+SOURCES = \
+constant_mod.F90 \
+physics_constsnt_mod.F90 \
+intde2_mod.f90 \
+asa103.f90 \
+polygamma_mod.F90 \
+pole_integ_func_class.F90 \
+laguerre_pdf_class.F90 \
+photon_pol_zero_b_class.F90 \
+photon_pol_strong_b_class.F90 \
+photon_pol_parallel_b_class.F90 \
+photon_pol_below_th_class.F90 \
+photon_pol_HI_class.F90 \
+photon_prop_class.F90 \
+current_class.F90
+
+
+OBJS = $(SOURCES:.F90=.o)
+
+all : photon_prop_test epem_pair_prod_test epem_pair_prod_asym_test HItest #epem_pair_asym_integ
+
+
+HItest : HItest.o $(OBJS) ./MYPACK/libmypack.a 
+	$(FC) $(FFLAGS) $(INCLUDES) $^ -o $@ $(LIBS) 
+
+HItest.o : constant_mod.o
+HItest.o : physics_constsnt_mod.o
+HItest.o : photon_pol_HI_class.o
+HItest.o : photon_pol_below_th_class.o
+HItest.o : photon_pol_parallel_b_class.o
+HItest.o : photon_pol_strong_b_class.o
+
+photon_pol_HI_class.o : constant_mod.o
+photon_pol_HI_class.o : physics_constsnt_mod.o
+photon_pol_HI_class.o : intde2_mod.o
+photon_pol_HI_class.o : polygamma_mod.o
+photon_pol_HI_class.o : laguerre_pdf_class.o
+photon_pol_HI_class.o : pole_integ_func_class.o
+photon_pol_HI_class.o : photon_pol_below_th_class.o
+
+physics_constsnt_mod.o : constant_mod.o 
+current_class.o : constant_mod.o physics_constsnt_mod.o
+
+photon_prop_class.o : constant_mod.o 
+photon_prop_class.o : physics_constsnt_mod.o 
+photon_prop_class.o : photon_pol_zero_b_class.o 
+photon_prop_class.o : photon_pol_strong_b_class.o 
+photon_prop_class.o : photon_pol_parallel_b_class.o 
+photon_prop_class.o : photon_pol_below_th_class.o 
+photon_prop_class.o : photon_pol_HI_class.o
+
+photon_pol_below_th_class.o : constant_mod.o
+photon_pol_below_th_class.o : intde2_mod.o
+
+photon_pol_parallel_b_class.o : constant_mod.o
+photon_pol_parallel_b_class.o : pole_integ_func_class.o
+photon_pol_parallel_b_class.o : intde2_mod.o
+
+photon_pol_strong_b_class.o : constant_mod.o
+
+photon_pol_zero_b_class.o : constant_mod.o
+
+pole_integ_func_class.o : constant_mod.o ft.h90 gt.h90 ht.h90
+
+photon_prop_test.o : $(OBJS)
+epem_pair_prod_test.o : $(OBJS)
+epem_pair_prod_asym_test.o : $(OBJS)
+epem_pair_asym_integ.o : $(OBJS)
+
+photon_prop_test : photon_prop_test.o $(OBJS) ./MYPACK/libmypack.a
+	$(FC) $(FFLAGS) $(INCLUDES) $^ -o $@ $(LIBS) 
+
+epem_pair_prod_test : epem_pair_prod_test.o $(OBJS) ./MYPACK/libmypack.a
+	$(FC) $(FFLAGS) $(INCLUDES) $^ -o $@ $(LIBS) 
+
+epem_pair_prod_asym_test : epem_pair_prod_asym_test.o $(OBJS) ./MYPACK/libmypack.a
+	$(FC) $(FFLAGS) $(INCLUDES) $^ -o $@ $(LIBS) 
+
+#epem_pair_asym_integ : epem_pair_asym_integ.o $(OBJS) ./MYPACK/libmypack.a $(HOME)/lib/libbases.a
+#	$(FC) $(FFLAGS) $(INCLUDES) $^ -o $@ $(LIBS) 
+
+mypack : MYPACK/libmypack.a
+
+MYPACK/libmypack.a :
+	( cd MYPACK; for a in *.f; do $(FC) $(FFLAGS) -c $$a; done; $(AR) -cr libmypack.a ./*.o )
+
+test_coef : test_coef.o physics_constsnt_mod.o constant_mod.o laguerre_pdf_class.o pole_integ_func_class.o
+	$(FC) $(FFLAGS) $(INCLUDES) $^ -o $@ $(LIBS) 
+test_coef.o : test_coef.F90 physics_constsnt_mod.o constant_mod.o laguerre_pdf_class.o pole_integ_func_class.o
+
+clean:
+	rm -f *optrpt *.o *.mod *~ photon_prop_test epem_pair_prod_test epem_pair_prod_asym_test HItest test_coef epem_pair_asym_integ
+	( cd MYPACK; rm -f libmypack.a *.o *~ *otrrpt )
+
+%.o : %.F90
+	$(FC) $(FFLAGS) $(MONITOR) $(INCLUDES) -c $< -o $@
+
+%.o : %.f90
+	$(FC) $(FFLAGS) $(MONITOR) $(INCLUDES) -c $< -o $@
+
+%.o : %.f
+	$(FC) $(FFLAGS) $(MONITOR) $(INCLUDES) -c $< -o $@
+
+svnrevision :
+	./get_svnrev.pl
+	cat .svnrevision

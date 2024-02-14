@@ -1,0 +1,40 @@
+Global optimization report for : izamax_
+
+LOOP BEGIN at izamax.f (98, 10)
+LOOP END
+
+LOOP BEGIN at izamax.f (85, 10)
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: dcabs1_.t55p
+
+DEAD STATIC FUNC: dcabs1_.t60p
+
+DEAD STATIC FUNC: dcabs1_.t65p
+
+DEAD STATIC FUNC: dcabs1_.t70p
+
+DEAD STATIC FUNC: dcabs1_.t76p
+
+DEAD STATIC FUNC: dcabs1_.t81p
+
+COMPILE FUNC: izamax_
+   -> INLINE: dcabs1_.t60p izamax.f (86,17)
+   -> llvm.experimental.constrained.fcmp.f64 izamax.f (86,30)
+   -> INLINE: dcabs1_.t65p izamax.f (88,23)
+   -> INLINE: dcabs1_.t76p izamax.f (99,17)
+   -> llvm.experimental.constrained.fcmp.f64 izamax.f (99,31)
+   -> INLINE: dcabs1_.t81p izamax.f (101,23)
+   -> INLINE: dcabs1_.t55p izamax.f (84,17)
+   -> INLINE: dcabs1_.t70p izamax.f (96,17)
+      -> DELETE: dcabs1_ izamax.f
+
+---- End Inlining Report ------

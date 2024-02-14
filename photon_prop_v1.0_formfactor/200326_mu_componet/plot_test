@@ -1,0 +1,113 @@
+{
+	TGraph *lxy[4][4];
+	TGraph *sxy[4][4];
+	TGraph *prrxy[4][4];
+	TGraph *prixy[4][4];
+	TGraph *porxy[4][4];
+	TGraph *poixy[4][4];
+	TGraph *lyz[4][4];
+	TGraph *syz[4][4];
+	TGraph *prryz[4][4];
+	TGraph *priyz[4][4];
+	TGraph *poryz[4][4];
+	TGraph *poiyz[4][4];
+	TGraph *ttryz[4][4];
+	TGraph *ttiyz[4][4];
+
+	for(int n=0; n<4; n++){
+		for(int i=0; i<4; i++){
+				lxy[n][i] = new TGraph(Form("200415_mu_lep_xy_300_%d%d.dat",n,i));
+				sxy[n][i] = new TGraph(Form("200415_mu_src_xy_300_%d%d.dat",n,i));
+				prrxy[n][i] = new TGraph(Form("200415_mu_Reprop_xy_300_%d%d.dat",n,i));
+				prixy[n][i] = new TGraph(Form("200415_mu_Improp_xy_300_%d%d.dat",n,i));
+				porxy[n][i] = new TGraph(Form("200415_mu_Repolten_xy_300_%d%d.dat",n,i));
+				poixy[n][i] = new TGraph(Form("200415_mu_Impolten_xy_300_%d%d.dat",n,i));
+				lyz[n][i] = new TGraph(Form("200415_mu_lep_yz_300_%d%d.dat",n,i));
+				syz[n][i] = new TGraph(Form("200415_mu_src_yz_300_%d%d.dat",n,i));
+				prryz[n][i] = new TGraph(Form("200415_mu_Reprop_yz_300_%d%d.dat",n,i));
+				priyz[n][i] = new TGraph(Form("200415_mu_Improp_yz_300_%d%d.dat",n,i));
+				porxy[n][i] = new TGraph(Form("200415_mu_Repolten_xy_300_%d%d.dat",n,i));
+				poixy[n][i] = new TGraph(Form("200415_mu_Impolten_xy_300_%d%d.dat",n,i));
+				ttrxy[n][i] = new TGraph(Form("200415_mu_ReTT_xy_300_%d%d.dat",n,i));
+				ttixy[n][i] = new TGraph(Form("200415_mu_ImTT_xy_300_%d%d.dat",n,i));
+		};
+	};
+
+	TCanvas *c0 = new TCanvas("c0","Reprop");
+	c0 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c0 -> cd(m);
+			prrxy[i][j] -> Draw();
+		};
+	};
+
+	TCanvas *c1 = new TCanvas("c1","Improp");
+	c1 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c1 -> cd(m);
+			prixy[i][j] -> Draw();
+		};
+	};
+
+	TCanvas *c2 = new TCanvas("c2","lep");
+	c2 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c2 -> cd(m);
+			lxy[i][j] -> Draw();
+		};
+	};
+
+	TCanvas *c3 = new TCanvas("c3","src");
+	c3 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c3 -> cd(m);
+			sxy[i][j] -> Draw();
+		};
+	};
+
+	TCanvas *c4 = new TCanvas("c4","Repol");
+	c4 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c4 -> cd(m);
+			porxy[i][j] -> Draw();
+		};
+	};
+	TCanvas *c5 = new TCanvas("c5","Impol");
+	c5 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c5 -> cd(m);
+			poixy[i][j] -> Draw();
+		};
+	};
+
+	TCanvas *c6 = new TCanvas("c6","Rett");
+	c6 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c6 -> cd(m);
+			ttrxy[i][j] -> Draw();
+		};
+	};
+	TCanvas *c7 = new TCanvas("c7","Imtt");
+	c7 -> Divide(4,4);
+	for(int i=0; i<4; i++){
+		for(int j=0; j<4; j++){
+			int m = 4*i+j+1;
+			c7 -> cd(m);
+			ttixy[i][j] -> Draw();
+		};
+	};
+};

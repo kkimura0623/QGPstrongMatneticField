@@ -1,0 +1,3738 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t113p.t114p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t113p.t114p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t113p.t114p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t113p.t114p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t123p.t124p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t123p.t124p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t123p.t124p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t123p.t124p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t132p.t133p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t132p.t133p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t132p.t133p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t132p.t133p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t146p.t147p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t146p.t147p.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        xerbla_.t146p.t147p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t146p.t147p.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t176p.t177p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t176p.t177p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t176p.t177p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t176p.t177p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t185p.t186p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t185p.t186p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t185p.t186p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t185p.t186p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t289p.t290p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t289p.t290p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        lsame_.t289p.t290p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t289p.t290p.t3v.t3v
+    DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 16 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t113p.t114p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '43'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 44 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t123p.t124p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '43'
+  - String:          ':'
+  - Column:          '44'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 203, Column: 16 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t132p.t133p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '44'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 217, Column: 16 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t146p.t147p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '58'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 226, Column: 16 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t176p.t177p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '67'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 231, Column: 11 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t185p.t186p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '72'
+  - String:          ':'
+  - Column:          '11'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgemv.f, Line: 281, Column: 11 }
+Function:        zgemv_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t289p.t290p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgemv_
+  - String:          ':'
+  - Line:            '122'
+  - String:          ':'
+  - Column:          '11'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zgemv_
+    DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 302, Column: 43 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zgemv.f, Line: 302, Column: 43 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 302, Column: 43 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgemv.f, Line: 302, Column: 43 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 301, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 301, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 291, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zgemv.f, Line: 291, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 291, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgemv.f, Line: 291, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 290, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 290, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 334, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 334, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 339, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 339, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 319, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zgemv.f, Line: 319, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 319, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgemv.f, Line: 319, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 323, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zgemv.f, Line: 323, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 323, Column: 34 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgemv.f, Line: 323, Column: 34 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 318, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 318, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 322, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 322, Column: 26 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zgemv.f, Line: 216, Column: 7 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  ''
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  load
+    DebugLoc:        { File: zgemv.f, Line: 207, Column: 7 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  load
+    DebugLoc:        { File: zgemv.f, Line: 205, Column: 7 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 301, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 301, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 290, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 290, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 334, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 334, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 339, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 339, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 318, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 318, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 322, Column: 26 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 322, Column: 26 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 274, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 269, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 291, Column: 46 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            lshr
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 288, Column: 28 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            lshr
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 335, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            lshr
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 340, Column: 56 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 333, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 319, Column: 41 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            lshr
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgemv.f, Line: 323, Column: 48 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            sext
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            lshr
+    DebugLoc:        { File: zgemv.f, Line: 202, Column: 61 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            and
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            icmp
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+Function:        zgemv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zgemv.f, Line: 317, Column: 23 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 322, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.883458e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 322, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.220864e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 315, Column: 18 }
+Function:        zgemv_
+Args:
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.815201e-02'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.630403e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '17'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.314158e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 318, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.882266e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 318, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.220566e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 315, Column: 18 }
+Function:        zgemv_
+Args:
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.800298e-02'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.600597e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '17'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.311625e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 339, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.882266e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 339, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.220566e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 330, Column: 18 }
+Function:        zgemv_
+Args:
+  - NumReloads:      '5'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.137109e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.600597e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '16'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.292698e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 334, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.882266e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 334, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.220566e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 330, Column: 18 }
+Function:        zgemv_
+Args:
+  - NumReloads:      '5'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.137109e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '7.600597e-02'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '16'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.292698e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 290, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.882266e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 290, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.220566e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 287, Column: 18 }
+Function:        zgemv_
+Args:
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.523100e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '17'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.387929e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 301, Column: 26 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.441729e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 297, Column: 18 }
+Function:        zgemv_
+Args:
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.523100e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '9'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.784799e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 261, Column: 22 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.600597e-02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 261, Column: 22 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.040239e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 273, Column: 22 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.600597e-02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 273, Column: 22 }
+Function:        zgemv_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.040239e-01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zgemv.f, Line: 159, Column: 1 }
+Function:        zgemv_
+Args:
+  - NumSpills:       '22'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.466169e+00'
+  - String:          ' total spills cost '
+  - NumFoldedSpills: '5'
+  - String:          ' folded spills '
+  - TotalFoldedSpillsCost: '1.847988e-02'
+  - String:          ' total folded spills cost '
+  - NumReloads:      '32'
+  - String:          ' reloads '
+  - TotalReloadsCost: '5.274218e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '22'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '8.555888e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '171'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.329404e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+Function:        zgemv_
+Args:
+  - NumStackBytes:   '136'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 159, Column: 24 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '40'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new23_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new28_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new29_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new25_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new27_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new30_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new32_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '22'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '52'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb24_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb33_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb33_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb34_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new139_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body142.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.500.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.821
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '21'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.500
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.820
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.819
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '63'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.820
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.821
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.501
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new31_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new33_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list35_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new69_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new70_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body72.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.630
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.629
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.630
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.631
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.492
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new107_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body110.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.168
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.495
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '20'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.168
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.642
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.641
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '59'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.642
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.643
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.496
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new83_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body86.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.574
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.573
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '17'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.574
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.490.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.490
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body163.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.497.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '30'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.697
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '23'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.497
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.696
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.695
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '66'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.696
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.697
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.498
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '20'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body78.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.586
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.585
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '51'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.586
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.587
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.491
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body125.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb39_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body125
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body125
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new130_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body132
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body93.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.529
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.528
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '53'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.529
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.489.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.489
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.515.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.883
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '21'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.515
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.882
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.881
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '59'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.882
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.883
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.502
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.503.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '28'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.759
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '23'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.503
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.758
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.757
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '62'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.758
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.759
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgemv.f, Line: 0, Column: 0 }
+Function:        zgemv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.499
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zgemv.f, Line: 159, Column: 0 }
+Function:        zgemv_
+Args:
+  - NumInstructions: '1233'
+  - String:          ' instructions in function'
+...

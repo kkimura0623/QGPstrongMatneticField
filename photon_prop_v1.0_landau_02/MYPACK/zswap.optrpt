@@ -1,0 +1,29 @@
+Global optimization report for : zswap_
+
+LOOP BEGIN at zswap.f (89, 10)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between zx (91:13) and zx (90:21) 
+    remark #15346: vector dependence: assumed FLOW dependence between zx (91:13) and zx (90:21) 
+    remark #15346: vector dependence: assumed FLOW dependence between zy (92:13) and zy (91:22) 
+    remark #15346: vector dependence: assumed FLOW dependence between zy (92:13) and zy (91:22) 
+LOOP END
+
+LOOP BEGIN at zswap.f (75, 10)
+    remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    remark #25439: Loop unrolled with remainder by 2
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+COMPILE FUNC: zswap_
+   -> DELETE: llvm.ssa.copy.i64 zswap.f (79,10)
+
+---- End Inlining Report ------

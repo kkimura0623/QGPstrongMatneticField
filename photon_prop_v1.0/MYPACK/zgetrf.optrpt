@@ -1,0 +1,57 @@
+Global optimization report for : zgetrf_
+
+LOOP BEGIN at zgetrf.f (177, 13)
+
+    LOOP BEGIN at zgetrf.f (189, 16)
+        remark #15300: LOOP WAS VECTORIZED
+        remark #15305: vectorization support: vector length 4
+    LOOP END
+
+    LOOP BEGIN at zgetrf.f (189, 16)
+    <Remainder loop for vectorization>
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: ilaenv_.t103p.t104p.t105p.t106p.t107p.t108p.t109p.t3v.t3v
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+DEAD STATIC FUNC: xerbla_.t81p.t82p.t3v
+
+DEAD STATIC FUNC: zgemm_.t279p.t280p.t281p.t282p.t283p.t284p.t285p.t286p.t287p.t288p.t289p.t290p.t291p.t3v.t3v
+
+DEAD STATIC FUNC: zgetf2_.t125p.t126p.t127p.t128p.t129p.t130p
+
+DEAD STATIC FUNC: zgetf2_.t149p.t150p.t151p.t152p.t153p.t154p
+
+DEAD STATIC FUNC: zlaswp_.t173p.t174p.t175p.t176p.t177p.t178p.t179p
+
+DEAD STATIC FUNC: zlaswp_.t197p.t198p.t199p.t200p.t201p.t202p.t203p
+
+DEAD STATIC FUNC: ztrsm_.t232p.t233p.t234p.t235p.t236p.t237p.t238p.t239p.t240p.t241p.t242p.t3v.t3v.t3v.t3v
+
+COMPILE FUNC: zgetrf_
+   -> llvm.smax.i32 zgetrf.f (152,23)
+   -> INLINE: xerbla_.t81p.t82p.t3v zgetrf.f (156,15)
+   -> INLINE: ilaenv_.t103p.t104p.t105p.t106p.t107p.t108p.t109p.t3v.t3v zgetrf.f (167,12)
+   -> llvm.smin.i32 zgetrf.f (168,30)
+   -> llvm.smin.i32 zgetrf.f (178,23)
+   -> llvm.smin.i32 zgetrf.f (178,18)
+   -> INLINE: zgetf2_.t149p.t150p.t151p.t152p.t153p.t154p zgetrf.f (183,18)
+   -> llvm.smin.i32 zgetrf.f (189,26)
+   -> INLINE: zlaswp_.t173p.t174p.t175p.t176p.t177p.t178p.t179p zgetrf.f (195,18)
+   -> INLINE: zgemm_.t279p.t280p.t281p.t282p.t283p.t284p.t285p.t286p.t287p.t288p.t289p.t290p.t291p.t3v.t3v zgetrf.f (213,24)
+   -> INLINE: zlaswp_.t197p.t198p.t199p.t200p.t201p.t202p.t203p zgetrf.f (201,21)
+   -> INLINE: ztrsm_.t232p.t233p.t234p.t235p.t236p.t237p.t238p.t239p.t240p.t241p.t242p.t3v.t3v.t3v.t3v zgetrf.f (206,21)
+   -> INLINE: zgetf2_.t125p.t126p.t127p.t128p.t129p.t130p zgetrf.f (172,15)
+   -> DELETE: llvm.ssa.copy.i64 zgetrf.f (189,16)
+
+---- End Inlining Report ------

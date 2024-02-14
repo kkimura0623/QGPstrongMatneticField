@@ -1,0 +1,184 @@
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zswap.f, Line: 51, Column: 1 }
+Function:        zswap_
+Args:
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.647059e-01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zswap.f, Line: 51, Column: 0 }
+Function:        zswap_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 51, Column: 24 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body7.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.66
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.65
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.66
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.67
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new14_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '23'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body20
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zswap.f, Line: 0, Column: 0 }
+Function:        zswap_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zswap.f, Line: 51, Column: 0 }
+Function:        zswap_
+Args:
+  - NumInstructions: '74'
+  - String:          ' instructions in function'
+...

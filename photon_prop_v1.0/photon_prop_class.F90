@@ -1,0 +1,443 @@
+!#define _ELECTRON_ONLY
+!#define _MUON_ONLY
+
+module photon_prop_class
+!
+!  Photn propagator class
+!
+  use constant_mod
+  use photon_pol_zero_b_class
+  use photon_pol_parallel_b_class
+  use photon_pol_below_th_class
+  use photon_pol_strong_b_class
+  use photon_pol_hi_class
+  implicit none
+  private
+  character(256) :: revision=_REVISION_
+
+  public :: set_limit_landau_level
+
+  public :: photon_propagator
+  public :: photon_vaccum_polarization_tensor
+  public :: POLTYPE_FUKUSHIMA
+  public :: POLTYPE_ITAKURA_N1
+  public :: POLTYPE_ITAKURA_N1N0
+  public :: POLTYPE_ITAKURA_FULL
+  public :: POLTYPE_NAME
+  protected :: POLTYPE_NAME
+
+  public :: PARTICLES_ELECTRON
+  public :: PARTICLES_MUON
+  public :: PARTICLES_ALL
+  public :: PARTICLE_NAME
+
+  integer, parameter ::  POLTYPE_FUKUSHIMA    = 0
+  integer, parameter ::  POLTYPE_ITAKURA_N1   = 1
+  integer, parameter ::  POLTYPE_ITAKURA_N1N0 = 2
+  integer, parameter ::  POLTYPE_ITAKURA_FULL = 3
+  integer, save :: m_pol_type = POLTYPE_ITAKURA_FULL
+  character(len=256), save :: POLTYPE_NAME(0:3) &
+ &   = ["   FUKUSHIMA","  ITAKURA_N1","ITAKURA_N1N0","ITAKURA_FULL"]
+
+  integer, parameter :: PARTICLES_ELECTRON = 10
+  integer, parameter :: PARTICLES_MUON     = 11
+  integer, parameter :: PARTICLES_ALL      = 12
+  integer, save :: m_particle_type = PARTICLES_ALL
+
+  integer, save :: status_mom
+
+contains
+
+character(len=256) function PARTICLE_NAME(id)
+  integer, intent(in) :: id
+  select case(id)
+  case(PARTICLES_ELECTRON)
+    PARTICLE_NAME = "ELECTRON"
+  case(PARTICLES_MUON)
+    PARTICLE_NAME = "MUON"
+  case(PARTICLES_ALL)
+    PARTICLE_NAME = "ELECTRON and MUON"
+  end select
+  return
+end function
+
+subroutine photon_propagator(Prop,qmom,eB,pol_type,particle_type,status)
+!
+! Compute Photon propagator with lower Lolentz indexes. (in Feynman Gauge)
+!
+!  Prop_{mu,nu} = -i/(q^2) ( g^{mu,nu} - Tensor^{mu,nu}/q^2 )^{-1}
+!
+! 1-loop effect from electron and muon is included.
+! pion/Kon or quark loops will/should be included.
+!
+! Prop : photon propagator
+! qmom : virtual photon momentum
+!   eB : external magnetic field strength (parallel to z)
+!
+!      pol_type : form factors type
+!                 0 Fukushima's lowest Landau level approx (N1 only)
+!                 1 Hattori-Itakura's  Landau level summation (N1 only)
+!                 2 Hattori-Itakura's  Landau level summation (N0 and N1 only)
+!                 3 Hattori-Itakura's  Landau level summation (FULL)
+!
+! partilce_type : particle contained in the loop
+!                 10 electron only
+!                 11 muon only
+!                 12 electron and muon
+!
+!   status : returns status of threshold in the computation
+!      status(1) : threashold condition for electrons,
+!                  1 for opens, -1 for closes, with the given 4-momenta.
+!      status(2) : threashold condition for muons,
+!                  1 for opens, -1 for closes, with the given 4-momenta.
+!
+  use physics_constsnt_mod
+  implicit none
+  complex(DP), intent(out) :: Prop(0:NDIM-1,0:NDIM-1)
+  real(DP),    intent(in)  :: qmom(0:NDIM-1)
+  real(DP),    intent(in)  :: eB
+  integer, optional, intent(in)  :: pol_type
+  integer, optional, intent(in)  :: particle_type
+  integer, optional, intent(out) :: status(2)
+  complex(DP) :: A(NDIM,NDIM),B(NDIM,NDIM)
+  complex(DP) :: PP(0:NDIM-1,0:NDIM-1),TT(0:NDIM-1,0:NDIM-1)
+  integer, parameter :: LWORK=NDIM*NDIM*2
+  integer :: IPIV(NDIM),INFO
+  integer :: i,j
+  complex(DP) :: WORK(LWORK)
+  real(DP) :: rtmp
+
+  Prop(:,:) = Z0
+  TT(:,:) = Z0
+
+  if (present(pol_type)) then
+    m_pol_type = pol_type
+  else
+    m_pol_type = POLTYPE_ITAKURA_FULL
+  endif
+
+  if (present(particle_type)) then
+    m_particle_type = particle_type
+  else
+    m_particle_type = PARTICLES_ALL
+  endif
+
+  select case(m_particle_type) 
+  case(PARTICLES_ELECTRON)
+
+    !-------------------------------------
+    ! compute electron loop contribution
+    !-------------------------------------
+    call photon_vaccum_polarization_tensor(TT,qmom,eB,MASS_ELECTRON)
+    if (present(status)) status(1) = status_mom
+    if (present(status)) status(2) = -1
+    PP(:,:) = TT(:,:)
+
+  case(PARTICLES_MUON)
+
+
+    !-------------------------------------
+    ! compute muon loop contribution
+    !-------------------------------------
+    call photon_vaccum_polarization_tensor(TT,qmom,eB,MASS_MUON)
+    if (present(status)) status(1) = -1
+    if (present(status)) status(2) = status_mom
+    PP(:,:) = TT(:,:)
+
+  case(PARTICLES_ALL)
+
+    !-------------------------------------
+    ! compute electron loop contribution
+    !-------------------------------------
+    call photon_vaccum_polarization_tensor(TT,qmom,eB,MASS_ELECTRON)
+    if (present(status)) status(1) = status_mom
+    PP(:,:) = TT(:,:)
+
+#ifdef _DEBUG
+    write(*,'("# ELECTRON")')
+    do i=0,NDIM-1
+      write(*,'(8E24.15)') (TT(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+#endif
+
+    !-------------------------------------
+    ! compute muon loop contribution
+    !-------------------------------------
+    call photon_vaccum_polarization_tensor(TT,qmom,eB,MASS_MUON)
+    if (present(status)) status(2) = status_mom
+    PP(:,:) = PP(:,:) + TT(:,:)
+
+#ifdef _DEBUG
+    write(*,'("# MUON")')
+    do i=0,NDIM-1
+      write(*,'(8E24.15)') (TT(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+#endif
+
+  end select
+
+  !-------------------------------------
+  ! matrix
+  !  TT = g^{mu,nu) - PP^{mu,nu}/qmom^2
+  !-------------------------------------
+  rtmp = qmom(0)**2 - qmom(1)**2 - qmom(2)**2 - qmom(3)**2
+  TT(:,:) = - PP(:,:)/rtmp
+  TT(0,0) = TT(0,0) + 1.0_DP
+  TT(1,1) = TT(1,1) - 1.0_DP
+  TT(2,2) = TT(2,2) - 1.0_DP
+  TT(3,3) = TT(3,3) - 1.0_DP
+
+#ifdef _DEBUG
+  write(*,'("# TOTAL")')
+  do i=0,NDIM-1
+    write(*,'(8E24.15)') (TT(i,j),j=0,NDIM-1)
+  enddo
+  write(*,*)
+#endif
+
+  !-------------------------------------
+  ! compute inverse TT^{-1}
+  ! B = A^{-1} = TT^{-1}
+  !-------------------------------------
+  A(:,:) = Z0
+  B(:,:) = Z0
+  do j=1,NDIM
+    B(j,j) = Z1
+    do i=1,NDIM
+      A(i,j) = TT(i-1,j-1)
+    enddo
+  enddo
+  call ZGESV(NDIM, NDIM, A, NDIM, IPIV, B, NDIM, INFO)
+  if (INFO /= 0) then
+    write(*,'("Stop by Photon propagator inversion (ZGESV) error: info=",I3)')INFO
+    stop
+  endif
+
+  !--------------------------------------------
+  ! Prop_{mu,nu} = -(I/q^2) (TT^{-1})_{mu,nu}
+  !--------------------------------------------
+  do j=0,NDIM-1
+  do i=0,NDIM-1
+    Prop(i,j) = -(ZJ/rtmp)*B(i+1,j+1)
+  enddo
+  enddo
+
+  return
+end subroutine
+
+subroutine photon_vaccum_polarization_tensor(Tensor,qmom,eB,mass)
+!
+! Return photon vaccum polarization tensor
+!                                                                 _
+!  Tensor^{mu,nu} = (P^{mu,nu} - P_para^{mu,nu} - P_perp^{mu,nu}) N0
+!                                   _
+!                  + P_para^{mu,nu} N1
+!                                   _
+!                  + P_perp^{mu,nu} N2
+!
+! Above threshold we use the Lowest Landau level approximation.
+!
+! Tensor : photon vaccum polarization tensor, Tensor^{\mu\nu}
+!      q : photon virtual 4-momentum  (natural unit [MeV])
+!     eB : Magnetic field strengs in z-direction with natural unit ([MeV^2])
+!   mass : virtual particle mass in the vacuum polarization  (ntatural unit [MeV])
+!
+  use physics_constsnt_mod
+  implicit none
+  complex(DP), intent(inout) :: Tensor(0:NDIM-1,0:NDIM-1)
+  real(DP),    intent(in)    :: qmom(0:NDIM-1)
+  real(DP),    intent(in)    :: eB, mass
+
+  real(DP) :: ProjectionOP(0:NDIM-1,0:NDIM-1,0:3)
+  complex(DP) :: cn0,cn1,cn2
+  integer :: i,j
+  real(DP) :: rn0,rn1,rn2
+  real(DP) :: rtmp0,rtmp1
+  real(DP) :: mu,r,q
+
+
+  !================================================================================
+  ! convert dimension full parameters to dimensionless parameters
+  !================================================================================
+
+  !---------------------------------
+  ! z-parallel direction (Minkowski)
+  !
+  ! r = q_parallel^2/(2*m)^2
+  !---------------------------------
+  r = ( qmom(0)**2 - qmom(3)**2 )/((2*mass)**2)
+
+  !---------------------------------
+  ! x-y-direction  (spatial,Euclid)
+  !
+  ! q = (q_x^2 + q_y^2)/(2*m)^2
+  !---------------------------------
+  q = (qmom(1)**2 + qmom(2)**2)/((2*mass)**2)
+
+  !---------------------------------
+  ! Magnetic Field Strength
+  !
+  !  mu = eB/m^2
+  !---------------------------------
+  mu = eB/(mass**2)
+
+  !================================================================================
+  ! Compute Projection operator
+  !
+  ! Proj_0^{mu,nu} = g^{mu,nu} q^2 - q^mu q^n
+  !
+  ! Proj_1^{mu,nu} = g_para^{mu,nu} q_para^2 - q_para^mu q_para^nu
+  !
+  ! Proj_2^{mu,nu} = g_perp^{mu,nu} q_perp^2 - q_perp^mu q_perp^nu
+  !
+  ! Proj_3^{mu,nu} = Proj_0^{mu,nu} - Proj_1^{mu,nu} - Proj_2^{mu,nu}
+  !
+  !================================================================================
+  !---------
+  ! clear
+  !---------
+  ProjectionOP(0:NDIM-1,0:NDIM-1,0:3) = 0.0_DP
+
+  !---------------------------------------
+  ! full proj
+  !
+  !  g^{mu,nu} k^2  - k^mu k^nu
+  !---------------------------------------
+  rtmp0 = qmom(0)**2 - qmom(1)**2 - qmom(2)**2 - qmom(3)**2
+  do j=0,NDIM-1
+  do i=0,NDIM-1
+    ProjectionOP(i,j,0) = - qmom(i)*qmom(j)
+  enddo
+  enddo
+  ProjectionOP(0,0,0) = ProjectionOP(0,0,0) + rtmp0
+  ProjectionOP(1,1,0) = ProjectionOP(1,1,0) - rtmp0
+  ProjectionOP(2,2,0) = ProjectionOP(2,2,0) - rtmp0
+  ProjectionOP(3,3,0) = ProjectionOP(3,3,0) - rtmp0
+
+  !---------------------
+  ! parallel proj
+  !---------------------
+  rtmp0 = qmom(0)**2 - qmom(3)**2
+  ProjectionOP(0,0,1) =  rtmp0 - qmom(0)*qmom(0)
+  ProjectionOP(0,3,1) =        - qmom(0)*qmom(3)
+  ProjectionOP(3,0,1) =        - qmom(3)*qmom(0)
+  ProjectionOP(3,3,1) = -rtmp0 - qmom(3)*qmom(3)
+
+  !---------------------
+  ! perpendicular proj
+  !---------------------
+  rtmp1 = - qmom(1)**2 - qmom(2)**2
+  ProjectionOP(1,1,2) = -rtmp1 - qmom(1)*qmom(1)
+  ProjectionOP(1,2,2) =        - qmom(1)*qmom(2)
+  ProjectionOP(2,1,2) =        - qmom(2)*qmom(1)
+  ProjectionOP(2,2,2) = -rtmp1 - qmom(2)*qmom(2)
+
+  !---------------------
+  ! difference proj
+  !---------------------
+  ProjectionOP(:,:,3) = ProjectionOP(:,:,0) - ProjectionOP(:,:,1) - ProjectionOP(:,:,2) 
+
+  !====================================================================
+  ! Compute Vaccum polarization Tensor
+  !====================================================================
+
+  !-------------------------------------------
+  ! Check for Zero eB
+  !-------------------------------------------
+  if ( abs(eB) < EPSILON(1.0_DP)*10 ) then
+
+    call set_param_zero_b(r-q)
+    cn1 = N1_zero_b()
+    Tensor(:,:) = ProjectionOP(:,:,0)*cn1
+
+    Tensor(:,:) = Tensor(:,:)*ALPHA
+
+    return
+
+  endif
+
+  !-------------------------------------------
+  ! Check and branch by Threshold condition
+  !-------------------------------------------
+  if ( r > 1.0_DP ) then
+
+    !---------------------------------------
+    ! Threshold opens
+    !---------------------------------------
+    status_mom = 1
+
+    select case(m_pol_type)
+    case (POLTYPE_FUKUSHIMA)
+
+      !--------------------------------------------
+      ! Use Fukushima's LLL-Approximation Formula
+      ! N1 only contributes
+      !--------------------------------------------
+      cn1 = N1_strong_b(r=r,q=q,mu=mu)
+      Tensor(:,:) = ProjectionOP(:,:,1)*cn1
+
+    case (POLTYPE_ITAKURA_N1)
+
+      !--------------------------------------------
+      ! Use Hattori-Itakura Formula
+      ! with N1 only
+      !--------------------------------------------
+      cn1 = n1d_v3(r,q,mu)
+      Tensor(:,:) = ProjectionOP(:,:,1)*cn1
+
+    case (POLTYPE_ITAKURA_N1N0)
+
+      !--------------------------------------------
+      ! Use Hattori-Itakura Formula
+      ! with N0 and N1 only
+      !--------------------------------------------
+      cn1 = n1d_v3(r,q,mu)
+      cn0 = n0d_v3(r,q,mu)
+      Tensor(:,:) = ProjectionOP(:,:,3)*cn0 &
+ &                + ProjectionOP(:,:,1)*cn1
+
+    case (POLTYPE_ITAKURA_FULL)
+
+      !--------------------------------------------
+      ! Use All Hattori-Itakura Formula
+      !--------------------------------------------
+      cn0 = n0d_v3(r,q,mu)
+      cn1 = n1d_v3(r,q,mu)
+      cn2 = n2d_v3(r,q,mu)
+      Tensor(:,:) = ProjectionOP(:,:,3)*cn0 &
+ &                + ProjectionOP(:,:,1)*cn1 &
+ &                + ProjectionOP(:,:,2)*cn2
+
+    end select
+
+  else
+    !---------------------------------------
+    ! Threshold closes
+    !---------------------------------------
+    status_mom = 0
+
+    !--------------------------------------------
+    ! Use Full exact formula below threashold
+    !--------------------------------------------
+    rn0 = N0_below_th(r=r,q=q,mu=mu)
+    rn1 = N1_below_th(r=r,q=q,mu=mu)
+    rn2 = N2_below_th(r=r,q=q,mu=mu)
+
+    Tensor(:,:) = ProjectionOP(:,:,3)*rn0   &
+ &              + ProjectionOP(:,:,1)*rn1   &
+ &              + ProjectionOP(:,:,2)*rn2
+
+  endif
+
+  !-------------------------------------------
+  ! Multiply Fine structure constant (alpha)
+  !-------------------------------------------
+
+  Tensor(:,:) = Tensor(:,:)*ALPHA
+
+  return
+end subroutine
+
+end module

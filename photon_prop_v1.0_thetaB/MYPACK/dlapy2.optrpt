@@ -1,0 +1,22 @@
+Global optimization report for : dlapy2_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+COMPILE FUNC: dlapy2_
+   -> llvm.fabs.f64 dlapy2.f (91,14)
+   -> llvm.fabs.f64 dlapy2.f (92,14)
+   -> llvm.experimental.constrained.fcmp.f64 dlapy2.f (93,11)
+   -> llvm.experimental.constrained.fcmp.f64 dlapy2.f (94,11)
+   -> llvm.experimental.constrained.fcmp.f64 dlapy2.f (95,12)
+   -> llvm.experimental.constrained.fdiv.f64 dlapy2.f (98,35)
+   -> llvm.experimental.constrained.fmul.f64 dlapy2.f (98,40)
+   -> llvm.experimental.constrained.fadd.f64 dlapy2.f (98,30)
+   -> llvm.experimental.constrained.fmul.f64 dlapy2.f (98,20)
+
+---- End Inlining Report ------

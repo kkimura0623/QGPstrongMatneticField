@@ -1,0 +1,40 @@
+Global optimization report for : zcopy_
+
+LOOP BEGIN at zcopy.f (87, 10)
+    remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at zcopy.f (87, 10)
+<Remainder loop>
+LOOP END
+
+LOOP BEGIN at zcopy.f (75, 10)
+    remark #15335: loop was not vectorized: vectorization possible but seems inefficient. Use vector always directive or -vec-threshold0 to override 
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at zcopy.f (77, 10)
+<Remainder loop>
+    remark #25585: Loop converted to switch
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: llvm.ssa.copy.i32
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+COMPILE FUNC: zcopy_
+   -> DELETE: llvm.ssa.copy.i64 zcopy.f (77,10)
+   -> DELETE: llvm.ssa.copy.i32 zcopy.f (91,10)
+   -> DELETE: llvm.ssa.copy.i64 zcopy.f (89,21)
+   -> DELETE: llvm.ssa.copy.i64 zcopy.f (90,21)
+
+---- End Inlining Report ------

@@ -1,0 +1,329 @@
+Global optimization report for : zhetrs_
+
+LOOP BEGIN at zhetrs.f (201, 23)
+
+    LOOP BEGIN at zhetrs.f (246, 16)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zhetrs.f (271, 23)
+LOOP END
+
+LOOP BEGIN at zhetrs.f (335, 15)
+
+    LOOP BEGIN at zhetrs.f (386, 16)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zhetrs.f (411, 23)
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: lsame_.t105p.t106p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t115p.t116p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t131p.t132p.t3v
+
+DEAD STATIC FUNC: zdscal_.t202p.t203p.t204p.t205p
+
+DEAD STATIC FUNC: zdscal_.t763p.t764p.t765p.t766p
+
+DEAD STATIC FUNC: zgemv_.t1087p.t1088p.t1089p.t1090p.t1091p.t1092p.t1093p.t1094p.t1095p.t1096p.t1097p.t3v
+
+DEAD STATIC FUNC: zgemv_.t1165p.t1166p.t1167p.t1168p.t1169p.t1170p.t1171p.t1172p.t1173p.t1174p.t1175p.t3v
+
+DEAD STATIC FUNC: zgemv_.t1225p.t1226p.t1227p.t1228p.t1229p.t1230p.t1231p.t1232p.t1233p.t1234p.t1235p.t3v
+
+DEAD STATIC FUNC: zgemv_.t521p.t522p.t523p.t524p.t525p.t526p.t527p.t528p.t529p.t530p.t531p.t3v
+
+DEAD STATIC FUNC: zgemv_.t597p.t598p.t599p.t600p.t601p.t602p.t603p.t604p.t605p.t606p.t607p.t3v
+
+DEAD STATIC FUNC: zgemv_.t656p.t657p.t658p.t659p.t660p.t661p.t662p.t663p.t664p.t665p.t666p.t3v
+
+DEAD STATIC FUNC: zgeru_.t177p.t178p.t179p.t180p.t181p.t182p.t183p.t184p.t185p
+
+DEAD STATIC FUNC: zgeru_.t246p.t247p.t248p.t249p.t250p.t251p.t252p.t253p.t254p
+
+DEAD STATIC FUNC: zgeru_.t278p.t279p.t280p.t281p.t282p.t283p.t284p.t285p.t286p
+
+DEAD STATIC FUNC: zgeru_.t738p.t739p.t740p.t741p.t742p.t743p.t744p.t745p.t746p
+
+DEAD STATIC FUNC: zgeru_.t809p.t810p.t811p.t812p.t813p.t814p.t815p.t816p.t817p
+
+DEAD STATIC FUNC: zgeru_.t842p.t843p.t844p.t845p.t846p.t847p.t848p.t849p.t850p
+
+DEAD STATIC FUNC: zlacgv_.t1055p.t1056p.t1057p
+
+DEAD STATIC FUNC: zlacgv_.t1105p.t1106p.t1107p
+
+DEAD STATIC FUNC: zlacgv_.t1133p.t1134p.t1135p
+
+DEAD STATIC FUNC: zlacgv_.t1183p.t1184p.t1185p
+
+DEAD STATIC FUNC: zlacgv_.t1193p.t1194p.t1195p
+
+DEAD STATIC FUNC: zlacgv_.t1243p.t1244p.t1245p
+
+DEAD STATIC FUNC: zlacgv_.t490p.t491p.t492p
+
+DEAD STATIC FUNC: zlacgv_.t539p.t540p.t541p
+
+DEAD STATIC FUNC: zlacgv_.t566p.t567p.t568p
+
+DEAD STATIC FUNC: zlacgv_.t615p.t616p.t617p
+
+DEAD STATIC FUNC: zlacgv_.t625p.t626p.t627p
+
+DEAD STATIC FUNC: zlacgv_.t674p.t675p.t676p
+
+DEAD STATIC FUNC: zswap_.t1120p.t1121p.t1122p.t1123p.t1124p
+
+DEAD STATIC FUNC: zswap_.t1258p.t1259p.t1260p.t1261p.t1262p
+
+DEAD STATIC FUNC: zswap_.t149p.t150p.t151p.t152p.t153p
+
+DEAD STATIC FUNC: zswap_.t218p.t219p.t220p.t221p.t222p
+
+DEAD STATIC FUNC: zswap_.t554p.t555p.t556p.t557p.t558p
+
+DEAD STATIC FUNC: zswap_.t689p.t690p.t691p.t692p.t693p
+
+DEAD STATIC FUNC: zswap_.t708p.t709p.t710p.t711p.t712p
+
+DEAD STATIC FUNC: zswap_.t779p.t780p.t781p.t782p.t783p
+
+COMPILE FUNC: zhetrs_
+   -> INLINE: lsame_.t105p.t106p.t3v.t3v zhetrs.f (162,15)
+   -> INLINE: lsame_.t115p.t116p.t3v.t3v zhetrs.f (163,33)
+   -> llvm.smax.i32 zhetrs.f (169,23)
+   -> INLINE: xerbla_.t131p.t132p.t3v zhetrs.f (175,15)
+   -> INLINE: zswap_.t149p.t150p.t151p.t152p.t153p zhetrs.f (209,16)
+   -> INLINE: zgeru_.t177p.t178p.t179p.t180p.t181p.t182p.t183p.t184p.t185p zhetrs.f (214,18)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (219,29)
+   -> INLINE: zdscal_.t202p.t203p.t204p.t205p zhetrs.f (220,18)
+   -> INLINE: zswap_.t218p.t219p.t220p.t221p.t222p zhetrs.f (230,16)
+   -> INLINE: zgeru_.t246p.t247p.t248p.t249p.t250p.t251p.t252p.t253p.t254p zhetrs.f (235,18)
+   -> INLINE: zgeru_.t278p.t279p.t280p.t281p.t282p.t283p.t284p.t285p.t286p zhetrs.f (237,18)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (243,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (244,28)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (245,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (245,25)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (245,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (245,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (245,25)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (245,25)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (245,29)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (245,29)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (247,35)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (248,31)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,34)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (249,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,34)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (249,34)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (249,39)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (249,39)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (249,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,34)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (250,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,34)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,34)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (250,34)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (250,37)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (250,37)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (250,45)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (250,45)
+   -> INLINE: zlacgv_.t490p.t491p.t492p zhetrs.f (279,21)
+   -> INLINE: zgemv_.t521p.t522p.t523p.t524p.t525p.t526p.t527p.t528p.t529p.t530p.t531p.t3v zhetrs.f (280,21)
+   -> INLINE: zlacgv_.t539p.t540p.t541p zhetrs.f (282,21)
+   -> INLINE: zswap_.t554p.t555p.t556p.t557p.t558p zhetrs.f (289,16)
+      -> DELETE: zswap_ zhetrs.f
+   -> INLINE: zlacgv_.t566p.t567p.t568p zhetrs.f (299,21)
+   -> INLINE: zgemv_.t597p.t598p.t599p.t600p.t601p.t602p.t603p.t604p.t605p.t606p.t607p.t3v zhetrs.f (300,21)
+   -> INLINE: zlacgv_.t615p.t616p.t617p zhetrs.f (302,21)
+   -> INLINE: zlacgv_.t625p.t626p.t627p zhetrs.f (304,21)
+   -> INLINE: zgemv_.t656p.t657p.t658p.t659p.t660p.t661p.t662p.t663p.t664p.t665p.t666p.t3v zhetrs.f (305,21)
+   -> INLINE: zlacgv_.t674p.t675p.t676p zhetrs.f (307,21)
+   -> INLINE: zswap_.t689p.t690p.t691p.t692p.t693p zhetrs.f (314,16)
+   -> INLINE: zswap_.t708p.t709p.t710p.t711p.t712p zhetrs.f (346,16)
+   -> INLINE: zgeru_.t738p.t739p.t740p.t741p.t742p.t743p.t744p.t745p.t746p zhetrs.f (352,16)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (357,29)
+   -> INLINE: zdscal_.t763p.t764p.t765p.t766p zhetrs.f (358,18)
+   -> INLINE: zswap_.t779p.t780p.t781p.t782p.t783p zhetrs.f (368,16)
+   -> INLINE: zgeru_.t809p.t810p.t811p.t812p.t813p.t814p.t815p.t816p.t817p zhetrs.f (374,21)
+   -> INLINE: zgeru_.t842p.t843p.t844p.t845p.t846p.t847p.t848p.t849p.t850p zhetrs.f (376,21)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (383,30)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (384,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (385,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (385,25)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (385,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (385,25)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (385,25)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (385,25)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (385,29)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (385,29)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (387,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (388,33)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,32)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (389,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,32)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,32)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (389,32)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (389,37)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (389,37)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (389,43)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,36)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (390,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,36)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,36)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (390,36)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (390,39)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (390,39)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fadd.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fmul.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fsub.f64 zhetrs.f (390,47)
+   -> llvm.experimental.constrained.fdiv.f64 zhetrs.f (390,47)
+   -> INLINE: zlacgv_.t1055p.t1056p.t1057p zhetrs.f (419,21)
+   -> INLINE: zgemv_.t1087p.t1088p.t1089p.t1090p.t1091p.t1092p.t1093p.t1094p.t1095p.t1096p.t1097p.t3v zhetrs.f (420,21)
+   -> INLINE: zlacgv_.t1105p.t1106p.t1107p zhetrs.f (423,21)
+   -> INLINE: zswap_.t1120p.t1121p.t1122p.t1123p.t1124p zhetrs.f (430,16)
+      -> DELETE: zswap_ zhetrs.f
+   -> INLINE: zlacgv_.t1133p.t1134p.t1135p zhetrs.f (440,21)
+   -> INLINE: zgemv_.t1165p.t1166p.t1167p.t1168p.t1169p.t1170p.t1171p.t1172p.t1173p.t1174p.t1175p.t3v zhetrs.f (441,21)
+   -> INLINE: zlacgv_.t1183p.t1184p.t1185p zhetrs.f (444,21)
+   -> INLINE: zlacgv_.t1193p.t1194p.t1195p zhetrs.f (446,21)
+   -> INLINE: zgemv_.t1225p.t1226p.t1227p.t1228p.t1229p.t1230p.t1231p.t1232p.t1233p.t1234p.t1235p.t3v zhetrs.f (447,21)
+   -> INLINE: zlacgv_.t1243p.t1244p.t1245p zhetrs.f (450,21)
+   -> INLINE: zswap_.t1258p.t1259p.t1260p.t1261p.t1262p zhetrs.f (457,16)
+
+---- End Inlining Report ------

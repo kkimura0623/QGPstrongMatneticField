@@ -1,0 +1,681 @@
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+Function:        zlacgv_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zlacgv.f, Line: 108, Column: 33 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zlacgv.f, Line: 75, Column: 1 }
+Function:        zlacgv_
+Args:
+  - NumVRCopies:     '13'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.235294e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zlacgv.f, Line: 75, Column: 0 }
+Function:        zlacgv_
+Args:
+  - NumStackBytes:   '8'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 75, Column: 26 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new3_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body4.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.61
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.60
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '27'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.61
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.61
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.80
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.83
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.87
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.91
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.95
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.99
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      hir.L.103
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new9_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body12.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.40
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.39
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '33'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.40
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.34.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.34
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zlacgv.f, Line: 0, Column: 0 }
+Function:        zlacgv_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb6_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zlacgv.f, Line: 75, Column: 0 }
+Function:        zlacgv_
+Args:
+  - NumInstructions: '161'
+  - String:          ' instructions in function'
+...

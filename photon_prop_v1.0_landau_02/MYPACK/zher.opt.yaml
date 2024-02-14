@@ -1,0 +1,1458 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        lsame_.t88p.t89p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t88p.t89p.t3v.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        lsame_.t88p.t89p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t88p.t89p.t3v.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        lsame_.t98p.t99p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t98p.t99p.t3v.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        lsame_.t98p.t99p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t98p.t99p.t3v.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        xerbla_.t110p.t111p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t110p.t111p.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        xerbla_.t110p.t111p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t110p.t111p.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        lsame_.t126p.t127p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t126p.t127p.t3v.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        lsame_.t126p.t127p.t3v.t3v
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          lsame_.t126p.t127p.t3v.t3v
+    DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zher.f, Line: 176, Column: 16 }
+Function:        zher_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t88p.t89p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zher_
+  - String:          ':'
+  - Line:            '40'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zher.f, Line: 176, Column: 43 }
+Function:        zher_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t98p.t99p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zher_
+  - String:          ':'
+  - Line:            '40'
+  - String:          ':'
+  - Column:          '43'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zher.f, Line: 186, Column: 16 }
+Function:        zher_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t110p.t111p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zher_
+  - String:          ':'
+  - Line:            '50'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zher.f, Line: 206, Column: 11 }
+Function:        zher_
+Args:
+  - String:          ''''
+  - Callee:          lsame_.t126p.t127p.t3v.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '0'
+  - String:          ', threshold='
+  - Threshold:       '45'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zher_
+  - String:          ':'
+  - Line:            '70'
+  - String:          ':'
+  - Column:          '11'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - Callee:          lsame_
+  - String:          ' will not be inlined into '
+  - Caller:          zher_
+    DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 27 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zher.f, Line: 229, Column: 27 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 27 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zher.f, Line: 229, Column: 27 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 215, Column: 27 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zher.f, Line: 215, Column: 27 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zher.f, Line: 185, Column: 7 }
+Function:        zher_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  ''
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 262, Column: 26 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zher.f, Line: 262, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 248, Column: 26 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            zext
+    DebugLoc:        { File: zher.f, Line: 248, Column: 26 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 36 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zher.f, Line: 229, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 36 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zher.f, Line: 229, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            add
+    DebugLoc:        { File: zher.f, Line: 229, Column: 45 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+Function:        zher_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zher.f, Line: 215, Column: 36 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 248, Column: 26 }
+Function:        zher_
+Args:
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.253435e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 244, Column: 18 }
+Function:        zher_
+Args:
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.908397e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '15'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.158779e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 262, Column: 26 }
+Function:        zher_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.253435e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 257, Column: 18 }
+Function:        zher_
+Args:
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.893130e-01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '2'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.893130e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '10'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.719084e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 214, Column: 26 }
+Function:        zher_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.250687e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 214, Column: 26 }
+Function:        zher_
+Args:
+  - NumVRCopies:     '3'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.690076e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 211, Column: 18 }
+Function:        zher_
+Args:
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '3.908397e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '23'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.934657e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 228, Column: 26 }
+Function:        zher_
+Args:
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.247328e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 224, Column: 18 }
+Function:        zher_
+Args:
+  - NumReloads:      '4'
+  - String:          ' reloads '
+  - TotalReloadsCost: '4.335878e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '21'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.908397e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zher.f, Line: 136, Column: 1 }
+Function:        zher_
+Args:
+  - NumSpills:       '5'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.546565e+00'
+  - String:          ' total spills cost '
+  - NumFoldedSpills: '1'
+  - String:          ' folded spills '
+  - TotalFoldedSpillsCost: '4.732824e-02'
+  - String:          ' total folded spills cost '
+  - NumReloads:      '22'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.722137e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '3'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '5.847328e-01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '85'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.037100e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+Function:        zher_
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 136, Column: 23 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '32'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new17_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new18_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new20_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new22_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new23_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new19_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new21_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list25_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 192, Column: 13 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb14_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb14_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb16_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new78_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body80.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      else.314
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.314
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.400
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.314
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '24'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.340
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.485
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.484
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '31'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.485
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.486
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '17'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new44_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body46.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      else.117
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.117
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.396
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.117
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      else.128
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.433
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.432
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '59'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.433
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.434
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.397
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.128
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.128
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body94.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '19'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new108_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb25_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body94
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body94
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new99_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '25'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new99_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body102
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '20'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body62.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '18'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      else.12
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.12
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.394
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '22'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.12
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      else.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.404
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.403
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '32'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.404
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.405
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '25'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.404.ifmerge.405_crit_edge
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zher.f, Line: 0, Column: 0 }
+Function:        zher_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.24
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zher.f, Line: 136, Column: 0 }
+Function:        zher_
+Args:
+  - NumInstructions: '626'
+  - String:          ' instructions in function'
+...

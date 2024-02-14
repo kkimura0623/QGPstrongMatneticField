@@ -1,0 +1,1723 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        xerbla_.t78p.t79p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t78p.t79p.t3v
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        xerbla_.t78p.t79p.t3v
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          xerbla_.t78p.t79p.t3v
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        dlamch_.t87p.t3v
+Args:
+  - Callee:          dlamch_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_.t87p.t3v
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        dlamch_.t87p.t3v
+Args:
+  - Callee:          dlamch_
+  - String:          ' will not be inlined into '
+  - Caller:          dlamch_.t87p.t3v
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        izamax_.t98p.t99p.t100p
+Args:
+  - Callee:          izamax_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_.t98p.t99p.t100p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        izamax_.t98p.t99p.t100p
+Args:
+  - Callee:          izamax_
+  - String:          ' will not be inlined into '
+  - Caller:          izamax_.t98p.t99p.t100p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zswap_.t121p.t122p.t123p.t124p.t125p
+Args:
+  - Callee:          zswap_
+  - String:          ' will not be inlined into '
+  - Caller:          zswap_.t121p.t122p.t123p.t124p.t125p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zswap_.t121p.t122p.t123p.t124p.t125p
+Args:
+  - Callee:          zswap_
+  - String:          ' will not be inlined into '
+  - Caller:          zswap_.t121p.t122p.t123p.t124p.t125p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zscal_.t160p.t161p.t162p.t163p
+Args:
+  - Callee:          zscal_
+  - String:          ' will not be inlined into '
+  - Caller:          zscal_.t160p.t161p.t162p.t163p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zscal_.t160p.t161p.t162p.t163p
+Args:
+  - Callee:          zscal_
+  - String:          ' will not be inlined into '
+  - Caller:          zscal_.t160p.t161p.t162p.t163p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p
+Args:
+  - Callee:          zgeru_
+  - String:          ' will not be inlined into '
+  - Caller:          zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p
+Args:
+  - Callee:          zgeru_
+  - String:          ' will not be inlined into '
+  - Caller:          zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 20 }
+Function:        zgetf2_
+Args:
+  - Callee:          hypot
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 20 }
+Function:        zgetf2_
+Args:
+  - Callee:          hypot
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetf2.f, Line: 159, Column: 15 }
+Function:        zgetf2_
+Args:
+  - String:          ''''
+  - Callee:          xerbla_.t78p.t79p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetf2_
+  - String:          ':'
+  - Line:            '50'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetf2.f, Line: 170, Column: 15 }
+Function:        zgetf2_
+Args:
+  - String:          ''''
+  - Callee:          dlamch_.t87p.t3v
+  - String:          ''' inlined into '''
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetf2_
+  - String:          ':'
+  - Line:            '61'
+  - String:          ':'
+  - Column:          '15'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetf2.f, Line: 176, Column: 23 }
+Function:        zgetf2_
+Args:
+  - String:          ''''
+  - Callee:          izamax_.t98p.t99p.t100p
+  - String:          ''' inlined into '''
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetf2_
+  - String:          ':'
+  - Line:            '67'
+  - String:          ':'
+  - Column:          '23'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetf2.f, Line: 183, Column: 16 }
+Function:        zgetf2_
+Args:
+  - String:          ''''
+  - Callee:          zswap_.t121p.t122p.t123p.t124p.t125p
+  - String:          ''' inlined into '''
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetf2_
+  - String:          ':'
+  - Line:            '74'
+  - String:          ':'
+  - Column:          '16'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetf2.f, Line: 189, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          ''''
+  - Callee:          zscal_.t160p.t161p.t162p.t163p
+  - String:          ''' inlined into '''
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetf2_
+  - String:          ':'
+  - Line:            '80'
+  - String:          ':'
+  - Column:          '24'
+  - String:          ';'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: zgetf2.f, Line: 206, Column: 18 }
+Function:        zgetf2_
+Args:
+  - String:          ''''
+  - Callee:          zgeru_.t213p.t214p.t215p.t216p.t217p.t218p.t219p.t220p.t221p
+  - String:          ''' inlined into '''
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '-15000'
+  - String:          ', threshold='
+  - Threshold:       '337'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          zgetf2_
+  - String:          ':'
+  - Line:            '97'
+  - String:          ':'
+  - Column:          '18'
+  - String:          ';'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          dlamch_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          izamax_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          zswap_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          zscal_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 20 }
+Function:        zgetf2_
+Args:
+  - Callee:          hypot
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          zgeru_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          xerbla_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          dlamch_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          izamax_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          zswap_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          zscal_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 20 }
+Function:        zgetf2_
+Args:
+  - Callee:          hypot
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - Callee:          zgeru_
+  - String:          ' will not be inlined into '
+  - Caller:          zgetf2_
+    DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 197, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            PromoteLoopAccessesToScalar
+DebugLoc:        { File: zgetf2.f, Line: 199, Column: 13 }
+Function:        zgetf2_
+Args:
+  - String:          Moving accesses to memory location out of the loop
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgetf2.f, Line: 183, Column: 28 }
+Function:        zgetf2_
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: zgetf2.f, Line: 183, Column: 28 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgetf2.f, Line: 189, Column: 40 }
+Function:        zgetf2_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgetf2.f, Line: 189, Column: 40 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zgetf2.f, Line: 189, Column: 40 }
+Function:        zgetf2_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zgetf2.f, Line: 189, Column: 40 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zgetf2.f, Line: 172, Column: 7 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  ''
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  load
+    DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: zgetf2.f, Line: 192, Column: 50 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  load
+    DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 178, Column: 14 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 188, Column: 24 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: zgetf2.f, Line: 153, Column: 7 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: zgetf2.f, Line: 172, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: zgetf2.f, Line: 202, Column: 10 }
+Function:        zgetf2_
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgetf2.f, Line: 191, Column: 22 }
+Function:        zgetf2_
+Args:
+  - NumVRCopies:     '16'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.320988e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgetf2.f, Line: 191, Column: 22 }
+Function:        zgetf2_
+Args:
+  - NumVRCopies:     '4'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.580247e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zgetf2.f, Line: 172, Column: 10 }
+Function:        zgetf2_
+Args:
+  - NumSpills:       '4'
+  - String:          ' spills '
+  - TotalSpillsCost: '5.308642e+00'
+  - String:          ' total spills cost '
+  - NumFoldedSpills: '2'
+  - String:          ' folded spills '
+  - TotalFoldedSpillsCost: '6.296296e+00'
+  - String:          ' total folded spills cost '
+  - NumReloads:      '28'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.797531e+01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '6'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.061728e+01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '34'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.358024e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zgetf2.f, Line: 109, Column: 1 }
+Function:        zgetf2_
+Args:
+  - NumSpills:       '16'
+  - String:          ' spills '
+  - TotalSpillsCost: '9.197530e+00'
+  - String:          ' total spills cost '
+  - NumFoldedSpills: '3'
+  - String:          ' folded spills '
+  - TotalFoldedSpillsCost: '6.382716e+00'
+  - String:          ' total folded spills cost '
+  - NumReloads:      '30'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.814815e+01'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '6'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.061728e+01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '38'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.538271e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+Function:        zgetf2_
+Args:
+  - NumStackBytes:   '216'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 109, Column: 26 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new7_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new9_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new9_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new7_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list12_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb7_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb9_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '25'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb20_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body27
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '32'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body27
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new65_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new66_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new42_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list43_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb12_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new50_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list53_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '33'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb12_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new59_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body60.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.32
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.31
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '79'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.32
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.33
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.29
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '22'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new59_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb18_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zgetf2.f, Line: 0, Column: 0 }
+Function:        zgetf2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list68_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '28'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zgetf2.f, Line: 109, Column: 0 }
+Function:        zgetf2_
+Args:
+  - NumInstructions: '342'
+  - String:          ' instructions in function'
+...

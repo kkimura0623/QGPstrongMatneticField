@@ -1,0 +1,178 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: OUTPUT_TEST
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (OUTPUT_TEST) [1] output_test.F90(1,9)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at output_test.F90(76,5)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at output_test.F90(93,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between at (94:3) and at (94:3)
+   remark #25436: completely unrolled by 4  
+LOOP END
+
+LOOP BEGIN at output_test.F90(98,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed OUTPUT dependence between at (99:3) and at (99:3)
+   remark #25436: completely unrolled by 4  
+LOOP END
+
+LOOP BEGIN at output_test.F90(103,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+   remark #25436: completely unrolled by 4  
+
+   LOOP BEGIN at output_test.F90(104,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between at (104:3) and at (104:3)
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(104,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(104,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between at (104:3) and at (104:3)
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(104,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(104,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(104,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(104,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output_test.F90(108,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+   remark #25436: completely unrolled by 4  
+
+   LOOP BEGIN at output_test.F90(109,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between at (109:3) and at (109:3)
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(109,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(109,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between at (109:3) and at (109:3)
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(109,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(109,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(109,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(109,3)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at output_test.F90(113,3)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+   remark #25436: completely unrolled by 4  
+
+   LOOP BEGIN at output_test.F90(114,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between at (114:3) and at (114:3)
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(114,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(114,3)
+      remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+      remark #15346: vector dependence: assumed OUTPUT dependence between at (114:3) and at (114:3)
+      remark #25436: completely unrolled by 4  
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(114,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(114,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(114,3)
+   LOOP END
+
+   LOOP BEGIN at output_test.F90(114,3)
+   LOOP END
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at output_test.F90(118,2)
+   remark #15543: loop was not vectorized: loop with function call not considered an optimization candidate.
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+output_test.F90(1,9):remark #34051: REGISTER ALLOCATION : [_MAIN__] output_test.F90:1
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   26[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm7 zmm0-zmm3]
+        
+    Routine temporaries
+        Total         :    1029
+            Global    :      81
+            Local     :     948
+        Regenerable   :     835
+        Spilled       :       6
+        
+    Routine stack
+        Variables     :    3176 bytes*
+            Reads     :     125 [6.54e+02 ~ 10.2%]
+            Writes    :     253 [1.08e+03 ~ 17.0%]
+        Spills        :      16 bytes*
+            Reads     :       1 [5.44e+00 ~ 0.1%]
+            Writes    :       1 [1.00e+00 ~ 0.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

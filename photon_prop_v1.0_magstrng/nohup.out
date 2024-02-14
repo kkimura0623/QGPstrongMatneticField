@@ -1,0 +1,29 @@
+# Last Changed Author: ishikawa Rev: 58 Date: 2013-03-20 14:06:31 +0900 (Wed, 20 Mar 2013)
+(mmax,nmax)=200000 20000
+# Last Changed Author: ishikawa Rev: 58 Date: 2013-03-20 14:06:31 +0900 (Wed, 20 Mar 2013)
+(mmax,nmax)=200000 20000
+# Last Changed Author: ishikawa Rev: 58 Date: 2013-03-20 14:06:31 +0900 (Wed, 20 Mar 2013)
+(mmax,nmax)=200000 20000
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread-2.17.s  00007F280D83D630  Unknown               Unknown  Unknown
+libimf.so          00007F280E4E321D  Unknown               Unknown  Unknown
+libimf.so          00007F280E4E15FB  Unknown               Unknown  Unknown
+libimf.so          00007F280E4E174F  __sqrtq               Unknown  Unknown
+epem_pair_prod_te  000000000040F32E  get_next_laguerre         167  laguerre_pdf_class.F90
+epem_pair_prod_te  00000000004146D0  coef_c                    162  photon_pol_HI_class.F90
+epem_pair_prod_te  000000000041497E  omg0_v3                   292  photon_pol_HI_class.F90
+epem_pair_prod_te  00000000004199BA  photon_pol_hi_cla         342  photon_pol_HI_class.F90
+libiomp5.so        00007F280DBB1D93  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        00007F280DB1E733  Unknown               Unknown  Unknown
+libiomp5.so        00007F280DB1FA55  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        00007F280DAD6B63  __kmpc_fork_call      Unknown  Unknown
+epem_pair_prod_te  0000000000414DEB  n0d_v3                    337  photon_pol_HI_class.F90
+epem_pair_prod_te  000000000041C9D3  photon_vaccum_pol         437  photon_prop_class.F90
+epem_pair_prod_te  000000000041A133  photon_propagator         168  photon_prop_class.F90
+epem_pair_prod_te  0000000000407D9C  epem_pair_prod_te         162  epem_pair_prod_test.F90
+epem_pair_prod_te  0000000000405B1D  Unknown               Unknown  Unknown
+libc-2.17.so       00007F280D27E555  __libc_start_main     Unknown  Unknown
+epem_pair_prod_te  0000000000405A36  Unknown               Unknown  Unknown
+@ Landau level summation does not converge. STOP !
+laguerre_pdf_class: num_scale exceeds MAX_NUM_SCALE. STOP.

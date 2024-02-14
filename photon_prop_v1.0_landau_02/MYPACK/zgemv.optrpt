@@ -1,0 +1,643 @@
+Global optimization report for : zgemv_
+
+LOOP BEGIN at zgemv.f (273, 22)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between y (274:23) and y (274:36) 
+    remark #15346: vector dependence: assumed FLOW dependence between y (274:23) and y (274:36) 
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at zgemv.f (273, 22)
+<Remainder loop>
+LOOP END
+
+LOOP BEGIN at zgemv.f (268, 22)
+    remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    remark #25439: Loop unrolled with remainder by 8
+LOOP END
+
+LOOP BEGIN at zgemv.f (268, 22)
+<Remainder loop>
+LOOP END
+
+LOOP BEGIN at zgemv.f (261, 22)
+    remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    remark #25439: Loop unrolled with remainder by 4
+LOOP END
+
+LOOP BEGIN at zgemv.f (261, 22)
+<Remainder loop>
+LOOP END
+
+LOOP BEGIN at zgemv.f (257, 22)
+    remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    remark #25439: Loop unrolled with remainder by 8
+LOOP END
+
+LOOP BEGIN at zgemv.f (257, 22)
+<Remainder loop>
+LOOP END
+
+LOOP BEGIN at zgemv.f (297, 18)
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgemv.f (301, 26)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between y (302:27) and y (302:35) 
+        remark #15346: vector dependence: assumed FLOW dependence between y (302:27) and y (302:35) 
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f (287, 18)
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgemv.f (290, 26)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgemv.f (290, 26)
+    <Remainder loop>
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f (330, 18)
+<Predicate Optimized v2>
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgemv.f (334, 26)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between temp (335:39) and temp (335:39) 
+        remark #15346: vector dependence: assumed FLOW dependence between temp (335:39) and temp (335:39) 
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgemv.f (334, 26)
+    <Remainder loop>
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f (330, 18)
+<Predicate Optimized v1>
+    remark #25423: Invariant If condition at line 333 hoisted out of this loop
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgemv.f (339, 26)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between temp (340:39) and temp (340:39) 
+        remark #15346: vector dependence: assumed FLOW dependence between temp (340:39) and temp (340:39) 
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgemv.f (339, 26)
+    <Remainder loop>
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f (315, 18)
+<Predicate Optimized v2>
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgemv.f (318, 26)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between temp (319:39) and temp (319:39) 
+        remark #15346: vector dependence: assumed FLOW dependence between temp (319:39) and temp (319:39) 
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgemv.f (318, 26)
+    <Remainder loop>
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zgemv.f (315, 18)
+<Predicate Optimized v1>
+    remark #25423: Invariant If condition at line 317 hoisted out of this loop
+    remark #15553: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at zgemv.f (322, 26)
+        remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+        remark #15346: vector dependence: assumed FLOW dependence between temp (323:39) and temp (323:39) 
+        remark #15346: vector dependence: assumed FLOW dependence between temp (323:39) and temp (323:39) 
+        remark #25439: Loop unrolled with remainder by 4
+    LOOP END
+
+    LOOP BEGIN at zgemv.f (322, 26)
+    <Remainder loop>
+    LOOP END
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: llvm.ssa.copy.f64
+
+DEAD STATIC FUNC: llvm.ssa.copy.i32
+
+DEAD STATIC FUNC: llvm.ssa.copy.i64
+
+DEAD STATIC FUNC: lsame_.t113p.t114p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t123p.t124p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t132p.t133p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t176p.t177p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t185p.t186p.t3v.t3v
+
+DEAD STATIC FUNC: lsame_.t289p.t290p.t3v.t3v
+
+DEAD STATIC FUNC: xerbla_.t146p.t147p.t3v
+
+COMPILE FUNC: zgemv_
+   -> INLINE: lsame_.t113p.t114p.t3v.t3v zgemv.f (202,16)
+   -> INLINE: lsame_.t123p.t124p.t3v.t3v zgemv.f (202,44)
+   -> INLINE: lsame_.t132p.t133p.t3v.t3v zgemv.f (203,16)
+   -> llvm.smax.i32 zgemv.f (209,23)
+   -> INLINE: xerbla_.t146p.t147p.t3v zgemv.f (217,16)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (224,18)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (224,18)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (224,38)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (224,38)
+   -> INLINE: lsame_.t176p.t177p.t3v.t3v zgemv.f (226,16)
+   -> INLINE: lsame_.t185p.t186p.t3v.t3v zgemv.f (231,11)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (254,15)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (254,15)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (262,34)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (262,34)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (274,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (256,23)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (256,23)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgemv.f (267,23)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgemv.f (267,23)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (280,16)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (280,16)
+   -> INLINE: lsame_.t289p.t290p.t3v.t3v zgemv.f (281,11)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgemv.f (288,28)
+   -> DELETE: llvm.experimental.constrained.fcmp.f64 zgemv.f (288,28)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (291,45)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (291,45)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (289,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (298,28)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (298,28)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (302,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (302,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (302,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (302,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (302,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (302,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (302,41)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (302,41)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (299,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (299,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (299,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (299,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (299,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (299,35)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (319,47)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (319,47)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (323,55)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (323,55)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (326,40)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (326,40)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (326,33)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (326,33)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (335,47)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (335,47)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (340,55)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (340,55)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> DELETE: llvm.experimental.constrained.fsub.f64 zgemv.f (344,40)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> DELETE: llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (344,40)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (344,33)
+   -> DELETE: llvm.experimental.constrained.fadd.f64 zgemv.f (344,33)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (274,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (274,35)
+   -> DELETE: llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.memset.p0.i64 zgemv.f (269,23)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (262,34)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (262,34)
+   -> DELETE: llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.memset.p0.i64 zgemv.f (258,23)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (288,28)
+   -> llvm.experimental.constrained.fcmp.f64 zgemv.f (288,28)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (289,35)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,45)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (291,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (340,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (344,33)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (344,33)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (335,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (344,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (344,33)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (344,33)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,55)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (323,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (326,33)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (326,33)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,47)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (319,39)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fsub.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fmul.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (326,40)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (326,33)
+   -> llvm.experimental.constrained.fadd.f64 zgemv.f (326,33)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (257,22)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (261,22)
+   -> DELETE: llvm.ssa.copy.i32 zgemv.f (268,22)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (270,31)
+   -> DELETE: llvm.ssa.copy.i32 zgemv.f (273,22)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (275,31)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (290,26)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (287,18)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (294,27)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (318,26)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (319,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (319,39)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (322,26)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (323,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (323,39)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (323,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (323,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (319,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (319,39)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (315,18)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (327,27)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (334,26)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (336,35)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (335,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (335,39)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (339,26)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (341,35)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (340,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (340,39)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (330,18)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (330,18)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (340,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (340,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (335,39)
+   -> DELETE: llvm.ssa.copy.f64 zgemv.f (335,39)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (330,18)
+   -> DELETE: llvm.ssa.copy.i64 zgemv.f (345,27)
+   -> llvm.umax.i1 zgemv.f (288,28)
+
+---- End Inlining Report ------

@@ -1,0 +1,628 @@
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            load
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            load
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            load
+    DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            load
+    DebugLoc:        { File: zscal.f, Line: 79, Column: 21 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 13 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            shl
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'hoisting '
+  - Inst:            mul
+    DebugLoc:        { File: zscal.f, Line: 87, Column: 24 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zscal.f, Line: 78, Column: 10 }
+Function:        zscal_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.019608e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zscal.f, Line: 78, Column: 10 }
+Function:        zscal_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.207843e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zscal.f, Line: 86, Column: 10 }
+Function:        zscal_
+Args:
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: zscal.f, Line: 86, Column: 10 }
+Function:        zscal_
+Args:
+  - NumVRCopies:     '8'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.000000e+01'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: zscal.f, Line: 53, Column: 1 }
+Function:        zscal_
+Args:
+  - NumVRCopies:     '31'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '6.751961e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: zscal.f, Line: 53, Column: 0 }
+Function:        zscal_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 53, Column: 24 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb2_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body7.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.97
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.96
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '51'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.97
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.98
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.49
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new12_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ''
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body13.preheader
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.52
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.51
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '53'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      ifmerge.52
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      then.53
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      loop.48
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: zscal.f, Line: 0, Column: 0 }
+Function:        zscal_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: zscal.f, Line: 53, Column: 0 }
+Function:        zscal_
+Args:
+  - NumInstructions: '200'
+  - String:          ' instructions in function'
+...

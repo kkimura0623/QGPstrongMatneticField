@@ -1,0 +1,1967 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_fpe_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_reentrancy
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 22 }
+Function:        MAIN__
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 36, Column: 13 }
+Function:        MAIN__
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 38, Column: 8 }
+Function:        MAIN__
+Args:
+  - Callee:          photon_prop_class_mp_photon_propagator_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_lis
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 52, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_fpe_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_reentrancy
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 22 }
+Function:        MAIN__
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 36, Column: 13 }
+Function:        MAIN__
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 38, Column: 8 }
+Function:        MAIN__
+Args:
+  - Callee:          photon_prop_class_mp_photon_propagator_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_lis
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 52, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_fpe_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_reentrancy
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 22 }
+Function:        MAIN__
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 36, Column: 13 }
+Function:        MAIN__
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 38, Column: 8 }
+Function:        MAIN__
+Args:
+  - Callee:          photon_prop_class_mp_photon_propagator_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_lis
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 52, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_fpe_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 9 }
+Function:        MAIN__
+Args:
+  - Callee:          for_set_reentrancy
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 22 }
+Function:        MAIN__
+Args:
+  - Callee:          for_trim
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 17, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 36, Column: 13 }
+Function:        MAIN__
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 38, Column: 8 }
+Function:        MAIN__
+Args:
+  - Callee:          photon_prop_class_mp_photon_propagator_
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_fmt
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_write_seq_lis
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: photon_prop_test.F90, Line: 52, Column: 3 }
+Function:        MAIN__
+Args:
+  - Callee:          for_stop_core_quiet
+  - String:          ' will not be inlined into '
+  - Caller:          MAIN__
+    DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 31, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 31, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 34, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 34, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 35, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 35, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 36, Column: 13 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 36, Column: 13 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 48, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 19, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 31, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 34, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 35, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 19, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 31, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 34, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 35, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 19, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 40, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 31, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 34, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     store
+    DebugLoc:        { File: photon_prop_test.F90, Line: 35, Column: 3 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 42, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' in favor of '
+  - OtherAccess:     load
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+...
+--- !Passed
+Pass:            TTI
+Name:            DontUnroll
+DebugLoc:        { File: photon_prop_test.F90, Line: 27, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          'advising against unrolling the loop because it contains a '
+  - Call:            call
+    DebugLoc:        { File: photon_prop_test.F90, Line: 38, Column: 8 }
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 41, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 43, Column: 61 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 3 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 44 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Missed
+Pass:            licm
+Name:            LoadWithLoopInvariantAddressInvalidated
+DebugLoc:        { File: photon_prop_test.F90, Line: 44, Column: 48 }
+Function:        MAIN__
+Args:
+  - String:          failed to move load with loop-invariant address because the loop may invalidate its value
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Passed
+Pass:            licm
+Name:            Hoisted
+DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+Function:        MAIN__
+Args:
+  - String:          'hoisting '
+  - Inst:            getelementptr
+    DebugLoc:        { File: photon_prop_test.F90, Line: 46, Column: 5 }
+...
+--- !Missed
+Pass:            regalloc
+Name:            LoopSpillReloadCopies
+DebugLoc:        { File: photon_prop_test.F90, Line: 27, Column: 3 }
+Function:        MAIN__
+Args:
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.187500e+01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '30'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.562500e+02'
+  - String:          ' total copies cost '
+  - String:          generated in loop
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 1 }
+Function:        MAIN__
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '1.000000e+00'
+  - String:          ' total spills cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.187500e+01'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '34'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '9.602500e+02'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+Function:        MAIN__
+Args:
+  - NumStackBytes:   '680'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        MAIN__
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '44'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_prop_test.F90, Line: 0, Column: 0 }
+Function:        MAIN__
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.body18
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '175'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: photon_prop_test.F90, Line: 0, Column: 0 }
+Function:        MAIN__
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      do.end_do19
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: photon_prop_test.F90, Line: 1, Column: 0 }
+Function:        MAIN__
+Args:
+  - NumInstructions: '235'
+  - String:          ' instructions in function'
+...

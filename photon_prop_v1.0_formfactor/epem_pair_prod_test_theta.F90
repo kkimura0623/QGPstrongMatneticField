@@ -1,0 +1,317 @@
+program epem_pair_prod_test
+!
+! Test program for e+,e- pair production code
+!
+! e+,e- pair-production rate in x-y or y-z plane
+!
+! eB is on z-axis, e+e- invariant mass is fixed.
+!
+! e+ and e- momenta are placed on x-y plane or y-z plane
+!
+! Total momentum is on y-axis
+!
+  use constant_mod
+  use physics_constsnt_mod
+  use photon_prop_class
+  use current_class
+  implicit none
+  real(DP) :: Lep(0:NDIM-1,0:NDIM-1)
+  real(DP) :: Src(0:NDIM-1,0:NDIM-1)
+  real(DP) :: p1(0:NDIM-1),p2(0:NDIM-1)
+  complex(DP) :: Prop(0:NDIM-1,0:NDIM-1)
+  complex(DP) :: PP(0:NDIM-1,0:NDIM-1)
+  complex(DP) :: A(NDIM,NDIM)
+  complex(DP) :: sbrn1
+  complex(DP) :: Rate
+  complex(DP) :: n0,n1,n2
+  real(DP) :: qmom(0:NDIM-1)
+  real(DP) :: eB,r
+  real(DP) :: mass2,tol
+  real(DP) :: mass2_0,mass2_1,mass2_2,mass2_3,dmass2,MASS
+  real(DP) :: theta_0,theta_1,dtheta,theta
+  real(DP) :: mass2_all(10)
+  character(len=256)  :: mass_indx(10), theta_indx(20)
+  real(DP) :: px,py,pz,pT, pT0,pT1,dpT
+  integer :: status(2)
+  integer :: ipx,ipy,ipz,ipt,NPT,imass2,NMASS2,itheta,NTHETA
+  integer :: i,j,k
+  integer :: mu,nu,ia,ib
+  integer :: iout
+  integer :: pol_type, particle_type
+  character(len=256) :: fname
+
+
+  tol = 1.0e-8_DP
+  eB = 10*MASS_PION**2
+  pol_type = POLTYPE_ITAKURA_FULL
+  particle_type = PARTICLES_ALL
+  call set_limit_landau_level(mmax=1000)
+
+  !====================================
+  ! invariant mass range
+  ! mass^2: mass2_0 - mass2_1
+  !====================================
+  NMASS2 = 1
+  mass2_all(1) = (300.0_DP)**2
+  mass2_all(2) = (400.0_DP)**2
+  mass2_all(3) = (500.0_DP)**2
+  mass2_all(4) = (600.0_DP)**2
+  mass_indx(1) = "300"
+  mass_indx(2) = "400"
+  mass_indx(3) = "500"
+  mass_indx(4) = "600"
+
+  mass2_0 = (300.0_DP)**2
+  mass2_1 = (400.0_DP)**2
+  mass2_2 = (500.0_DP)**2
+  mass2_3 = (600.0_DP)**2
+  dmass2 = (mass2_1 - mass2_0)/NMASS2
+  MASS = MASS_MUON
+
+  !==============================================
+  ! theta between decay plane and reaction plane
+  !==============================================
+  NTHETA  = 12 
+  theta_indx(0) = "0"
+  theta_indx(1) = "1"
+  theta_indx(2) = "2"
+  theta_indx(3) = "3"
+  theta_indx(4) = "4"
+  theta_indx(5) = "5"
+  theta_indx(6) = "6"
+  theta_indx(7) = "7"
+  theta_indx(8) = "8"
+  theta_indx(9) = "9"
+  theta_indx(10) = "10"
+  theta_indx(11) = "11"
+  theta_indx(12) = "12"
+  theta_0 = 0.0_DP
+  theta_1 = 2.0_DP*PI
+  dtheta  = (theta_1 - theta_0)/NTHETA
+ 
+  do imass2 = 1, NTHETA
+
+  mass2 = mass2_all(imass2)
+
+  NPT = 200
+  pT0 = 0.0_DP
+  pT1 = 20000.0_DP
+  dpT = (pT1-pT0)/NPT
+
+  do itheta = 0, NTHETA
+  theta = itheta*dtheta
+
+  write(fname,'("epem_",A,".dat")') TRIM(theta_indx(itheta))!TRIM(mass_indx(imass2))
+  iout = 111
+  open(iout,file=fname,status='unknown',form='formatted')
+
+  write(*,'("# ",A)')TRIM(_REVISION_)
+
+  do ipt = 0,NPT
+
+    pT = pT0 + dpT*ipt
+  
+    !====================================================
+    ! E = sqrt( me**2 + px**2 + py**2)
+    !   p1 = (   E, px,   py, 0)
+    !   p2 = (   E,-px,   py, 0)
+    ! qmon = ( 2*E,  0, 2*py, 0) = p1 + p2
+    ! qmon**2 =  4*E**2 - 4*py**2
+    !         =  4*(me**2 + px**2 + py**2) - 4*py**2
+    !         =  4*me**2 + 4*px**2 + 4*py**2 - 4*py**2
+    !         =  4*me**2 + 4*px**2
+    !         =  4*(me**2 + px**2) = mass2
+    !        => px**2 = (mass2/4 - me**2)
+    !  px = sqrt(mass2/4 - me**2)
+    !  pT = 2*py
+    !        => py = pT/2
+    !====================================================
+
+    px = SQRT( mass2/4.0_DP - MASS**2 )*COS(theta)
+    py = pT/2.0_DP
+    pz = SQRT( mass2/4.0_DP - MASS**2 )*SIN(theta)
+
+    p1(1) = px
+    p1(2) = py
+    p1(3) = pz
+    p1(0) = sqrt( MASS**2 + p1(1)**2 + p1(2)**2 + p1(3)**2 )
+
+    p2(1) =-px
+    p2(2) = py
+    p2(3) =-pz
+    p2(0) = sqrt( MASS**2 + p2(1)**2 + p2(2)**2 + p2(3)**2 )
+
+    do i=0,NDIM-1
+      qmom(i) = p1(i) + p2(i)
+    enddo
+
+    if ( (ABS((qmom(0)**2-qmom(1)**2-qmom(2)**2-qmom(3)**2)-mass2)/mass2) > tol) then
+      write(*,'(" Formula is incorrect!")')
+      write(*,'(2E24.15)')(qmom(0)**2-qmom(1)**2-qmom(2)**2-qmom(3)**2), mass2
+      write(*,'(2E24.15)') (ABS((qmom(0)**2-qmom(1)**2-qmom(2)**2-qmom(3)**2)-mass2)/mass2)
+      stop
+    endif
+
+    call photon_propagator(Prop,PP,A,r,n0,n1,n2,qmom,eB,pol_type=pol_type,particle_type=particle_type,status=status)
+    call source(Src,qmom)
+    call current(Lep,p1,p2)
+
+    write(*,'("#  p1(0:3) =",4E16.7)')(p1(j),j=0,NDIM-1)
+    write(*,'("#  p2(0:3) =",4E16.7)')(p2(j),j=0,NDIM-1)
+    write(*,*)
+
+    write(*,'("# Prop_{mu,nu}")')
+    write(*,'("#       eB =",E16.7)') eB
+    write(*,'("#   q(0:3) =",4E16.7)')(qmom(j),j=0,NDIM-1)
+    write(*,'("#      q^2 =",E16.7)') qmom(0)**2 - qmom(1)**2 - qmom(2)**2 - qmom(3)**2
+    write(*,'("# vec(q)^2 =",E16.7)') qmom(1)**2 + qmom(2)**2 + qmom(3)**2
+    do i=0,NDIM-1
+      write(*,'(8E16.7)')(Prop(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+
+    write(*,'("# Src_{mu,nu}")')
+    do i=0,NDIM-1
+      write(*,'(8E16.7)')(Src(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+
+    write(*,'("# Lep_{mu,nu}")')
+    do i=0,NDIM-1
+      write(*,'(8E16.7)')(Lep(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+
+    Rate = (0.0_DP,0.0_DP)
+    do ia=0,NDIM-1
+    do ib=0,NDIM-1
+    do nu=0,NDIM-1
+    do mu=0,NDIM-1
+      Rate = Rate + Lep(mu,nu)*Prop(mu,ia)*CONJG(Prop(nu,ib))*Src(ia,ib)
+    enddo
+    enddo
+    enddo
+    enddo
+
+    write(*,'("#  Rate =",2E16.7)') Rate
+
+    write(iout,'(3E24.15)') pT, REAL(Rate,kind=KIND(1.0_DP))
+
+  enddo ! end of do ipt
+  write(iout,*)
+  write(iout,*)
+  close(iout)
+  enddo ! end of do itheta
+  enddo ! end of do imass2
+
+!  close(iout)
+
+#if 0
+  write(fname,'("epem_yz_",A,".dat")')TRIM(mass_indx(imass2))
+  iout = 111
+  open(iout,file=fname,status='unknown',form='formatted')
+
+  write(*,'("# ",A)')TRIM(_REVISION_)
+
+
+  mass2 = mass2_all(imass2)
+
+  do ipt = 0,NPT
+
+    pT = pT0 + dpT*ipt
+  
+    !====================================================
+    ! E = sqrt( me**2 + py**2 + pz**2)
+    !   p1 = (   E,  0,   py,  pz)
+    !   p2 = (   E,  0,   py, -pz)
+    ! qmon = ( 2*E,  0, 2*py,   0) = p1 + p2
+    ! qmon**2 =  4*E**2 - 4*py**2
+    !         =  4*(me**2 + py**2 + pz**2) - 4*py**2
+    !         =  4*me**2 + 4*py**2 + 4*pz**2 - 4*py**2
+    !         =  4*me**2 + 4*pz**2
+    !         =  4*(me**2 + pz**2) = mass2
+    !        => pz**2 = (mass2/4 - me**2)
+    !  pz = sqrt(mass2/4 - me**2)
+    !  pT = 2*py
+    !        => py = pT/2
+    !====================================================
+
+    pz = SQRT( mass2/4.0_DP - MASS**2 )
+    py = pT/2.0_DP
+
+    p1(1) = 0.0_DP
+    p1(2) = py
+    p1(3) = pz
+    p1(0) = sqrt( MASS**2 + p1(1)**2 + p1(2)**2 + p1(3)**2 )
+
+    p2(1) = 0.0_DP
+    p2(2) = py
+    p2(3) =-pz
+    p2(0) = sqrt( MASS**2 + p2(1)**2 + p2(2)**2 + p2(3)**2 )
+
+    do i=0,NDIM-1
+      qmom(i) = p1(i) + p2(i)
+    enddo
+
+    if ( (ABS((qmom(0)**2-qmom(1)**2-qmom(2)**2-qmom(3)**2)-mass2)/mass2) > tol) then
+      write(*,'(" Formula is incorrect!")')
+      write(*,'(2E24.15)')(qmom(0)**2-qmom(1)**2-qmom(2)**2-qmom(3)**2), mass2
+      write(*,'(2E24.15)') (ABS((qmom(0)**2-qmom(1)**2-qmom(2)**2-qmom(3)**2)-mass2)/mass2)
+      stop
+    endif
+
+    call photon_propagator(Prop,PP,A,r,n0,n1,n2,qmom,eB,pol_type=pol_type,particle_type=particle_type,status=status)
+    call source(Src,qmom)
+    call current(Lep,p1,p2)
+
+    write(*,'("#  p1(0:3) =",4E16.7)')(p1(j),j=0,NDIM-1)
+    write(*,'("#  p2(0:3) =",4E16.7)')(p2(j),j=0,NDIM-1)
+    write(*,*)
+
+    write(*,'("# Prop_{mu,nu}")')
+    write(*,'("#       eB =",E16.7)') eB
+    write(*,'("#   q(0:3) =",4E16.7)')(qmom(j),j=0,NDIM-1)
+    write(*,'("#      q^2 =",E16.7)') qmom(0)**2 - qmom(1)**2 - qmom(2)**2 - qmom(3)**2
+    write(*,'("# vec(q)^2 =",E16.7)') qmom(1)**2 + qmom(2)**2 + qmom(3)**2
+    do i=0,NDIM-1
+      write(*,'(8E16.7)')(Prop(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+
+    write(*,'("# Src_{mu,nu}")')
+    do i=0,NDIM-1
+      write(*,'(8E16.7)')(Src(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+
+    write(*,'("# Lep_{mu,nu}")')
+    do i=0,NDIM-1
+      write(*,'(8E16.7)')(Lep(i,j),j=0,NDIM-1)
+    enddo
+    write(*,*)
+
+    Rate = (0.0_DP,0.0_DP)
+    do ia=0,NDIM-1
+    do ib=0,NDIM-1
+    do nu=0,NDIM-1
+    do mu=0,NDIM-1
+      Rate = Rate + Lep(mu,nu)*Prop(mu,ia)*CONJG(Prop(nu,ib))*Src(ia,ib)
+    enddo
+    enddo
+    enddo
+    enddo
+
+    write(*,'("#  Rate =",2E16.7)') Rate
+
+    write(iout,'(3E24.15)') pT, REAL(Rate,kind=KIND(1.0_DP))
+
+  enddo ! end of do ipt
+  write(iout,*)
+  write(iout,*)
+
+  close(iout)
+
+  enddo ! end of do imass2
+#endif
+
+end program

@@ -1,0 +1,18 @@
+Global optimization report for : iparmq_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+COMPILE FUNC: iparmq_
+   -> llvm.experimental.constrained.sitofp.f32.i32 iparmq.f (256,43)
+   -> llvm.experimental.constrained.fdiv.f32 iparmq.f (256,56)
+   -> llvm.experimental.constrained.fptosi.i32.f32 iparmq.f (256,32)
+   -> llvm.smax.i32 iparmq.f (256,18)
+   -> llvm.smax.i32 iparmq.f (263,15)
+
+---- End Inlining Report ------

@@ -1,0 +1,395 @@
+Global optimization report for : zlahef_
+
+LOOP BEGIN at zlahef.f (238, 15)
+
+    LOOP BEGIN at zlahef.f (387, 22)
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zlahef.f (430, 13)
+
+    LOOP BEGIN at zlahef.f (435, 16)
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zlahef.f (454, 4)
+LOOP END
+
+LOOP BEGIN at zlahef.f (490, 15)
+
+    LOOP BEGIN at zlahef.f (636, 22)
+        remark #25530: Stmt at line 636 sinked after loop using last value computation
+        remark #15527: Loop was not vectorized: function call to  cannot be vectorized
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zlahef.f (679, 13)
+
+    LOOP BEGIN at zlahef.f (684, 16)
+    LOOP END
+LOOP END
+
+LOOP BEGIN at zlahef.f (704, 3)
+LOOP END
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: izamax_.t1044p.t1045p.t1046p
+
+DEAD STATIC FUNC: izamax_.t1196p.t1197p.t1198p
+
+DEAD STATIC FUNC: izamax_.t1229p.t1230p.t1231p
+
+DEAD STATIC FUNC: izamax_.t227p.t228p.t229p
+
+DEAD STATIC FUNC: izamax_.t378p.t379p.t380p
+
+DEAD STATIC FUNC: izamax_.t410p.t411p.t412p
+
+DEAD STATIC FUNC: lsame_.t121p.t122p.t3v.t3v
+
+DEAD STATIC FUNC: zcopy_.t1092p.t1093p.t1094p.t1095p.t1096p
+
+DEAD STATIC FUNC: zcopy_.t1132p.t1133p.t1134p.t1135p.t1136p
+
+DEAD STATIC FUNC: zcopy_.t1272p.t1273p.t1274p.t1275p.t1276p
+
+DEAD STATIC FUNC: zcopy_.t1300p.t1301p.t1302p.t1303p.t1304p
+
+DEAD STATIC FUNC: zcopy_.t1328p.t1329p.t1330p.t1331p.t1332p
+
+DEAD STATIC FUNC: zcopy_.t1377p.t1378p.t1379p.t1380p.t1381p
+
+DEAD STATIC FUNC: zcopy_.t142p.t143p.t144p.t145p.t146p
+
+DEAD STATIC FUNC: zcopy_.t275p.t276p.t277p.t278p.t279p
+
+DEAD STATIC FUNC: zcopy_.t303p.t304p.t305p.t306p.t307p
+
+DEAD STATIC FUNC: zcopy_.t452p.t453p.t454p.t455p.t456p
+
+DEAD STATIC FUNC: zcopy_.t482p.t483p.t484p.t485p.t486p
+
+DEAD STATIC FUNC: zcopy_.t508p.t509p.t510p.t511p.t512p
+
+DEAD STATIC FUNC: zcopy_.t559p.t560p.t561p.t562p.t563p
+
+DEAD STATIC FUNC: zcopy_.t971p.t972p.t973p.t974p.t975p
+
+DEAD STATIC FUNC: zdscal_.t1399p.t1400p.t1401p.t1402p
+
+DEAD STATIC FUNC: zdscal_.t579p.t580p.t581p.t582p
+
+DEAD STATIC FUNC: zgemm_.t1733p.t1734p.t1735p.t1736p.t1737p.t1738p.t1739p.t1740p.t1741p.t1742p.t1743p.t1744p.t1745p.t3v.t3v
+
+DEAD STATIC FUNC: zgemm_.t908p.t909p.t910p.t911p.t912p.t913p.t914p.t915p.t916p.t917p.t918p.t919p.t920p.t3v.t3v
+
+DEAD STATIC FUNC: zgemv_.t1005p.t1006p.t1007p.t1008p.t1009p.t1010p.t1011p.t1012p.t1013p.t1014p.t1015p.t3v
+
+DEAD STATIC FUNC: zgemv_.t1166p.t1167p.t1168p.t1169p.t1170p.t1171p.t1172p.t1173p.t1174p.t1175p.t1176p.t3v
+
+DEAD STATIC FUNC: zgemv_.t1675p.t1676p.t1677p.t1678p.t1679p.t1680p.t1681p.t1682p.t1683p.t1684p.t1685p.t3v
+
+DEAD STATIC FUNC: zgemv_.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t196p.t197p.t198p.t199p.t3v
+
+DEAD STATIC FUNC: zgemv_.t348p.t349p.t350p.t351p.t352p.t353p.t354p.t355p.t356p.t357p.t358p.t3v
+
+DEAD STATIC FUNC: zgemv_.t851p.t852p.t853p.t854p.t855p.t856p.t857p.t858p.t859p.t860p.t861p.t3v
+
+DEAD STATIC FUNC: zlacgv_.t1104p.t1105p.t1106p
+
+DEAD STATIC FUNC: zlacgv_.t1312p.t1313p.t1314p
+
+DEAD STATIC FUNC: zlacgv_.t1411p.t1412p.t1413p
+
+DEAD STATIC FUNC: zlacgv_.t1617p.t1618p.t1619p
+
+DEAD STATIC FUNC: zlacgv_.t1628p.t1629p.t1630p
+
+DEAD STATIC FUNC: zlacgv_.t315p.t316p.t317p
+
+DEAD STATIC FUNC: zlacgv_.t494p.t495p.t496p
+
+DEAD STATIC FUNC: zlacgv_.t590p.t591p.t592p
+
+DEAD STATIC FUNC: zlacgv_.t793p.t794p.t795p
+
+DEAD STATIC FUNC: zlacgv_.t803p.t804p.t805p
+
+DEAD STATIC FUNC: zswap_.t1344p.t1345p.t1346p.t1347p.t1348p
+
+DEAD STATIC FUNC: zswap_.t1360p.t1361p.t1362p.t1363p.t1364p
+
+DEAD STATIC FUNC: zswap_.t1758p.t1759p.t1760p.t1761p.t1762p
+
+DEAD STATIC FUNC: zswap_.t526p.t527p.t528p.t529p.t530p
+
+DEAD STATIC FUNC: zswap_.t543p.t544p.t545p.t546p.t547p
+
+DEAD STATIC FUNC: zswap_.t935p.t936p.t937p.t938p.t939p
+
+COMPILE FUNC: zlahef_
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (213,20)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (213,38)
+   -> INLINE: lsame_.t121p.t122p.t3v.t3v zlahef.f (215,11)
+   -> INLINE: zcopy_.t142p.t143p.t144p.t145p.t146p zlahef.f (236,15)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (237,23)
+   -> INLINE: zgemv_.t189p.t190p.t191p.t192p.t193p.t194p.t195p.t196p.t197p.t198p.t199p.t3v zlahef.f (239,18)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (241,26)
+   -> llvm.fabs.f64 zlahef.f (249,19)
+   -> INLINE: izamax_.t227p.t228p.t229p zlahef.f (255,20)
+   -> llvm.fabs.f64 zlahef.f (256,13)
+   -> llvm.fabs.f64 zlahef.f (256,13)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (256,13)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (261,14)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (261,35)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (268,25)
+   -> INLINE: zgemv_.t348p.t349p.t350p.t351p.t352p.t353p.t354p.t355p.t356p.t357p.t358p.t3v zlahef.f (285,24)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (288,37)
+   -> INLINE: izamax_.t378p.t379p.t380p zlahef.f (294,30)
+   -> llvm.fabs.f64 zlahef.f (295,16)
+   -> llvm.fabs.f64 zlahef.f (295,16)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (295,16)
+   -> INLINE: izamax_.t410p.t411p.t412p zlahef.f (297,26)
+   -> llvm.fabs.f64 zlahef.f (298,19)
+   -> llvm.fabs.f64 zlahef.f (298,19)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (298,19)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (298,28)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (301,35)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (301,52)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (301,42)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (301,26)
+   -> INLINE: zcopy_.t452p.t453p.t454p.t455p.t456p zlahef.f (316,24)
+   -> llvm.fabs.f64 zlahef.f (306,25)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (306,64)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (306,55)
+   -> INLINE: zcopy_.t275p.t276p.t277p.t278p.t279p zlahef.f (279,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (280,34)
+   -> INLINE: zcopy_.t303p.t304p.t305p.t306p.t307p zlahef.f (281,21)
+   -> INLINE: zlacgv_.t315p.t316p.t317p zlahef.f (283,21)
+   -> INLINE: zswap_.t526p.t527p.t528p.t529p.t530p zlahef.f (345,19)
+   -> INLINE: zswap_.t543p.t544p.t545p.t546p.t547p zlahef.f (347,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (336,30)
+   -> INLINE: zcopy_.t482p.t483p.t484p.t485p.t486p zlahef.f (337,21)
+   -> INLINE: zlacgv_.t494p.t495p.t496p zlahef.f (339,21)
+   -> INLINE: zcopy_.t508p.t509p.t510p.t511p.t512p zlahef.f (340,21)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,45)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,45)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (388,45)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,45)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,45)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (388,45)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (388,58)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (388,58)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (388,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (388,39)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (388,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (390,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (390,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (390,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (390,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (390,39)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (390,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (390,50)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (390,50)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (389,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (389,47)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (389,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (389,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (389,47)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (389,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (383,36)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (384,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (385,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (385,40)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (385,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (385,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (385,40)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (385,40)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (385,46)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (385,27)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (386,25)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (386,27)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (386,27)
+   -> INLINE: zcopy_.t559p.t560p.t561p.t562p.t563p zlahef.f (361,21)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (362,25)
+   -> INLINE: zdscal_.t579p.t580p.t581p.t582p zlahef.f (363,21)
+   -> INLINE: zlacgv_.t590p.t591p.t592p zlahef.f (367,21)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (270,32)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (270,23)
+   -> INLINE: zlacgv_.t793p.t794p.t795p zlahef.f (402,21)
+   -> INLINE: zlacgv_.t803p.t804p.t805p zlahef.f (403,21)
+   -> llvm.smin.i32 zlahef.f (431,18)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (436,30)
+   -> INLINE: zgemv_.t851p.t852p.t853p.t854p.t855p.t856p.t857p.t858p.t859p.t860p.t861p.t3v zlahef.f (437,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (440,30)
+   -> INLINE: zgemm_.t908p.t909p.t910p.t911p.t912p.t913p.t914p.t915p.t916p.t917p.t918p.t919p.t920p.t3v.t3v zlahef.f (445,18)
+   -> INLINE: zswap_.t935p.t936p.t937p.t938p.t939p zlahef.f (463,13)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (489,22)
+   -> INLINE: zcopy_.t971p.t972p.t973p.t974p.t975p zlahef.f (491,13)
+   -> INLINE: zgemv_.t1005p.t1006p.t1007p.t1008p.t1009p.t1010p.t1011p.t1012p.t1013p.t1014p.t1015p.t3v zlahef.f (492,15)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (494,22)
+   -> llvm.fabs.f64 zlahef.f (501,19)
+   -> INLINE: izamax_.t1044p.t1045p.t1046p zlahef.f (507,24)
+   -> llvm.fabs.f64 zlahef.f (508,13)
+   -> llvm.fabs.f64 zlahef.f (508,13)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (508,13)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (513,14)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (513,35)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (520,25)
+   -> INLINE: zcopy_.t1132p.t1133p.t1134p.t1135p.t1136p zlahef.f (535,19)
+   -> INLINE: zgemv_.t1166p.t1167p.t1168p.t1169p.t1170p.t1171p.t1172p.t1173p.t1174p.t1175p.t1176p.t3v zlahef.f (537,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (540,33)
+   -> INLINE: izamax_.t1196p.t1197p.t1198p zlahef.f (545,31)
+   -> llvm.fabs.f64 zlahef.f (546,16)
+   -> llvm.fabs.f64 zlahef.f (546,16)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (546,16)
+   -> INLINE: izamax_.t1229p.t1230p.t1231p zlahef.f (548,33)
+   -> llvm.fabs.f64 zlahef.f (549,19)
+   -> llvm.fabs.f64 zlahef.f (549,19)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (549,19)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (549,28)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (552,35)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (552,52)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (552,42)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (552,26)
+   -> INLINE: zcopy_.t1272p.t1273p.t1274p.t1275p.t1276p zlahef.f (567,24)
+   -> llvm.fabs.f64 zlahef.f (557,25)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (557,63)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (557,54)
+   -> INLINE: zcopy_.t1092p.t1093p.t1094p.t1095p.t1096p zlahef.f (531,21)
+   -> INLINE: zlacgv_.t1104p.t1105p.t1106p zlahef.f (532,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (533,33)
+   -> INLINE: zcopy_.t1328p.t1329p.t1330p.t1331p.t1332p zlahef.f (591,19)
+   -> INLINE: zswap_.t1344p.t1345p.t1346p.t1347p.t1348p zlahef.f (595,21)
+   -> INLINE: zswap_.t1360p.t1361p.t1362p.t1363p.t1364p zlahef.f (596,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (586,30)
+   -> INLINE: zcopy_.t1300p.t1301p.t1302p.t1303p.t1304p zlahef.f (587,21)
+   -> INLINE: zlacgv_.t1312p.t1313p.t1314p zlahef.f (589,21)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (611,28)
+   -> INLINE: zdscal_.t1399p.t1400p.t1401p.t1402p zlahef.f (612,24)
+   -> INLINE: zlacgv_.t1411p.t1412p.t1413p zlahef.f (616,24)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (638,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (638,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (638,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (638,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (638,39)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (638,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (638,49)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (638,49)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (637,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (637,47)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (637,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (637,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (637,47)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (637,47)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,45)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,45)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (639,45)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,45)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,45)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (639,45)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (639,57)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (639,57)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (639,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (639,39)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (639,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (632,39)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (633,35)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (634,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (634,40)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (634,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (634,40)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (634,40)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (634,40)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (634,46)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (634,27)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (635,25)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fadd.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fsub.f64 zlahef.f (635,27)
+   -> llvm.experimental.constrained.fdiv.f64 zlahef.f (635,27)
+   -> INLINE: zcopy_.t1377p.t1378p.t1379p.t1380p.t1381p zlahef.f (609,21)
+   -> llvm.experimental.constrained.fmul.f64 zlahef.f (522,32)
+   -> llvm.experimental.constrained.fcmp.f64 zlahef.f (522,23)
+   -> INLINE: zlacgv_.t1617p.t1618p.t1619p zlahef.f (651,21)
+   -> INLINE: zlacgv_.t1628p.t1629p.t1630p zlahef.f (652,21)
+   -> llvm.smin.i32 zlahef.f (680,18)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (685,30)
+   -> INLINE: zgemv_.t1675p.t1676p.t1677p.t1678p.t1679p.t1680p.t1681p.t1682p.t1683p.t1684p.t1685p.t3v zlahef.f (686,21)
+   -> llvm.experimental.constrained.fpext.f64.f32 zlahef.f (689,30)
+   -> INLINE: zgemm_.t1733p.t1734p.t1735p.t1736p.t1737p.t1738p.t1739p.t1740p.t1741p.t1742p.t1743p.t1744p.t1745p.t3v.t3v zlahef.f (695,16)
+   -> INLINE: zswap_.t1758p.t1759p.t1760p.t1761p.t1762p zlahef.f (713,13)
+   -> llvm.abs.i32 zlahef.f (457,16)
+   -> llvm.abs.i32 zlahef.f (707,16)
+
+---- End Inlining Report ------

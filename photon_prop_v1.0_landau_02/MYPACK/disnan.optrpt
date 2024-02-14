@@ -1,0 +1,16 @@
+Global optimization report for : disnan_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+DEAD STATIC FUNC: dlaisnan_.t38p.t39p
+
+COMPILE FUNC: disnan_
+   -> INLINE: dlaisnan_.t38p.t39p disnan.f (78,16)
+
+---- End Inlining Report ------

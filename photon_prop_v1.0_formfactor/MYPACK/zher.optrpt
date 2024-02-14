@@ -1,0 +1,100 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: ZHER
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (ZHER) [1] zher.f(136,18)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at zher.f(211,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zher.f(214,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 4  
+   LOOP END
+
+   LOOP BEGIN at zher.f(214,26)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zher.f(224,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zher.f(228,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zher.f(244,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zher.f(248,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+      remark #25439: unrolled with remainder by 4  
+   LOOP END
+
+   LOOP BEGIN at zher.f(248,26)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at zher.f(257,18)
+   remark #15541: outer loop was not auto-vectorized: consider using SIMD directive
+
+   LOOP BEGIN at zher.f(262,26)
+      remark #15516: loop was not vectorized: cost model has chosen vectorlength of 1 -- maybe possible to override via pragma/directive with vectorlength clause
+   LOOP END
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+zher.f(136,18):remark #34051: REGISTER ALLOCATION : [_zher_] zher.f:136
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   31[ rax rdx rcx rbx rsi rdi r8-r15 mm0-mm1 zmm0-zmm14]
+        
+    Routine temporaries
+        Total         :     337
+            Global    :     102
+            Local     :     235
+        Regenerable   :      31
+        Spilled       :      17
+        
+    Routine stack
+        Variables     :      12 bytes*
+            Reads     :       9 [1.92e+00 ~ 0.9%]
+            Writes    :      13 [3.65e+00 ~ 1.7%]
+        Spills        :      88 bytes*
+            Reads     :      27 [4.86e+00 ~ 2.3%]
+            Writes    :      12 [3.83e+00 ~ 1.8%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

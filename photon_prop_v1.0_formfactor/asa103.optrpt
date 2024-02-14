@@ -1,0 +1,152 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINING OPTION VALUES:
+  -inline-factor: 100
+  -inline-min-size: 30
+  -inline-max-size: 230
+  -inline-max-total-size: 2000
+  -inline-max-per-routine: 10000
+  -inline-max-per-compile: 500000
+
+
+Begin optimization report for: DIGAMA
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (DIGAMA) [1] asa103.f90(1,10)
+
+
+    Report from: Loop nest, Vector & Auto-parallelization optimizations [loop, vec, par]
+
+
+LOOP BEGIN at asa103.f90(93,5)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization. First dependence is shown below. Use level 5 report for details
+   remark #15346: vector dependence: assumed ANTI dependence between digama (94:7) and digama (94:7)
+   remark #25436: completely unrolled by 9  
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at asa103.f90(103,3)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+    Report from: Code generation optimizations [cg]
+
+asa103.f90(1,10):remark #34051: REGISTER ALLOCATION : [_digama_] asa103.f90:1
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   11[ rsi rdi mm0-mm7 zmm0]
+        
+    Routine temporaries
+        Total         :     109
+            Global    :      17
+            Local     :      92
+        Regenerable   :      20
+        Spilled       :       2
+        
+    Routine stack
+        Variables     :      16 bytes*
+            Reads     :      20 [6.75e+00 ~ 10.9%]
+            Writes    :      20 [6.75e+00 ~ 10.9%]
+        Spills        :      32 bytes*
+            Reads     :       2 [1.00e-01 ~ 0.2%]
+            Writes    :       2 [1.00e-01 ~ 0.2%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: PSI_VALUES
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (PSI_VALUES) [2] asa103.f90(123,12)
+
+
+    Report from: Code generation optimizations [cg]
+
+asa103.f90(123,12):remark #34051: REGISTER ALLOCATION : [_psi_values_] asa103.f90:123
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :    6[ rax rdx rcx rsi rdi r8]
+        
+    Routine temporaries
+        Total         :      23
+            Global    :      10
+            Local     :      13
+        Regenerable   :       3
+        Spilled       :       0
+        
+    Routine stack
+        Variables     :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+        Spills        :       0 bytes*
+            Reads     :       0 [0.00e+00 ~ 0.0%]
+            Writes    :       0 [0.00e+00 ~ 0.0%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================
+
+Begin optimization report for: TIMESTAMP
+
+    Report from: Interprocedural optimizations [ipo]
+
+INLINE REPORT: (TIMESTAMP) [3] asa103.f90(228,12)
+
+
+    Report from: Code generation optimizations [cg]
+
+asa103.f90(228,12):remark #34051: REGISTER ALLOCATION : [_timestamp_] asa103.f90:228
+
+    Hardware registers
+        Reserved     :    2[ rsp rip]
+        Available    :   39[ rax rdx rcx rbx rbp rsi rdi r8-r15 mm0-mm7 zmm0-zmm15]
+        Callee-save  :    6[ rbx rbp r12-r15]
+        Assigned     :   12[ rax rdx rcx rbx rsi rdi r8-r9 r12-r15]
+        
+    Routine temporaries
+        Total         :     112
+            Global    :      20
+            Local     :      92
+        Regenerable   :      90
+        Spilled       :       6
+        
+    Routine stack
+        Variables     :     249 bytes*
+            Reads     :       7 [7.00e+00 ~ 5.2%]
+            Writes    :      58 [2.34e+01 ~ 17.3%]
+        Spills        :       8 bytes*
+            Reads     :       1 [1.00e+00 ~ 0.7%]
+            Writes    :       1 [1.00e+00 ~ 0.7%]
+    
+    Notes
+    
+        *Non-overlapping variables and spills may share stack space,
+         so the total stack size might be less than this.
+    
+
+===========================================================================

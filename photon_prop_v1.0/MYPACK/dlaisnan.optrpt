@@ -1,0 +1,14 @@
+Global optimization report for : dlaisnan_
+=================================================================
+
+---- Begin Inlining Report ----
+Option Values:
+  inline-threshold: 225
+  inlinehint-threshold: 325
+  inlinecold-threshold: 45
+  inlineoptsize-threshold: 15
+
+COMPILE FUNC: dlaisnan_
+   -> llvm.experimental.constrained.fcmp.f64 dlaisnan.f (89,23)
+
+---- End Inlining Report ------

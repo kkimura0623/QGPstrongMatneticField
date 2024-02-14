@@ -1,0 +1,117 @@
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+Function:        current_class._
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        current_class._
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+Function:        current_class._
+Args:
+  - NumInstructions: '1'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: current_class.F90, Line: 8, Column: 1 }
+Function:        current_class_mp_source_
+Args:
+  - NumVRCopies:     '16'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.600000e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: current_class.F90, Line: 8, Column: 0 }
+Function:        current_class_mp_source_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: current_class.F90, Line: 8, Column: 19 }
+Function:        current_class_mp_source_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '63'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: current_class.F90, Line: 8, Column: 0 }
+Function:        current_class_mp_source_
+Args:
+  - NumInstructions: '63'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: current_class.F90, Line: 44, Column: 1 }
+Function:        current_class_mp_current_
+Args:
+  - NumVRCopies:     '32'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '3.200000e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: current_class.F90, Line: 44, Column: 0 }
+Function:        current_class_mp_current_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: current_class.F90, Line: 44, Column: 20 }
+Function:        current_class_mp_current_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '122'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: current_class.F90, Line: 44, Column: 0 }
+Function:        current_class_mp_current_
+Args:
+  - NumInstructions: '122'
+  - String:          ' instructions in function'
+...

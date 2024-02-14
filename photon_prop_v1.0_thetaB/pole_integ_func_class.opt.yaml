@@ -1,0 +1,3300 @@
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 182, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 182, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 40, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 41, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 78, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 88, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 92, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 110, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 121, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 16 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 36 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 148, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 152, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 135, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 40, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 41, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 78, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 88, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 92, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 110, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 121, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 16 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 36 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 148, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 152, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 135, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 104, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_taylor2_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 219, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '230'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 338, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 338, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 285, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 286, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 308, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 285, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 286, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 308, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_g_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 452, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 452, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 389, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 390, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 426, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 389, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 390, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 426, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 417, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_h_taylor2_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 488, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '230'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_i_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_i_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '415'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 182, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 182, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 40, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 41, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 78, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 88, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 92, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 110, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 121, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 16 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 36 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 148, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 152, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 135, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 40, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 41, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 78, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 88, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 92, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 110, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 121, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 16 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 127, Column: 36 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          atan
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 148, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 152, Column: 12 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 135, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 104, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_taylor2_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 219, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '95'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          pole_integ_func_class_mp_integ_f_
+  - String:          ':'
+  - Line:            '90'
+  - String:          ':'
+  - Column:          '13'
+  - String:          ';'
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadPRE
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 117, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          load eliminated by PRE
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 83, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  phi
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 83, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 338, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 338, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 285, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 286, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 308, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 285, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 286, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 308, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_g_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 452, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 452, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 389, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 390, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 426, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 389, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 390, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          sqrt
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            NoDefinition
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 426, Column: 11 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - Callee:          log
+  - String:          ' will not be inlined into '
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ' because its definition is unavailable'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_h_taylor1_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Passed
+Pass:            inline
+Name:            Inlined
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 417, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_h_taylor2_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 488, Column: 0 }
+  - String:          ''' inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_h_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+  - String:          ''''
+  - String:          ' with '
+  - String:          '(cost='
+  - Cost:            '100'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+  - String:          ' at callsite '
+  - String:          pole_integ_func_class_mp_integ_h_
+  - String:          ':'
+  - Line:            '56'
+  - String:          ':'
+  - Column:          '14'
+  - String:          ';'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_f_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_i_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '565'
+  - String:          ', threshold='
+  - Threshold:       '562'
+  - String:          ')'
+...
+--- !Missed
+Pass:            inline
+Name:            TooCostly
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          ''''
+  - Callee:          pole_integ_func_class_mp_integ_g_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+  - String:          ''' not inlined into '''
+  - Caller:          pole_integ_func_class_mp_integ_i_
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 0 }
+  - String:          ''' because too costly to inline '
+  - String:          '(cost='
+  - Cost:            '335'
+  - String:          ', threshold='
+  - Threshold:       '225'
+  - String:          ')'
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 560, Column: 40 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  phi
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+...
+--- !Passed
+Pass:            gvn
+Name:            LoadElim
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 560, Column: 40 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' eliminated'
+  - String:          ' in favor of '
+  - InfavorOfValue:  phi
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 72, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 65, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 297, Column: 13 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 408, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 401, Column: 14 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 556, Column: 10 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+...
+--- !Missed
+Pass:            gvn
+Name:            LoadClobbered
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'load of type '
+  - Type:            ''
+  - String:          ' not eliminated'
+  - String:          ' because it is clobbered by '
+  - ClobberedBy:     call
+    DebugLoc:        { File: pole_integ_func_class.F90, Line: 558, Column: 8 }
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+Function:        pole_integ_func_class._
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+Function:        pole_integ_func_class._
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_0
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+Function:        pole_integ_func_class._
+Args:
+  - NumInstructions: '1'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - NumSpills:       '19'
+  - String:          ' spills '
+  - TotalSpillsCost: '8.460318e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '28'
+  - String:          ' reloads '
+  - TotalReloadsCost: '4.714286e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '19'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.857143e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '31'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '8.647619e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - NumStackBytes:   '152'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 38 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '54'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new15_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new16_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list20_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new57_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new57_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new59_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new60_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      pole_integ_func_class_mp_integ_f_taylor2_.exit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '27'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new92_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new93_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '21'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new100_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb11_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '20'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new78_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new82_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new82_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list31_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb6_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '21'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new44_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '15'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new51_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new86_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '16'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label1
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 152, Column: 22 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new107_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb15_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new78_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new82_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new82_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb13_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 14, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_
+Args:
+  - NumInstructions: '314'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - NumSpills:       '1'
+  - String:          ' spills '
+  - TotalSpillsCost: '6.190476e-01'
+  - String:          ' total spills cost '
+  - NumReloads:      '1'
+  - String:          ' reloads '
+  - TotalReloadsCost: '6.190476e-01'
+  - String:          ' total reloads cost '
+  - NumVRCopies:     '2'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.000000e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - NumStackBytes:   '56'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 46 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_2
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new117_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '264'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new140_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '29'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb21_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 164, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor1_
+Args:
+  - NumInstructions: '316'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 219, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor2_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 219, Column: 46 }
+Function:        pole_integ_func_class_mp_integ_f_taylor2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_3
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb24_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new156_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '31'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 219, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_f_taylor2_
+Args:
+  - NumInstructions: '34'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - NumSpills:       '7'
+  - String:          ' spills '
+  - TotalSpillsCost: '4.185185e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '8'
+  - String:          ' reloads '
+  - TotalReloadsCost: '2.259259e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '3'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.666667e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '2.419753e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - NumStackBytes:   '120'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 41 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_4
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb26_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '35'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new183_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new184_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list190_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb32_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '35'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new196_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label170
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 254, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_
+Args:
+  - NumInstructions: '117'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - NumSpills:       '5'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.095238e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.238095e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '3'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.857143e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '6'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '4.476191e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 46 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_5
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '13'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new209_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '319'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_5
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb34_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 320, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_g_taylor1_
+Args:
+  - NumInstructions: '343'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - NumSpills:       '9'
+  - String:          ' spills '
+  - TotalSpillsCost: '9.000000e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '13'
+  - String:          ' reloads '
+  - TotalReloadsCost: '6.329412e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '6'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '3.352941e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '16'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '7.717648e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - NumStackBytes:   '168'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 41 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_6
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '61'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new246_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new247_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list251_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '7'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new268_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '5'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new268_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new268_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '2'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new271_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '11'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      pole_integ_func_class_mp_integ_h_taylor2_.exit
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '30'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new257_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '12'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list262_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '6'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label233
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb47_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '41'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      end_label233
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '8'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 361, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_
+Args:
+  - NumInstructions: '199'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - NumSpills:       '6'
+  - String:          ' spills '
+  - TotalSpillsCost: '3.714286e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '2'
+  - String:          ' reloads '
+  - TotalReloadsCost: '1.238095e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '4'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '2.476191e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '7'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '5.095238e+00'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - NumStackBytes:   '88'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 46 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_7
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '14'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new294_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '370'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new317_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '28'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb49_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '9'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 434, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor1_
+Args:
+  - NumInstructions: '421'
+  - String:          ' instructions in function'
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 488, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor2_
+Args:
+  - NumStackBytes:   '0'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 488, Column: 46 }
+Function:        pole_integ_func_class_mp_integ_h_taylor2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_8
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '4'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb52_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '1'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor2_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new334_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '32'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 488, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_h_taylor2_
+Args:
+  - NumInstructions: '37'
+  - String:          ' instructions in function'
+...
+--- !Missed
+Pass:            regalloc
+Name:            SpillReloadCopies
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 1 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - NumSpills:       '6'
+  - String:          ' spills '
+  - TotalSpillsCost: '5.380952e+00'
+  - String:          ' total spills cost '
+  - NumReloads:      '5'
+  - String:          ' reloads '
+  - TotalReloadsCost: '4.380952e+00'
+  - String:          ' total reloads cost '
+  - NumFoldedReloads: '1'
+  - String:          ' folded reloads '
+  - TotalFoldedReloadsCost: '1.000000e+00'
+  - String:          ' total folded reloads cost '
+  - NumVRCopies:     '15'
+  - String:          ' virtual registers copies '
+  - TotalCopiesCost: '1.252381e+01'
+  - String:          ' total copies cost '
+  - String:          generated in function
+...
+--- !Analysis
+Pass:            prologepilog
+Name:            StackSize
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - NumStackBytes:   '152'
+  - String:          ' stack bytes in function'
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 41 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      alloca_9
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '29'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb_new353_then
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '3'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      call.pre.list354_else
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '10'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionMix
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 0, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - String:          'BasicBlock: '
+  - BasicBlock:      bb54_endif
+  - String:          "\n"
+  - String:          ''
+  - String:          ': '
+  - INST_:           '49'
+  - String:          "\n"
+...
+--- !Analysis
+Pass:            asm-printer
+Name:            InstructionCount
+DebugLoc:        { File: pole_integ_func_class.F90, Line: 526, Column: 0 }
+Function:        pole_integ_func_class_mp_integ_i_
+Args:
+  - NumInstructions: '91'
+  - String:          ' instructions in function'
+...
